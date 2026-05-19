@@ -1,0 +1,30 @@
+bigorder-modal-overlay').style.display = 'flex';
+  document.querySelectorAll('.bigorder-zone-content').forEach(el => el.style.display = 'none');
+  const target = document.getElementById('bigorder-' + zone);
+  if (target) target.style.display = 'block';
+}
+function closeBigOrderModal() {
+  document.getElementById('bigorder-modal-overlay').style.display = 'none';
+}
+</script>
+
+<!-- 大单Modal -->
+<div id="bigorder-modal-overlay" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);z-index:200;align-items:center;justify-content:center;" onclick="if(event.target===this)closeBigOrderModal()">
+  <div id="bigorder-modal" style="background:white;border-radius:12px;max-width:900px;width:90%;max-height:80vh;overflow:auto;padding:24px;position:relative;">
+    <button onclick="closeBigOrderModal()" style="position:absolute;top:12px;right:12px;background:none;border:none;font-size:20px;cursor:pointer;">✕</button>
+    <h3 style="font-size:18px;font-weight:bold;margin-bottom:16px;">各战区大单对比详情（≥20万）</h3>
+    <div class="bigorder-zone-content" id="bigorder-西北大区">西北大单详情...</div>
+    <div class="bigorder-zone-content" id="bigorder-苏皖大区">苏皖大单详情...</div>
+    <div class="bigorder-zone-content" id="bigorder-华南大区">华南大单详情...</div>
+    <div class="bigorder-zone-content" id="bigorder-西南大区">西南大单详情...</div>
+    <div class="bigorder-zone-content" id="bigorder-北京大区">北京大单详情...</div>
+    <div class="bigorder-zone-content" id="bigorder-上海大区">上海大单详情...</div>
+    <div class="bigorder-zone-content" id="bigorder-华中大区">华中大单详情...</div>
+    <div class="bigorder-zone-content" id="bigorder-浙闽大区">浙闽大单详情...</div>
+    <div class="bigorder-zone-content" id="bigorder-华北大区">华北大单详情...</div>
+    <div class="bigorder-zone-content" id="bigorder-东北大区">东北大单详情...</div>
+  </div>
+</div>
+
+</body>
+</html>

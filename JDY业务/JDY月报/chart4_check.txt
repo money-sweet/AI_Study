@@ -1,0 +1,15 @@
+chart4" class="chart-container"></div>
+      </div>
+      <div class="lg:col-span-3">
+        <div class="text-sm font-semibold text-slate-700 mb-2">各客群机会概率金额分布</div>
+        <div id="chart5" class="chart-container"></div>
+      </div>
+    </div>
+    <div class="mt-6 overflow-x-auto">
+      <table>
+        <thead>
+          <tr><th>战区</th><th>跟进中机会数</th><th>机会金额（万）</th><th>概率金额（万）</th><th>机会缺口（万）</th><th>26年机会签单转化率</th><th>平均合同金额（万）</th><th>缺口所需创建机会数</th><th>风险等级</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="font-medium">华中大区</td><td>144</td><td>2210.7</td><td>1073.9</td><td><span class="up">-135.7</span></td><td>41.9%</td><td>1.81</td><td>0</td><td><span class="badge badge-green">无忧</span></td></tr>
+          <tr><td class="font-medium">西北大区</td><td>102</td><td>1290.

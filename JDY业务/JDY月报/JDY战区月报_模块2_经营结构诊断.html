@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JDY战区月报 - 模块2：经营结构诊断</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; background: #f3f4f6; }
+  .card { background: white; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); padding: 20px; margin-bottom: 16px; }
+  .tab-active { border-bottom: 3px solid #3b82f6; color: #1d4ed8; font-weight: 600; }
+  .tab-inactive { color: #6b7280; }
+  .tab-inactive:hover { color: #374151; }
+  .metric-card { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 4px solid #0ea5e9; }
+  .warning { background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 100%); border-left: 4px solid #f97316; }
+  .danger { background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%); border-left: 4px solid #ef4444; }
+  .success { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid #22c55e; }
+  table { border-collapse: collapse; width: 100%; }
+  th { background: #f8fafc; font-weight: 600; text-align: left; padding: 10px 12px; font-size: 13px; color: #475569; border-bottom: 1px solid #e2e8f0; }
+  td { padding: 10px 12px; font-size: 13px; border-bottom: 1px solid #f1f5f9; }
+  tr:hover td { background: #f8fafc; }
+  .up { color: #16a34a; }
+  .down { color: #dc2626; }
+  .section-title { font-size: 18px; font-weight: 700; color: #1e293b; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+  .badge { display: inline-flex; align-items: center; padding: 2px 8px; border-radius: 9999px; font-size: 11px; font-weight: 600; }
+  .badge-blue { background: #dbeafe; color: #1e40af; }
+  .badge-green { background: #dcfce7; color: #166534; }
+  .badge-red { background: #fee2e2; color: #991b1b; }
+  .badge-yellow { background: #fef3c7; color: #92400e; }
+  .badge-orange { background: #ffedd5; color: #9a3412; }
+  .badge-gray { background: #f3f4f6; color: #374151; }
+  .badge-purple { background: #f3e8ff; color: #6b21a8; }
+  .conclusion-box { font-size: 14px; line-height: 1.6; padding: 12px 16px; border-radius: 8px; border-left-width: 4px; }
+  .conclusion-box strong { font-size: 15px; }
+  .compact-table th { padding: 6px 8px; font-size: 12px; }
+  .compact-table td { padding: 5px 8px; font-size: 12px; }
+  .zone-card { border-radius: 10px; padding: 16px; margin-bottom: 12px; }
+  .zone-good { background: #f0fdf4; border: 1px solid #bbf7d0; }
+  .zone-warn { background: #fffbeb; border: 1px solid #fde68a; }
+  .zone-risk { background: #fef2f2; border: 1px solid #fecaca; }
+  /* table column grouping styles */
+  .cg-base { }
+  .cg-blue { background: #eff6ff; }
+  .cg-blue-light { background: #dbeafe; }
+  .cg-green { background: #f0fdf4; }
+  .cg-green-light { background: #dcfce7; }
+  .cg-purple { background: #faf5ff; }
+  .cg-purple-light { background: #f3e8ff; }
+  .cg-orange { background: #fff7ed; }
+  .cg-orange-light { background: #ffedd5; }
+  .cg-red { background: #fef2f2; }
+  .cg-red-light { background: #fee2e2; }
+  .cg-gray { background: #f8fafc; }
+  .cg-gray-light { background: #f1f5f9; }
+  .cg-yellow { background: #fefce8; }
+  .cg-yellow-light { background: #fef9c3; }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="bg-white border-b sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto px-4 py-4">
+    <div class="flex items-center justify-between">
+      <div>
+        <h1 class="text-xl font-bold text-slate-800">JDY战区月报分析报告</h1>
+        <p class="text-sm text-slate-500 mt-1">分析周期：2026年1月-4月 | 数据口径：业绩明细 | 经营结构诊断</p>
+      </div>
+      <div class="text-right">
+        <div class="text-xs text-slate-400">报告生成时间</div>
+        <div class="text-sm font-medium text-slate-700">2026-05-09</div>
+      </div>
+    </div>
+    <div class="flex gap-6 mt-4 text-sm">
+      <div class="tab-inactive pb-2 cursor-pointer">模块1：业绩完成评估</div>
+      <div class="tab-active pb-2 cursor-pointer">模块2：经营结构诊断</div>
+      <div class="tab-inactive pb-2 cursor-pointer">模块3：本月跟进复盘</div>
+      <div class="tab-inactive pb-2 cursor-pointer">模块4：下月核心待办</div>
+      <div class="tab-inactive pb-2 cursor-pointer">模块5：客户突破策略</div>
+    </div>
+  </div>
+</div>
+
+<div class="max-w-7xl mx-auto px-4 py-6">
+
+  <!-- 核心指标总览 -->
+  <div class="grid grid-cols-2 md:grid-cols-5 gap-4 mb-6">
+    <div class="card metric-card">
+      <div class="text-sm text-sky-700 font-medium">JDY新客业绩</div>
+      <div class="text-2xl font-bold text-slate-800 mt-1">496.5万</div>
+      <div class="text-xs text-slate-500 mt-1">同比 <span class="up">+13.3%</span>（25年同期438.2万）</div>
+      <div class="text-xs text-slate-500">新客公司数151家（同比<span class="down">-16家</span>）</div>
+    </div>
+    <div class="card success">
+      <div class="text-sm text-green-700 font-medium">Fine+老客推新业绩</div>
+      <div class="text-2xl font-bold text-slate-800 mt-1">290.5万</div>
+      <div class="text-xs text-slate-500 mt-1">同比 <span class="down">-0.6%</span>（25年同期292.2万）</div>
+      <div class="text-xs text-slate-500">成交客户<span class="font-bold">37</span>家 / 推广覆盖<span class="font-bold">911</span>家</div>
+      <div class="text-xs text-slate-500">商务记录1,623条（25年同期商务数据缺失）</div>
+    </div>
+    <div class="card warning">
+      <div class="text-sm text-orange-700 font-medium">JDY老客业绩</div>
+      <div class="text-2xl font-bold text-slate-800 mt-1">1,971.3万</div>
+      <div class="text-xs text-slate-500 mt-1">同比 <span class="down">-4.8%</span>（25年同期2,071.2万）</div>
+      <div class="text-xs text-slate-500">续费 <span class="up">+36.3%</span> | 升级增购 <span class="down">-29.1%</span></div>
+    </div>
+    <div class="card metric-card">
+      <div class="text-sm text-sky-700 font-medium">订阅业绩</div>
+      <div class="text-2xl font-bold text-slate-800 mt-1">1,659.6万</div>
+      <div class="text-xs text-slate-500 mt-1">同比 <span class="down">-4.1%</span>（25年同期1,731.5万）</div>
+      <div class="text-xs text-slate-500">占整体 <span class="font-bold">60.2%</span>（25年同期61.8%，<span class="down">-1.6pct</span>）</div>
+    </div>
+    <div class="card metric-card">
+      <div class="text-sm text-sky-700 font-medium">买断业绩</div>
+      <div class="text-2xl font-bold text-slate-800 mt-1">1,045.9万</div>
+      <div class="text-xs text-slate-500 mt-1">同比 <span class="down">-0.6%</span>（25年同期1,052.7万）</div>
+      <div class="text-xs text-slate-500">占整体 <span class="font-bold">37.9%</span>（25年同期37.6%，<span class="up">+0.3pct</span>）</div>
+    </div>
+  </div>
+
+  <!-- 模块2小结 -->
+  <div class="card bg-blue-50 border-blue-200">
+    <div class="section-title text-blue-800">
+      <span class="w-8 h-8 rounded-lg bg-blue-200 text-blue-700 flex items-center justify-center text-sm font-bold">小结</span>
+      模块2核心发现
+    </div>
+    <div class="text-sm text-slate-700">
+      <p class="mb-2"><span class="font-bold text-blue-700">1.</span> <strong>JDY新客</strong>：线索数全面暴跌是主因。8个战区线索同比下滑，A+&A高质量线索同步腰斩（华南-71%、华北-72%、西南-74%）。但苏皖/西北/华北新客大单逆势从无到有，单客质量提升。</p>
+      <p class="mb-2"><span class="font-bold text-blue-700">2.</span> <strong>JDY老客</strong>：西北老客业绩+160.6%、上海+98.1%高增长；华南-55.9%、华北-51.8%大幅下滑。上海续费同比+241%改善明显，华北续费-60%存量流失严重。</p>
+      <p class="mb-2"><span class="font-bold text-blue-700">3.</span> <strong>Fine+老客推新</strong>：十大战区推广覆盖911家，但成交仅37家，转化率仅4.1%。苏皖227.6万（+77.9%）一枝独秀，成交8家/覆盖167家。西南/东北成交跌至0，北京从49.7万跌至8.1万，"有动作无产出"问题突出——大量Fine客户有商务跟进但未实际转化。</p>
+      <p class="mb-2"><span class="font-bold text-blue-700">4.</span> 苏皖结构最优：新客+老客+Fine三角驱动，是唯一结构健康的战区。浙闽风险最大：新客仅8.6%，新购19.5%，完全吃老本。</p>
+      <p class="mb-2"><span class="font-bold text-blue-700">5.</span> 北京新增枯竭：新客1.1%，新购15.1%（同比-55.9pct），95.6%依赖老客，增长引擎熄火。</p>
+      <p class="mb-2"><span class="font-bold text-blue-700">6.</span> 华北"广种薄收"：新客62.6%但平均合同额1.86万最低，续费仅8.5%，增收不增质。东北/华中所有结构指标全面倒退。</p>
+    </div>
+  </div>
+
+  <!-- 2.1 客群结构诊断 -->
+  <div class="card">
+    <div class="section-title">
+      <span class="w-8 h-8 rounded-lg bg-blue-100 text-blue-600 flex items-center justify-center text-sm font-bold">2.1</span>
+      客群结构诊断
+    </div>
+    <p class="text-xs text-slate-500 mb-3">客群定义：JDY新客=首次购买JDY产品；JDY老客=已购买过JDY的复购/增购客户；Fine+老客推新=原FineReport客户首次购买JDY产品。</p>
+
+    <div class="overflow-x-auto">
+      <table>
+        <colgroup><col><col><col><col span="2" class="cg-blue"><col span="2" class="cg-green"><col span="2" class="cg-purple"></colgroup>
+        <thead>
+          <tr>
+            <th>战区</th><th>梯队</th><th>销售额-D（万）</th>
+            <th class="cg-blue-light">JDY新客占比</th><th class="cg-blue-light">同比变化</th>
+            <th class="cg-green-light">JDY老客占比</th><th class="cg-green-light">同比变化</th>
+            <th class="cg-purple-light">Fine+推新占比</th><th class="cg-purple-light">同比变化</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="font-medium">苏皖大区</td><td><span class="badge badge-blue">二梯队</span></td><td class="font-semibold">549.9</td><td><span class="font-bold text-green-600">19.7%</span></td><td><span class="up">+10.1pct</span></td><td>38.9%</td><td><span class="down">-17.2pct</span></td><td><span class="font-bold text-green-600">41.4%</span></td><td><span class="up">+7.1pct</span></td></tr>
+          <tr><td class="font-medium">华南大区</td><td><span class="badge badge-blue">一梯队</span></td><td class="font-semibold">347.8</td><td><span class="font-bold text-green-600">25.7%</span></td><td><span class="up">+16.9pct</span></td><td>72.0%</td><td><span class="down">-18.6pct</span></td><td>2.3%</td><td><span class="up">+1.7pct</span></td></tr>
+          <tr><td class="font-medium">上海大区</td><td><span class="badge badge-blue">一梯队</span></td><td class="font-semibold">337.4</td><td>16.4%</td><td><span class="down">-32.7pct</span></td><td>80.1%</td><td><span class="up">+31.9pct</span></td><td>3.5%</td><td><span class="up">+0.8pct</span></td></tr>
+          <tr><td class="font-medium">西北大区</td><td><span class="badge badge-gray">四梯队</span></td><td class="font-semibold">405.0</td><td>21.7%</td><td><span class="up">+8.6pct</span></td><td>76.8%</td><td>+0.3pct</td><td>1.5%</td><td><span class="down">-8.9pct</span></td></tr>
+          <tr><td class="font-medium">华北大区</td><td><span class="badge badge-yellow">三梯队</span></td><td class="font-semibold">150.4</td><td><span class="font-bold text-green-600">62.6%</span></td><td><span class="up">+27.7pct</span></td><td>32.7%</td><td><span class="down">-29.4pct</span></td><td>4.7%</td><td><span class="up">+1.8pct</span></td></tr>
+          <tr><td class="font-medium">西南大区</td><td><span class="badge badge-yellow">三梯队</span></td><td class="font-semibold">240.9</td><td>9.5%</td><td><span class="up">+7.2pct</span></td><td>90.5%</td><td>+1.0pct</td><td>0.0%</td><td><span class="down">-8.2pct</span></td></tr>
+          <tr><td class="font-medium">浙闽大区</td><td><span class="badge badge-blue">二梯队</span></td><td class="font-semibold">332.8</td><td>8.6%</td><td><span class="down">-15.5pct</span></td><td>85.3%</td><td><span class="up">+21.4pct</span></td><td>6.0%</td><td><span class="down">-6.0pct</span></td></tr>
+          <tr><td class="font-medium">北京大区</td><td><span class="badge badge-blue">一梯队</span></td><td class="font-semibold">250.8</td><td><span class="font-bold text-red-600">1.1%</span></td><td><span class="down">-4.3pct</span></td><td>95.6%</td><td><span class="up">+16.3pct</span></td><td>3.2%</td><td><span class="down">-12.2pct</span></td></tr>
+          <tr><td class="font-medium">东北大区</td><td><span class="badge badge-gray">四梯队</span></td><td class="font-semibold">81.5</td><td>6.7%</td><td><span class="up">+1.9pct</span></td><td>93.3%</td><td><span class="up">+12.1pct</span></td><td>0.0%</td><td><span class="down">-14.0pct</span></td></tr>
+          <tr><td class="font-medium">华中大区</td><td><span class="badge badge-yellow">三梯队</span></td><td class="font-semibold">61.8</td><td><span class="font-bold text-red-600">2.5%</span></td><td><span class="down">-19.0pct</span></td><td>94.4%</td><td><span class="up">+17.8pct</span></td><td>3.1%</td><td><span class="up">+1.2pct</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="mt-4 grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="p-3 bg-green-50 rounded-lg border border-green-200">
+        <div class="text-sm font-semibold text-green-800 mb-2">🟢 新客拓展领先</div>
+        <div class="text-xs text-slate-700">华北大区新客占比62.6%（同比+27.7pct），华南25.7%（+16.9pct），苏皖19.7%（+10.1pct）。华北新客数量多但平均合同额仅1.86万，华南和苏皖新客质量更高。</div>
+      </div>
+      <div class="p-3 bg-red-50 rounded-lg border border-red-200">
+        <div class="text-sm font-semibold text-red-800 mb-2">🔴 老客依赖过重</div>
+        <div class="text-xs text-slate-700">北京老客95.6%，华中94.4%，东北93.3%，西南90.5%，浙闽85.3%。5个战区老客占比超85%，新增动力严重不足。北京、华中新客同比分别暴跌4.3pct和19pct。</div>
+      </div>
+      <div class="p-3 bg-blue-50 rounded-lg border border-blue-200">
+        <div class="text-sm font-semibold text-blue-800 mb-2">🔵 Fine+转化分化</div>
+        <div class="text-xs text-slate-700">苏皖Fine+推新41.4%遥遥领先，但西北从10.4%跌至1.5%，西南从8.2%跌至0%，东北从14%跌至0%。Fine客户JDY推广能力严重退化，仅苏皖和浙闽（6.0%）保持能力。</div>
+      </div>
+    </div>
+
+    <!-- ========== 1. JDY新客深度分析 ========== -->
+    <div class="mt-6">
+      <div class="text-sm font-semibold text-slate-700 mb-3">1. JDY新客深度分析：新客数 · 线索数 · A+&A线索 · 新客大单</div>
+      <div class="overflow-x-auto">
+        <table>
+        <colgroup><col><col span="3" class="cg-blue"><col span="3" class="cg-orange"><col span="3" class="cg-yellow"><col span="4" class="cg-green"></colgroup>
+        <thead>
+          <tr>
+            <th>战区</th><th class="cg-blue-light">新客公司数26</th><th class="cg-blue-light">25年同期新客公司数</th><th class="cg-blue-light">同比</th>
+            <th class="cg-orange-light">线索数26</th><th class="cg-orange-light">25年同期线索数</th><th class="cg-orange-light">同比</th>
+            <th class="cg-yellow-light">A+&A线索26</th><th class="cg-yellow-light">25年同期A+&A线索</th><th class="cg-yellow-light">同比</th>
+            <th class="cg-green-light">新客大单数26</th><th class="cg-green-light">新客大单金额26</th><th class="cg-green-light">25年同期新客大单数</th><th class="cg-green-light">25年同期新客大单金额</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td class="font-medium">西南大区</td><td><span class="font-bold text-green-600">18</span></td><td>12</td><td><span class="up">+6</span></td><td>321</td><td>747</td><td><span class="down">-426</span></td><td>181</td><td>701</td><td><span class="down">-520</span></td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+            <tr><td class="font-medium">华中大区</td><td><span class="font-bold text-green-600">14</span></td><td>10</td><td><span class="up">+4</span></td><td>150</td><td>548</td><td><span class="down">-398</span></td><td>104</td><td>489</td><td><span class="down">-385</span></td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+            <tr><td class="font-medium">西北大区</td><td><span class="font-bold text-green-600">15</span></td><td>13</td><td><span class="up">+2</span></td><td><span class="font-bold text-green-600">1080</span></td><td>950</td><td><span class="up">+130</span></td><td>177</td><td>626</td><td><span class="down">-449</span></td><td><span class="font-bold text-green-600">2</span></td><td><span class="font-bold text-green-600">71.9万</span></td><td>0</td><td>0</td></tr>
+            <tr><td class="font-medium">华北大区</td><td>22</td><td>21</td><td><span class="up">+1</span></td><td>426</td><td>2507</td><td><span class="down">-2081</span></td><td>254</td><td>893</td><td><span class="down">-639</span></td><td><span class="font-bold text-green-600">2</span></td><td><span class="font-bold text-green-600">65.7万</span></td><td>1</td><td>27.0万</td></tr>
+            <tr><td class="font-medium">东北大区</td><td>5</td><td>5</td><td>0</td><td>340</td><td>326</td><td><span class="up">+14</span></td><td>109</td><td>157</td><td><span class="down">-48</span></td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+            <tr><td class="font-medium">苏皖大区</td><td>13</td><td>15</td><td><span class="down">-2</span></td><td>260</td><td>394</td><td><span class="down">-134</span></td><td>173</td><td>275</td><td><span class="down">-102</span></td><td><span class="font-bold text-green-600">2</span></td><td><span class="font-bold text-green-600">66.8万</span></td><td>0</td><td>0</td></tr>
+            <tr><td class="font-medium">华南大区</td><td>22</td><td>27</td><td><span class="down">-5</span></td><td>809</td><td>1702</td><td><span class="down">-893</span></td><td>431</td><td>1492</td><td><span class="down">-1061</span></td><td><span class="font-bold text-green-600">2</span></td><td><span class="font-bold text-green-600">67.2万</span></td><td>1</td><td>22.4万</td></tr>
+            <tr><td class="font-medium">上海大区</td><td>18</td><td>22</td><td><span class="down">-4</span></td><td>272</td><td>367</td><td><span class="down">-95</span></td><td>191</td><td>307</td><td><span class="down">-116</span></td><td>1</td><td>24.0万</td><td>1</td><td>67.1万</td></tr>
+            <tr><td class="font-medium">浙闽大区</td><td><span class="font-bold text-red-600">18</span></td><td>29</td><td><span class="down">-11</span></td><td>317</td><td>490</td><td><span class="down">-173</span></td><td>205</td><td>456</td><td><span class="down">-251</span></td><td>0</td><td>0</td><td>1</td><td>25.0万</td></tr>
+            <tr><td class="font-medium">北京大区</td><td><span class="font-bold text-red-600">6</span></td><td>13</td><td><span class="down">-7</span></td><td>306</td><td>846</td><td><span class="down">-540</span></td><td>192</td><td>437</td><td><span class="down">-245</span></td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="mt-3 grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="p-3 bg-red-50 rounded-lg border border-red-200">
+          <div class="text-sm font-semibold text-red-800 mb-2">🔴 线索数全面暴跌</div>
+          <div class="text-xs text-slate-700">十大战区中仅西北和东北线索数同比增长。华北暴跌83%（2507→426），华南暴跌52%（1702→809），北京暴跌64%（846→306）。线索是销售的"原材料"，直接压缩新客转化漏斗入口。</div>
+        </div>
+        <div class="p-3 bg-orange-50 rounded-lg border border-orange-200">
+          <div class="text-sm font-semibold text-orange-800 mb-2">🟠 A+&A线索同步暴跌</div>
+          <div class="text-xs text-slate-700">华南A+&A线索从1492跌至431（-71%），华北从893跌至254（-72%），西南从701跌至181（-74%）。高质量线索腰斩意味着即使销售效率不变，高价值新客产出也将大幅减少。</div>
+        </div>
+        <div class="p-3 bg-green-50 rounded-lg border border-green-200">
+          <div class="text-sm font-semibold text-green-800 mb-2">🟢 新客大单逆势增长</div>
+          <div class="text-xs text-slate-700">苏皖、西北、华北新客大单从无到有。西北2笔/71.9万（中车兰州39万+中交西安筑路32.9万），苏皖2笔/66.8万（罗氏诊断39.5万+国信协联27.2万），华北2笔/65.7万（迁安工贸39.9万+青岛建邦25.8万）。单客质量在提升。</div>
+        </div>
+      </div>
+
+      <div class="mt-4">
+        <div class="text-xs font-semibold text-slate-600 mb-2">新客大单明细（≥20万，按合同ID汇总）</div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div>
+            <div class="text-xs font-semibold text-slate-500 mb-1">西北大区 · 2026年新客大单（2笔/71.9万）</div>
+            <table class="compact-table text-xs">
+              <thead><tr><th>客户名称</th><th>金额(万)</th></tr></thead>
+              <tbody>
+                <tr><td>中车兰州机车有限公司</td><td class="font-bold">39.0</td></tr>
+                <tr><td>中交西安筑路机械有限公司</td><td class="font-bold">32.9</td></tr>
+              </tbody>
+            </table>
+            <div class="text-xs text-slate-400 mt-1">2025年同期：无新客大单</div>
+          </div>
+          <div>
+            <div class="text-xs font-semibold text-slate-500 mb-1">苏皖大区 · 2026年新客大单（2笔/66.8万）</div>
+            <table class="compact-table text-xs">
+              <thead><tr><th>客户名称</th><th>金额(万)</th></tr></thead>
+              <tbody>
+                <tr><td>罗氏诊断产品（苏州）有限公司</td><td class="font-bold">39.5</td></tr>
+                <tr><td>江苏国信协联能源有限公司</td><td class="font-bold">27.2</td></tr>
+              </tbody>
+            </table>
+            <div class="text-xs text-slate-400 mt-1">2025年同期：无新客大单</div>
+          </div>
+          <div>
+            <div class="text-xs font-semibold text-slate-500 mb-1">华南大区 · 2026年新客大单（2笔/67.2万）</div>
+            <table class="compact-table text-xs">
+              <thead><tr><th>客户名称</th><th>金额(万)</th></tr></thead>
+              <tbody>
+                <tr><td>广西中烟工业有限责任公司</td><td class="font-bold">42.0 <span class="tag-low">低价买断</span></td></tr>
+                <tr><td>广东爱码科技股份有限公司</td><td class="font-bold">25.2</td></tr>
+              </tbody>
+            </table>
+            <div class="text-xs text-slate-400 mt-1">2025年同期：1笔/22.4万（广州粤海万亚）</div>
+          </div>
+          <div>
+            <div class="text-xs font-semibold text-slate-500 mb-1">华北大区 · 2026年新客大单（2笔/65.7万）</div>
+            <table class="compact-table text-xs">
+              <thead><tr><th>客户名称</th><th>金额(万)</th></tr></thead>
+              <tbody>
+                <tr><td>迁安市九江工贸有限公司</td><td class="font-bold">39.9</td></tr>
+                <tr><td>青岛建邦汽车科技股份有限公司</td><td class="font-bold">25.8</td></tr>
+              </tbody>
+            </table>
+            <div class="text-xs text-slate-400 mt-1">2025年同期：1笔/27.0万（浪潮通信）</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== 2. JDY老客深度分析 ========== -->
+    <div class="mt-6">
+      <div class="text-sm font-semibold text-slate-700 mb-3">2. JDY老客深度分析：业绩 · 续费 · 新购/升级</div>
+      <div class="overflow-x-auto">
+        <table>
+        <colgroup><col><col span="3" class="cg-gray"><col span="2" class="cg-blue"><col span="2" class="cg-green"><col span="2" class="cg-purple"></colgroup>
+        <thead>
+          <tr>
+            <th>战区</th><th class="cg-gray-light">老客业绩26（万）</th><th class="cg-gray-light">25年同期老客业绩（万）</th><th class="cg-gray-light">同比</th>
+            <th class="cg-blue-light">老客公司数26</th><th class="cg-blue-light">25年同期老客公司数</th>
+            <th class="cg-green-light">续费金额26（万）</th><th class="cg-green-light">25年同期续费金额（万）</th>
+            <th class="cg-purple-light">新购+升级26（万）</th><th class="cg-purple-light">25年同期新购+升级（万）</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td class="font-medium">上海大区</td><td><span class="font-bold text-green-600">270.1</span></td><td>136.4</td><td><span class="up">+98.1%</span></td><td>45</td><td>30</td><td>93.4</td><td>27.4</td><td>157.9</td><td>104.1</td></tr>
+            <tr><td class="font-medium">西北大区</td><td><span class="font-bold text-green-600">311.0</span></td><td>119.3</td><td><span class="up">+160.6%</span></td><td>23</td><td>21</td><td>101.7</td><td>59.3</td><td>187.3</td><td>57.2</td></tr>
+            <tr><td class="font-medium">浙闽大区</td><td>284.0</td><td>213.8</td><td><span class="up">+32.8%</span></td><td>56</td><td>52</td><td>153.4</td><td>95.8</td><td>129.3</td><td>118.0</td></tr>
+            <tr><td class="font-medium">北京大区</td><td>239.8</td><td>256.8</td><td><span class="down">-6.6%</span></td><td>41</td><td>36</td><td>122.1</td><td>67.0</td><td>72.0</td><td>189.0</td></tr>
+            <tr><td class="font-medium">华南大区</td><td>250.6</td><td>568.7</td><td><span class="down">-55.9%</span></td><td>47</td><td>54</td><td>63.6</td><td>96.2</td><td>171.1</td><td>450.1</td></tr>
+            <tr><td class="font-medium">西南大区</td><td>218.0</td><td>338.7</td><td><span class="down">-35.6%</span></td><td>34</td><td>29</td><td>60.0</td><td>80.5</td><td>147.4</td><td>253.3</td></tr>
+            <tr><td class="font-medium">苏皖大区</td><td>214.1</td><td>209.3</td><td><span class="up">+2.3%</span></td><td>45</td><td>46</td><td>123.6</td><td>58.2</td><td>80.9</td><td>148.7</td></tr>
+            <tr><td class="font-medium">东北大区</td><td>76.1</td><td>54.5</td><td><span class="up">+39.5%</span></td><td>9</td><td>9</td><td>57.3</td><td>35.8</td><td>17.5</td><td>18.8</td></tr>
+            <tr><td class="font-medium">华中大区</td><td>58.4</td><td>71.7</td><td><span class="down">-18.6%</span></td><td>17</td><td>17</td><td>21.9</td><td>41.7</td><td>14.5</td><td>21.4</td></tr>
+            <tr><td class="font-medium">华北大区</td><td>49.2</td><td>101.9</td><td><span class="down">-51.8%</span></td><td>38</td><td>32</td><td>12.7</td><td>32.1</td><td>34.7</td><td>67.2</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="mt-3 grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="p-3 bg-green-50 rounded-lg border border-green-200">
+          <div class="text-sm font-semibold text-green-800 mb-2">🟢 老客业绩高增长战区</div>
+          <div class="text-xs text-slate-700">西北老客业绩+160.6%（119→311万），上海+98.1%（136→270万），东北+39.5%。西北由新购+升级驱动（187万 vs 57万），上海由续费+新购双轮驱动（续费93万 vs 27万）。</div>
+        </div>
+        <div class="p-3 bg-red-50 rounded-lg border border-red-200">
+          <div class="text-sm font-semibold text-red-800 mb-2">🔴 老客业绩大幅下滑战区</div>
+          <div class="text-xs text-slate-700">华南老客业绩-55.9%（569→251万），新购+升级从450万暴跌至171万；华北-51.8%，西南-35.6%。华南和华北老客新购/升级能力大幅衰退，说明存量客户增购需求萎缩。</div>
+        </div>
+        <div class="p-3 bg-blue-50 rounded-lg border border-blue-200">
+          <div class="text-sm font-semibold text-blue-800 mb-2">🔵 续费能力分化</div>
+          <div class="text-xs text-slate-700">浙闽续费153.4万（最高），上海93.4万（同比+241%），西北101.7万（+71%）。续费增长反映客户留存改善；但华北续费仅12.7万（-60%），华中21.9万（-47%），存量流失严重。</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== 3. Fine+老客推新深度分析 ========== -->
+    <div class="mt-6">
+      <div class="text-sm font-semibold text-slate-700 mb-3">3. Fine+老客推新深度分析：业绩 · 成交客户 · 推广覆盖 · 商务记录</div>
+      <div class="overflow-x-auto">
+        <table>
+        <colgroup><col><col span="3" class="cg-gray"><col span="2" class="cg-blue"><col span="1" class="cg-purple"><col span="2" class="cg-orange"></colgroup>
+        <thead>
+          <tr>
+            <th>战区</th><th class="cg-gray-light">Fine+业绩26（万）</th><th class="cg-gray-light">25年同期Fine+业绩（万）</th><th class="cg-gray-light">同比</th>
+            <th class="cg-blue-light">成交客户数26</th><th class="cg-blue-light">25年同期成交客户数</th>
+            <th class="cg-purple-light">推广覆盖客户数</th><th class="cg-orange-light">商务记录数</th><th class="cg-orange-light">商务活跃度</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td class="font-medium">苏皖大区</td><td><span class="font-bold text-green-600">227.6</span></td><td>127.9</td><td><span class="up">+77.9%</span></td><td>8</td><td>8</td><td><span class="font-bold text-green-600">167</span></td><td>331</td><td><span class="badge badge-green">极高</span></td></tr>
+            <tr><td class="font-medium">浙闽大区</td><td>20.0</td><td>40.1</td><td><span class="down">-50.1%</span></td><td>10</td><td>6</td><td>159</td><td>254</td><td><span class="badge badge-green">高</span></td></tr>
+            <tr><td class="font-medium">上海大区</td><td>11.9</td><td>7.7</td><td><span class="up">+55.2%</span></td><td>6</td><td>4</td><td>94</td><td>153</td><td><span class="badge badge-green">高</span></td></tr>
+            <tr><td class="font-medium">西北大区</td><td>6.0</td><td>16.2</td><td><span class="down">-63.0%</span></td><td>1</td><td>1</td><td>70</td><td>149</td><td><span class="badge badge-yellow">中</span></td></tr>
+            <tr><td class="font-medium">北京大区</td><td>8.1</td><td>49.7</td><td><span class="down">-83.7%</span></td><td>2</td><td>2</td><td>102</td><td>169</td><td><span class="badge badge-yellow">中</span></td></tr>
+            <tr><td class="font-medium">华南大区</td><td>8.0</td><td>3.5</td><td><span class="up">+127.8%</span></td><td>3</td><td>2</td><td>59</td><td>97</td><td><span class="badge badge-yellow">中</span></td></tr>
+            <tr><td class="font-medium">华中大区</td><td>1.9</td><td>1.8</td><td><span class="up">+5.6%</span></td><td>2</td><td>1</td><td>78</td><td>134</td><td><span class="badge badge-yellow">中</span></td></tr>
+            <tr><td class="font-medium">华北大区</td><td>7.0</td><td>4.8</td><td><span class="up">+46.0%</span></td><td>4</td><td>1</td><td>79</td><td>165</td><td><span class="badge badge-yellow">中</span></td></tr>
+            <tr><td class="font-medium">西南大区</td><td>0.0</td><td>31.1</td><td><span class="down">-100%</span></td><td>1</td><td>3</td><td>61</td><td>108</td><td><span class="badge badge-red">低</span></td></tr>
+            <tr><td class="font-medium">东北大区</td><td>0.0</td><td>9.4</td><td><span class="down">-100%</span></td><td>0</td><td>2</td><td>42</td><td>63</td><td><span class="badge badge-red">低</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="mt-3 grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="p-3 bg-green-50 rounded-lg border border-green-200">
+          <div class="text-sm font-semibold text-green-800 mb-2">🟢 Fine+推广标杆：苏皖</div>
+          <div class="text-xs text-slate-700">苏皖Fine+业绩227.6万（同比+77.9%），占该战区业绩的41.4%。成交8家/推广覆盖167家，转化率4.8%，十大战区最高。商务记录331条，以会议（161次）和电话（105次）为主，配合客户调研（26次）和方案汇报（17次），形成"高频触达+深度方案"的转化模式。</div>
+        </div>
+        <div class="p-3 bg-red-50 rounded-lg border border-red-200">
+          <div class="text-sm font-semibold text-red-800 mb-2">🔴 Fine+推广断崖：西南/东北/北京</div>
+          <div class="text-xs text-slate-700">西南Fine+业绩从31.1万跌至0（-100%），东北从9.4万跌至0，北京从49.7万跌至8.1万（-83.7%）。三战区推广覆盖61/42/102家，商务记录108/63/169条，但成交仅1/0/2家——"有动作无产出"问题严重，说明Fine客户JDY需求挖掘能力不足或Fine客户本身在流失。</div>
+        </div>
+      </div>
+
+      <div class="mt-4">
+        <div class="text-xs font-semibold text-slate-600 mb-2">Fine+老客JDY商务行为类型分布（2026年1-4月，Top5战区）</div>
+        <div class="overflow-x-auto">
+          <table class="compact-table text-xs">
+            <thead>
+              <tr><th>战区</th><th>会议</th><th>电话</th><th>客户调研</th><th>方案汇报</th><th>产品演示</th><th>餐饮/客情</th><th>其他</th></tr>
+            </thead>
+            <tbody>
+              <tr><td class="font-medium">苏皖大区</td><td class="font-bold">161</td><td>105</td><td>26</td><td>17</td><td>2</td><td>8</td><td>12</td></tr>
+              <tr><td class="font-medium">浙闽大区</td><td class="font-bold">132</td><td>65</td><td>12</td><td>3</td><td>10</td><td>18</td><td>14</td></tr>
+              <tr><td class="font-medium">华北大区</td><td>44</td><td class="font-bold">88</td><td>0</td><td>12</td><td>6</td><td>5</td><td>10</td></tr>
+              <tr><td class="font-medium">北京大区</td><td class="font-bold">71</td><td>24</td><td>26</td><td>16</td><td>9</td><td>9</td><td>14</td></tr>
+              <tr><td class="font-medium">西北大区</td><td class="font-bold">85</td><td>31</td><td>3</td><td>7</td><td>7</td><td>12</td><td>4</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2.2 订阅与买断结构分析 -->
+  <div class="card">
+    <div class="section-title">
+      <span class="w-8 h-8 rounded-lg bg-blue-100 text-blue-600 flex items-center justify-center text-sm font-bold">2.2</span>
+      订阅与买断结构分析
+    </div>
+    <p class="text-xs text-slate-500 mb-3">十大战区合计：订阅1,659.6万（60.2%，同比-4.1%），买断1,045.9万（37.9%，同比-0.6%）。</p>
+
+    <div class="overflow-x-auto">
+      <table>
+        <colgroup><col><col span="3" class="cg-blue"><col span="3" class="cg-orange"><col span="1" class="cg-purple"><col></colgroup>
+        <thead>
+          <tr>
+            <th>战区</th><th class="cg-blue-light">订阅业绩（万）</th><th class="cg-blue-light">订阅占比</th><th class="cg-blue-light">订阅占比同比</th>
+            <th class="cg-orange-light">买断业绩（万）</th><th class="cg-orange-light">买断占比</th><th class="cg-orange-light">买断占比同比</th>
+            <th class="cg-purple-light">平均合同额（万）</th><th>低价买断笔数</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="font-medium">苏皖大区</td><td>225.3</td><td>41.0%</td><td><span class="up">+4.1pct</span></td><td><span class="font-bold text-green-600">321.5</span></td><td><span class="font-bold text-green-600">58.5%</span></td><td><span class="down">-3.9pct</span></td><td>6.79</td><td>1</td></tr>
+          <tr><td class="font-medium">西北大区</td><td>174.5</td><td>43.1%</td><td><span class="down">-44.0pct</span></td><td>222.5</td><td>54.9%</td><td><span class="up">+43.8pct</span></td><td>8.62</td><td>1</td></tr>
+          <tr><td class="font-medium">上海大区</td><td>177.1</td><td>52.5%</td><td><span class="down">-16.4pct</span></td><td>154.0</td><td>45.6%</td><td><span class="up">+14.4pct</span></td><td>4.02</td><td>0</td></tr>
+          <tr><td class="font-medium">华南大区</td><td>175.3</td><td>50.4%</td><td><span class="down">-7.8pct</span></td><td>156.7</td><td>45.0%</td><td><span class="up">+3.6pct</span></td><td>3.48</td><td><span class="font-bold text-red-600">2</span></td></tr>
+          <tr><td class="font-medium">华北大区</td><td>82.9</td><td>55.1%</td><td><span class="down">-12.2pct</span></td><td>65.7</td><td>43.7%</td><td><span class="up">+12.6pct</span></td><td>1.86</td><td>0</td></tr>
+          <tr><td class="font-medium">西南大区</td><td>183.0</td><td>76.0%</td><td><span class="up">+30.7pct</span></td><td>55.5</td><td>23.0%</td><td><span class="down">-30.4pct</span></td><td>4.08</td><td>0</td></tr>
+          <tr><td class="font-medium">北京大区</td><td>205.9</td><td>82.1%</td><td><span class="up">+36.0pct</span></td><td>30.4</td><td>12.1%</td><td><span class="down">-41.5pct</span></td><td>3.34</td><td>1</td></tr>
+          <tr><td class="font-medium">浙闽大区</td><td>295.7</td><td>88.9%</td><td><span class="down">-2.9pct</span></td><td>39.6</td><td>11.9%</td><td><span class="up">+3.7pct</span></td><td>3.11</td><td><span class="font-bold text-red-600">2</span></td></tr>
+          <tr><td class="font-medium">华中大区</td><td>59.8</td><td>96.7%</td><td><span class="down">-1.5pct</span></td><td>0.0</td><td>0.0%</td><td>—</td><td>1.67</td><td>0</td></tr>
+          <tr><td class="font-medium">东北大区</td><td>80.2</td><td>98.4%</td><td><span class="down">-1.6pct</span></td><td>0.0</td><td>0.0%</td><td>—</td><td>4.08</td><td>0</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="mt-3 grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="p-3 bg-orange-50 rounded-lg border border-orange-200">
+        <div class="text-sm font-semibold text-orange-800 mb-2">结构剧烈变化区</div>
+        <div class="text-xs text-slate-700">西北买断占比从11.1%飙升至54.9%（+43.8pct），本地化大单集中爆发；北京从53.6%暴跌至12.1%（-41.5pct），西南从53.4%跌至23.0%（-30.4pct）——三战区结构发生根本性逆转，反映大单项目在不同战区间转移或消失。</div>
+      </div>
+      <div class="p-3 bg-red-50 rounded-lg border border-red-200">
+        <div class="text-sm font-semibold text-red-800 mb-2">买断风险警示</div>
+        <div class="text-xs text-slate-700">苏皖（58.5%）和西北（54.9%）买断占比超54%，平均合同额6.79万/8.62万，大单依赖度高。十大战区共7笔低价买断合同（浙闽2笔、华南2笔、北京/苏皖/西北各1笔），低价买断台账需重点关注，避免"为冲业绩牺牲利润"。</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2.3 各战区经营结构优劣总结 -->
+  <div class="card">
+    <div class="section-title">
+      <span class="w-8 h-8 rounded-lg bg-blue-100 text-blue-600 flex items-center justify-center text-sm font-bold">2.3</span>
+      各战区经营结构优劣总结
+    </div>
+
+    <!-- 一梯队 -->
+    <div class="mb-5">
+      <div class="text-sm font-bold text-slate-700 mb-2 border-b border-slate-200 pb-1">一梯队</div>
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+        <!-- 华南大区 -->
+        <div class="zone-card zone-warn">
+          <div class="flex items-center gap-2 mb-2 flex-wrap">
+            <span class="font-bold text-slate-800">华南大区</span>
+            <span class="badge badge-blue">一梯队</span>
+            <span class="badge badge-yellow">新老均衡但Fine弱</span>
+          </div>
+          <div class="text-xs text-slate-700 space-y-2">
+            <div>
+              <div class="font-semibold text-green-700 mb-1">✅ 优势</div>
+              <ul class="list-disc list-inside space-y-1">
+            <li>新客占比25.7%（同比+16.9pct），新客拓展能力十大战区最强</li>
+            <li>升级占比28.3%，客户价值挖掘能力突出</li>
+            <li>公有云48.4%/本地化51.6%，部署结构均衡</li>
+              </ul>
+            </div>
+            <div>
+              <div class="font-semibold text-red-700 mb-1">⚠️ 劣势</div>
+              <ul class="list-disc list-inside space-y-1">
+            <li>Fine+推新仅2.3%，Fine客户转化几乎为零，错失交叉销售机会</li>
+            <li>新购48.8%（同比-6.6pct），增长动力减弱</li>
+            <li>升级28.3%价值挖掘好，但新购48.8%同比下降，增长动力减弱</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- 上海大区 -->
+        <div class="zone-card zone-warn">
+          <div class="flex items-center gap-2 mb-2 flex-wrap">
+            <span class="font-bold text-slate-800">上海大区</span>
+            <span class="badge badge-blue">一梯队</span>
+            <span class="badge badge-yellow">存量依赖加深</span>
+          </div>
+          <div class="text-xs text-slate-700 space-y-2">
+            <div>
+              <div class="font-semibold text-green-700 mb-1">✅ 优势</div>
+              <ul class="list-disc list-inside space-y-1">
+            <li>老客80.1%（同比+31.9pct），客户粘性极强，续费27.7%（+18.0pct）大幅改善</li>
+            <li>新购61.2%维持高位，存量客户增购能力强</li>
+            <li>公有云47%/本地化49.3%，部署结构均衡</li>
+              </ul>
+            </div>
+            <div>
+              <div class="font-semibold text-red-700 mb-1">⚠️ 劣势</div>
+              <ul class="list-disc list-inside space-y-1">
+            <li>新客占比从49.1%暴跌至16.4%（-32.7pct），新增动力断崖式下滑</li>
+            <li>Fine+仅3.5%，交叉销售能力弱</li>
+            <li>买断45.6%+本地化49.3%，大单项目有一定占比</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- 北京大区 -->
+        <div class="zone-card zone-risk">
+          <div class="flex items-center gap-2 mb-2 flex-wrap">
+            <span class="font-bold text-slate-800">北京大区</span>
+            <span class="badge badge-blue">一梯队</span>
+            <span class="badge badge-red">新增枯竭</span>
+          </div>
+          <div class="text-xs text-slate-700 space-y-2">
+            <div>
+              <div class="font-semibold text-green-700 mb-1">✅ 优势</div>
+              <ul class="list-disc list-inside space-y-1">
+            <li>老客95.6%（同比+16.3pct），客户粘性十大战区最强</li>
+            <li>公有云70.4%/本地化17.2%，部署结构相对均衡</li>
+            <li>续费48.7%（同比+28.0pct），存量深耕能力突出</li>
+              </ul>
+            </div>
+            <div>
+              <div class="font-semibold text-red-700 mb-1">⚠️ 劣势</div>
+              <ul class="list-disc list-inside space-y-1">
+            <li>新客仅1.1%（同比-4.3pct），几乎无新增，增长引擎完全熄火</li>
+            <li>新购从71.0%暴跌至15.1%（-55.9pct），结构急转恶化</li>
+            <li>Fine+从15.4%跌至3.2%，交叉销售能力大幅退化</li>
+            <li>完全依赖存量续费升级，长期增长可持续性最差</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 二梯队 -->
+    <div class="mb-5">
+      <div class="text-sm font-bold text-slate-700 mb-2 border-b border-slate-200 pb-1">二梯队</div>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <!-- 苏皖大区 -->
+        <div class="zone-card zone-good">
+          <div class="flex items-center gap-2 mb-2 flex-wrap">
+            <span class="font-bold text-slate-800">苏皖大区</span>
+            <span class="badge badge-blue">二梯队</span>
+            <span class="badge badge-green">结构最优</span>
+          </div>
+          <div class="text-xs text-slate-700 space-y-2">
+            <div>
+              <div class="font-semibold text-green-700 mb-1">✅ 优势</div>
+              <ul class="list-disc list-inside space-y-1">
+            <li>Fine+老客推新占比41.4%，十大战区最高，Fine客户JDY转化能力最强</li>
+            <li>新客占比19.7%（同比+10.1pct），新增获客能力持续提升</li>
+            <li>新购65.8%，增长动力充足；平均合同额6.79万，客户价值高</li>
+            <li>形成"新客+老客+Fine"三角驱动，结构最健康</li>
+              </ul>
+            </div>
+            <div>
+              <div class="font-semibold text-red-700 mb-1">⚠️ 劣势</div>
+              <ul class="list-disc list-inside space-y-1">
+            <li>买断占比58.5%过高，本地化66.9%，大单依赖度高，业绩波动风险大</li>
+            <li>老客占比仅38.9%（同比-17.2pct），存量基础相对薄弱</li>
+            <li>续费22.5%，长期客户粘性有待验证</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- 浙闽大区 -->
+        <div class="zone-card zone-risk">
+          <div class="flex items-center gap-2 mb-2 flex-wrap">
+            <span class="font-bold text-slate-800">浙闽大区</span>
+            <span class="badge badge-blue">二梯队</span>
+            <span class="badge badge-red">吃老本型</span>
+          </div>
+          <div class="text-xs text-slate-700 space-y-2">
+            <div>
+              <div class="font-semibold text-green-700 mb-1">✅ 优势</div>
+              <ul class="list-disc list-inside space-y-1">
+            <li>续费46.1%（同比+17.5pct）+升级34.3%=80.4%，存量深耕能力十大战区最强</li>
+            <li>公有云84.9%，标准化SaaS销售能力强</li>
+            <li>Fine+6.0%，仍保持一定Fine转化能力</li>
+              </ul>
+            </div>
+            <div>
+              <div class="font-semibold text-red-700 mb-1">⚠️ 劣势</div>
+              <ul class="list-disc list-inside space-y-1">
+            <li>新客仅8.6%（同比-15.5pct），新购仅19.5%（同比-31.2pct），新增几乎停滞</li>
+            <li>老客85.3%（同比+21.4pct），完全依赖存量，长期风险最大</li>
+            <li>公有云84.9%，标准化SaaS销售能力强，与续费升级模式高度匹配</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 三梯队 -->
+    <div class="mb-5">
+      <div class="text-sm font-bold text-slate-700 mb-2 border-b border-slate-200 pb-1">三梯队</div>
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+        <!-- 西南大区 -->
+        <div class="zone-card zone-warn">
+          <div class="flex items-center gap-2 mb-2 flex-wrap">
+            <span class="font-bold text-slate-800">西南大区</span>
+            <span class="badge badge-blue">三梯队</span>
+            <span class="badge badge-yellow">Fine转化空白</span>
+          </div>
+          <div class="text-xs text-slate-700 space-y-2">
+            <div>
+              <div class="font-semibold text-green-700 mb-1">✅ 优势</div>
+              <ul class="list-disc list-inside space-y-1">
+            <li>老客90.5%，客户基础扎实；公有云73.5%，标准化程度高</li>
+            <li>新购63.8%（同比+6.6pct），增长动力稳定</li>
+            <li>公有云73.5%，标准化程度高</li>
+              </ul>
+            </div>
+            <div>
+              <div class="font-semibold text-red-700 mb-1">⚠️ 劣势</div>
+              <ul class="list-disc list-inside space-y-1">
+            <li>Fine+从8.2%跌至0%，完全丧失Fine客户转化能力</li>
+            <li>新客仅9.5%，新增动力不足</li>
+            <li>老客依赖90.5%，增长主要靠存量增购</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- 华北大区 -->
+        <div class="zone-card zone-warn">
+          <div class="flex items-center gap-2 mb-2 flex-wrap">
+            <span class="font-bold text-slate-800">华北大区</span>
+            <span class="badge badge-blue">三梯队</span>
+            <span class="badge badge-yellow">广种薄收型</span>
+          </div>
+          <div class="text-xs text-slate-700 space-y-2">
+            <div>
+              <div class="font-semibold text-green-700 mb-1">✅ 优势</div>
+              <ul class="list-disc list-inside space-y-1">
+            <li>新客62.6%（同比+27.7pct），新购70.1%（同比+24.7pct），获客能力和增长动力十大战区最强</li>
+            <li>新客公司数22家，拓展覆盖面广</li>
+              </ul>
+            </div>
+            <div>
+              <div class="font-semibold text-red-700 mb-1">⚠️ 劣势</div>
+              <ul class="list-disc list-inside space-y-1">
+            <li>平均合同额1.86万（十大战区最低），"量大利薄"</li>
+            <li>平均合同额1.86万（十大战区最低），"量大利薄"</li>
+            <li>续费仅8.5%（同比-11.1pct），客户粘性差，长期留存风险高</li>
+            <li>老客仅32.7%（同比-29.4pct），存量基础薄弱</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- 华中大区 -->
+        <div class="zone-card zone-risk">
+          <div class="flex items-center gap-2 mb-2 flex-wrap">
+            <span class="font-bold text-slate-800">华中大区</span>
+            <span class="badge badge-blue">三梯队</span>
+            <span class="badge badge-red">全面倒退</span>
+          </div>
+          <div class="text-xs text-slate-700 space-y-2">
+            <div>
+              <div class="font-semibold text-green-700 mb-1">✅ 优势</div>
+              <ul class="list-disc list-inside space-y-1">
+            <li>升级20.1%，客户价值挖掘能力尚可</li>
+            <li>老客94.4%，客户基础尚存</li>
+              </ul>
+            </div>
+            <div>
+              <div class="font-semibold text-red-700 mb-1">⚠️ 劣势</div>
+              <ul class="list-disc list-inside space-y-1">
+            <li>新客2.5%（同比-19.0pct），新购8.9%（同比-28.3pct），新增能力全面崩溃</li>
+            <li>续费35.4%（同比-9.1pct），存量也在流失</li>
+            <li>平均合同额1.67万（十大战区最低），客户价值最低</li>
+            <li>公有云100%但业绩仅61.8万，有结构无规模</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 四梯队 -->
+    <div class="mb-5">
+      <div class="text-sm font-bold text-slate-700 mb-2 border-b border-slate-200 pb-1">四梯队</div>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <!-- 西北大区 -->
+        <div class="zone-card zone-good">
+          <div class="flex items-center gap-2 mb-2 flex-wrap">
+            <span class="font-bold text-slate-800">西北大区</span>
+            <span class="badge badge-blue">四梯队</span>
+            <span class="badge badge-green">大单驱动型</span>
+          </div>
+          <div class="text-xs text-slate-700 space-y-2">
+            <div>
+              <div class="font-semibold text-green-700 mb-1">✅ 优势</div>
+              <ul class="list-disc list-inside space-y-1">
+            <li>买断54.9%+本地化54.9%，大单项目驱动，平均合同额8.62万十大战区最高</li>
+            <li>新客21.7%（同比+8.6pct），新购64.3%（+8.5pct），增长动力足</li>
+            <li>平均合同额8.62万，客户价值十大战区最高</li>
+              </ul>
+            </div>
+            <div>
+              <div class="font-semibold text-red-700 mb-1">⚠️ 劣势</div>
+              <ul class="list-disc list-inside space-y-1">
+            <li>Fine+从10.4%暴跌至1.5%，Fine转化能力丧失</li>
+            <li>本地化项目交付周期长、回款慢，业绩波动风险高于标准化SaaS</li>
+            <li>买断54.9%+本地化54.9%，业绩波动风险高</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- 东北大区 -->
+        <div class="zone-card zone-risk">
+          <div class="flex items-center gap-2 mb-2 flex-wrap">
+            <span class="font-bold text-slate-800">东北大区</span>
+            <span class="badge badge-blue">四梯队</span>
+            <span class="badge badge-red">纯续费驱动</span>
+          </div>
+          <div class="text-xs text-slate-700 space-y-2">
+            <div>
+              <div class="font-semibold text-green-700 mb-1">✅ 优势</div>
+              <ul class="list-disc list-inside space-y-1">
+            <li>续费70.3%（同比+17.0pct），十大战区最高，客户续费能力强</li>
+            <li>老客93.3%，客户基础稳定</li>
+              </ul>
+            </div>
+            <div>
+              <div class="font-semibold text-red-700 mb-1">⚠️ 劣势</div>
+              <ul class="list-disc list-inside space-y-1">
+            <li>Fine+从14%跌至0%，完全丧失Fine转化能力</li>
+            <li>新购19.0%（同比-16.4pct），新增动力严重不足</li>
+            <li>公有云100%，本地化0%，无大单突破能力</li>
+            <li>买断0%，全部为订阅续费，增长天花板明显</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

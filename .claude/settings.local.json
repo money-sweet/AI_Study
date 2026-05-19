@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(finebi-cli --version)",
+      "Bash(npm show *)",
+      "Bash(finebi-cli *)",
+      "Bash(npm install *)",
+      "Bash(where finebi-cli *)",
+      "Bash(npm list *)",
+      "Bash(node *)"
+    ]
+  }
+}

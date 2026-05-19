@@ -1,0 +1,188 @@
+PDF pages: 7
+
+--- Page 1 ---
+FineBI接入OpenClaw可行性方案探究​
+1. Quick Start ​
+1.1 首先安装finebi-cli工具​
+代码块​
+npm install -g finebi-openclaw-skill@latest --
+registry=https://registry.npmjs.org/
+1.2 执行初始化引导​
+代码块​
+finebi-cli init
+有两种认证方式：
+1. 通过FINEBI_USERNAME和FINEBI_PASSWORD走单点登录接口认证​
+2. 通过fine-light-auth-token(暂不对外，私聊)插件，用FINEBI_LIGHT_AUTH_TOKEN获取认证
+token​
+a. /plugin/fine-light-auth-token/generate 生成临时auth-key（存redis的，重启就没了）​
+b. /plugin/fine-light-auth-token/login?fine-light-auth-token=xxx 获取fine-auth-token​
+fine-plugin-
+com.fr.plugin.authtoken-1.15.zip
+5.70KB
+1.3 之后通过clawhub安装FineBI Skill​
+上架了clawhub，可以手动下载安装或者直接叫openclaw帮你装​
+https://clawhub.ai/zsmj1994/finebi-skill
+finebi-skill — ClawHub
+一个用于 OpenClaw 的 FineBI 技能，支持 npx 直接运行和插件体系，提供数据分析和可视化功能
+开发验证自定义skill方式：​
+1
+1
+
+--- Page 2 ---
+在.openclaw的workspace里面，新建skills文件夹，然后放到finebi-skills里面。​
+SKILL包.zip
+24.43KB
+2. 方案​
+总体流程：该方案采用“指令触发-脚本执行-结果反馈”的闭环模式。CLI 负责重活（鉴权、流处理、
+容错），Skill 负责轻活（意图识别、参数提取）。​
+2. 功能实现​
+2.1 核心CLI实现​
+功能：执行具体的 FineBI 操作。可以输入finebi-cli --help 获取全部可用命令​
+输入：命令行参数（如 finebi-cli get-dashboard-user-info ）。​
+输出：
+•
+标准输出 (stdout)：供 AI 阅读的精简 JSON 或 Markdown 表格，也可以输出文件流。​
+•
+标准错误 (stderr)：调试日志（AI 通常会忽略）。​
+•
+退出码 (Exit Code)：0  表示成功，1  表示异常（触发 AI 的错误处理逻辑）。​
+
+--- Page 3 ---
+登录认证：
+通过单点登录接口获取fine_auth_token，供调用 Restful API 时携带，从而保证不会越权。
+2.2 OpenClaw Skill​
+定义：在 OpenClaw 中注册一个 Skill。​
+描述词：一个用于 OpenClaw 的 FineBI 技能，可提供数据分析和可视化功能。​
+技能介绍：该技能集成了 FineBI，能够通过自然语言实现数据分析、生成报告以及查询数据集等功
+能。
+工具列表：get-dataset-info、preview-dataset-data、export-dashboard-pdf、export-dashboard-
+excel等等。​
+4. 接口设计​
+对外暴露接口的原则是只对外提供从FineBI中进行“读”操作的接口，禁止暴露“写”操作接口​
+命令 (Command)​
+说明 (Description)​
+数据集​
+get-publick-datasets-list​
+获取公共数据的数据集列表，分页​
+preview-dataset-data​
+Preview dataset data with a limit of up to 100,000 rows (预览数据集数
+据，最多支持10万行)​
+get-dataset-info​
+Get a FineBI dataset info by tableName (通过表名获取对应的数据集信
+息)​
+search-my-datasets​
+搜索我的分析中自助数据集​
+query-dataset​
+根据过滤条件查询数据集​
+仪表板与平台目录​
+export-dashboard-excel​
+Export a dashboard to Excel format (将仪表板导出为 Excel 格式)​
+export-dashboard-pdf​
+Export a dashboard to PDF format (将仪表板导出为 PDF 格式)​
+export-dashboard-image​
+Export a dashboard to image (PNG) format (将仪表板导出为 PNG 格式)​
+get-dashboard-user-info​
+Get current user information and their created dashboards (获取当前
+用户信息及其创建的仪表板)​
+search-my-dashboards​
+搜索我的分析下所有仪表板​
+
+--- Page 4 ---
+get-dashboards-by-subject​
+Get the list of dashboards under a specific subject (获取特定主题下的
+仪表板列表)​
+get-dashboard-design-configure​
+获取仪表板的详细配置信息​
+get-entry-tree​
+获取平台目录树​
+get-published-subject-resources​
+根据平台目录节点的挂出信息，查询对应挂出主题的挂出资源​
+get-widget-data​
+根据仪表板id和组件id查询组件数据（接口很慢）​
+get-dashboard-style​
+获取仪表板样式配置​
+set-dashboard-style​
+设置仪表板样式配置（走草稿逻辑）​
+5. 案例​
+5.1 导出仪表板并生成分析报告​
+用户输入：查一下finebi里面的仪表板,分析解读一下合同金额柱形图这个仪表板（你可以先导出pdf然
+后再分析解读pdf），然后生成一个飞书云文档发给我。​
+finebi-cli调用链：get-dataset-info -> export-dashboard-pdf -> 飞书文档skill ​
+5.2 数据同步到多维表格​
+
+--- Page 5 ---
+用户输入：查一下fienbi里面名为“销售明细表”的数据集，把这个数据集的数据同步到飞书多维表格
+里面，多维表格的路径是合同管理表>>销售明细表​
+​
+finebi-cli调用链：search-datasets -> get-dataset-info -> preview-dataset-
+data -> 飞书多维表格skill
+5.3 定时播报数据​
+用户输入：创建一个定时任务，每周一上午九点查一下finebi里面名为每周数据监控仪表板的看板，看
+一下上一周的数据，然后再“南京无锡共济会”群里面通报一下数据。
+
+--- Page 6 ---
+openclaw调用链：get-dashboard-info -> export-dashboard-pdf -> 飞书群消息
+skill
+5.4 数据异常自动创建任务​
+用户输入：创建一个定时任务，每周上午九点查一下finebi里面名为每周数据监控仪表板的看板，看一
+下上一周的合同金额是不是环比下降了，如果是下降了创建一个飞书任务给刘荣鑫，叫他分析原因
+openclaw调用链：get-dashboard-info -> export-dashboard-pdf -> 飞书任务管理
+skill
+6. 问题待办​
+问题​
+解决方案​
+Luo优先级​
+个人令牌缺失，适用面会变窄，有
+些集成客户没有用户名和密码​
+vito那边也在搞，一起复用吧。​
+P0：等vito，现阶段只提供给能接
+入的客户，但这个问题优先级较高​
+用户查找仪表板的来源：目录和我
+的分析​
+现在skill只跑了我的分析，还需要
+补充一下从挂出目录里面查仪表板
+和组件的能力​
+P1：claw的目标用户是查看者，有
+很大概率是没有我的分析的，目录
+要支持​
+查询数据接口只有部分数据，需要
+全量，并且数据需要清洗，去掉无
+关样式结构。尽量减少token​
+组件数据可读性差，大模型解读困
+难。​
+现阶段反而是pdf和excel接口，
+openclaw借助内置的工具更加容
+易解析出内容，widget/data的
+json数据理解不了。​
+需要转换成二维表格结构。​
+P2：我的意见是先给客户用，有问
+题再针对性优化，loda那边可以先
+推出去，claw对用户来说是锦上添
+花的功能，愿意用的我们共创迭代​
+
+--- Page 7 ---
+需要支持url传参过滤参数，且AI能
+识别，当前是仪表板默认过滤组
+件。​
+【额外需求】支持pdf导出支持传
+递url参数。​
+待开发​
+不解决​
+【先不做】数据集当前没有流式取
+全量接口，只能分页​
+不解决​
+获取组件数据接口
+v5/api/dashboard/widget/data 
+太慢​
+后端通过v8实现的，执行效率太慢
+了。 不如前端封装一个low版
+sdk，穿仪表板配置进去，可以获
+取任意组件数据，构建任意过滤结
+果​
+P2：这个研发判断下工作量，我对
+问题不是特别清楚，有多慢，可以
+提升多少，建议还是等实际用户用
+起来再去优化​
+7. 需求记录​
+https://applink.feishu.cn/client/todo/task_list?guid=013a92a3-5b12-4594-b5f8-21cb7006df2e
+     ​

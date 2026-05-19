@@ -1,0 +1,17 @@
+=== 最终验证 ===
+文件大小: 306009 chars, 350603 bytes
+
+[OK] 1.1 三图布局 (chart1b)
+[OK] 1.1 表格11列
+[OK] 1.1 大单可点击
+[OK] 1.2 chart4+chart5
+[OK] 1.2 表格9列
+[OK] 1.2 汇总行
+[OK] 1.4 已删除
+[OK] Modal 存在
+[OK] Modal 有实际数据
+[FAIL] chart4 数值标签
+
+=== 1.2 表格数据抽样 ===
+['<td class="font-medi', '144', '2210.7', '1073.9', '<span class="up">-13', '41.9%', '1.81', '0', '<span class="badge b']
+['<td class="font-medi', '102', '1290.4', '612.6', '<span class="up">-21', '53.0%', '5.99', '0', '<span class="badge b']

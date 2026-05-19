@@ -1,0 +1,460 @@
+{
+  "columns": [
+    "商务记录ID",
+    "商务记录时间",
+    "商务记录人",
+    "商务记录详情",
+    "商务行为类型",
+    "商务是否现场",
+    "公司ID",
+    "公司名称",
+    "JDY客户分类",
+    "公司归属战区",
+    "责任销售小组",
+    "责任销售"
+  ],
+  "商务记录ID": [
+    {
+      "value": "596ecb40-b657-4495-b92f-d976a5e45a68",
+      "count": 1
+    },
+    {
+      "value": "42b7df1d-ac5b-4a26-98b4-bae0bf763685",
+      "count": 1
+    },
+    {
+      "value": "8b59983b-240d-4353-b99c-3f52928759bb",
+      "count": 1
+    },
+    {
+      "value": "55b05150-9e5f-45da-b42e-1387f3133f80",
+      "count": 1
+    },
+    {
+      "value": "317a71d8-814a-4037-bc0e-5d9ef9b445e1",
+      "count": 1
+    },
+    {
+      "value": "4c226274-5cdd-472e-a5ab-dc28d8f99da3",
+      "count": 1
+    },
+    {
+      "value": "b553e534-5b8e-4c98-b15a-753c963956e0",
+      "count": 1
+    },
+    {
+      "value": "ae4166c0-7c44-43f8-b5c3-35eed48b7854",
+      "count": 1
+    },
+    {
+      "value": "16160a76-feb3-4754-b050-46aff35cf8db",
+      "count": 1
+    },
+    {
+      "value": "82c1277a-23bb-49b9-87b0-3f695852ffa6",
+      "count": 1
+    }
+  ],
+  "商务记录时间": [
+    {
+      "value": "2026-02-28 00:00:00",
+      "count": 350
+    },
+    {
+      "value": "2026-03-31 00:00:00",
+      "count": 311
+    },
+    {
+      "value": "2026-04-30 00:00:00",
+      "count": 221
+    },
+    {
+      "value": "2026-02-26 00:00:00",
+      "count": 149
+    },
+    {
+      "value": "2026-01-31 00:00:00",
+      "count": 148
+    },
+    {
+      "value": "2026-03-19 00:00:00",
+      "count": 143
+    },
+    {
+      "value": "2026-03-16 00:00:00",
+      "count": 142
+    },
+    {
+      "value": "2026-03-30 00:00:00",
+      "count": 139
+    },
+    {
+      "value": "2026-01-30 00:00:00",
+      "count": 130
+    },
+    {
+      "value": "2026-02-27 00:00:00",
+      "count": 127
+    }
+  ],
+  "商务记录人": [
+    {
+      "value": "One-沙旭东",
+      "count": 475
+    },
+    {
+      "value": "Shane.Li-李珊雯",
+      "count": 275
+    },
+    {
+      "value": "Yara.zhang-张凤英",
+      "count": 259
+    },
+    {
+      "value": "William_-韦立铭",
+      "count": 184
+    },
+    {
+      "value": "Carl.Zhou-周锦鹏",
+      "count": 156
+    },
+    {
+      "value": "Alden.Ji-吉浩平",
+      "count": 147
+    },
+    {
+      "value": "Pony.Yan-鄢德聪",
+      "count": 145
+    },
+    {
+      "value": "Renee.Chen-陈露瑶",
+      "count": 141
+    },
+    {
+      "value": "Wade.Zhou-周港",
+      "count": 138
+    },
+    {
+      "value": "Ryaux.Liu-刘子如",
+      "count": 119
+    }
+  ],
+  "商务记录详情": [
+    {
+      "value": "William_将客户转跟进：初步判断需求：简道云；是否愿意见面：愿意；",
+      "count": 13
+    },
+    {
+      "value": "处理",
+      "count": 11
+    },
+    {
+      "value": "Qari将客户转跟进：初步判断需求：简道云；是否愿意见面：愿意；",
+      "count": 11
+    },
+    {
+      "value": "处理了。",
+      "count": 8
+    },
+    {
+      "value": "4天半的强现场，录九个工作量",
+      "count": 8
+    },
+    {
+      "value": "简道云历史合作客户，批量维护任务，小公司没啥增值机会\t",
+      "count": 6
+    },
+    {
+      "value": "邀约了5月9号的简道云案例大赛",
+      "count": 5
+    },
+    {
+      "value": "西南战区赢单加油站方案撰写，推动简道云相关材料落地",
+      "count": 5
+    },
+    {
+      "value": "JDY合作 在找新的合作增长点",
+      "count": 4
+    },
+    {
+      "value": "One将客户转跟进：初步判断需求：简道云；是否愿意见面：暂时缓缓，以后再说；",
+      "count": 4
+    }
+  ],
+  "商务行为类型": [
+    {
+      "value": "电话",
+      "count": 3598
+    },
+    {
+      "value": "会议",
+      "count": 3113
+    },
+    {
+      "value": "产品演示",
+      "count": 428
+    },
+    {
+      "value": "客户调研",
+      "count": 376
+    },
+    {
+      "value": "餐饮/客情",
+      "count": 363
+    },
+    {
+      "value": "其他",
+      "count": 352
+    },
+    {
+      "value": "方案汇报",
+      "count": 330
+    },
+    {
+      "value": "信息交流",
+      "count": 138
+    },
+    {
+      "value": "立项/标书",
+      "count": 81
+    },
+    {
+      "value": "POC/DEMO",
+      "count": 39
+    }
+  ],
+  "商务是否现场": [
+    {
+      "value": "否",
+      "count": 5475
+    },
+    {
+      "value": "是",
+      "count": 3438
+    }
+  ],
+  "公司ID": [
+    {
+      "value": "ac654015-0279-4d7a-9635-f566df32d5d1",
+      "count": 60
+    },
+    {
+      "value": "f14bee13-4f6f-4ff6-871e-8921c19152bb",
+      "count": 22
+    },
+    {
+      "value": "dcc47c22-54a5-4ccb-8228-748a4de09051",
+      "count": 20
+    },
+    {
+      "value": "2e784c78-dee9-4e5a-bf39-1c38916b9cbe",
+      "count": 17
+    },
+    {
+      "value": "bfc6440a-e7e9-451c-a943-239c4b49de61",
+      "count": 16
+    },
+    {
+      "value": "a57c0d7e-b9fc-4805-a7d5-efbbf6bef97d",
+      "count": 15
+    },
+    {
+      "value": "d14513c4-6d1d-4aad-8ee9-923c0acdd1b6",
+      "count": 14
+    },
+    {
+      "value": "a3404a3a-7440-4adc-b8cd-8450e4a815bb",
+      "count": 14
+    },
+    {
+      "value": "dbaacea4-1e56-11e7-abe7-ac162d8aaa70",
+      "count": 14
+    },
+    {
+      "value": "23187e4e-a099-4567-8b4a-3c0a96b5098d",
+      "count": 13
+    }
+  ],
+  "公司名称": [
+    {
+      "value": "中国烟草总公司陕西省公司",
+      "count": 60
+    },
+    {
+      "value": "内蒙古能源集团有限公司",
+      "count": 22
+    },
+    {
+      "value": "大同泰瑞集团股份有限公司",
+      "count": 20
+    },
+    {
+      "value": "北京北控大数据有限公司",
+      "count": 17
+    },
+    {
+      "value": "兰州中川国际机场有限公司",
+      "count": 16
+    },
+    {
+      "value": "江苏海森汽车科技（集团）有限公司",
+      "count": 15
+    },
+    {
+      "value": "山西华德冶铸有限公司",
+      "count": 14
+    },
+    {
+      "value": "云南交投集团公路建设有限公司",
+      "count": 14
+    },
+    {
+      "value": "帆软软件有限公司",
+      "count": 14
+    },
+    {
+      "value": "吉田建材（苏州）有限公司",
+      "count": 13
+    }
+  ],
+  "JDY客户分类": [
+    {
+      "value": "JDY新客",
+      "count": 5175
+    },
+    {
+      "value": "JDY老客",
+      "count": 2066
+    },
+    {
+      "value": "Fine+老客推新",
+      "count": 1672
+    }
+  ],
+  "公司归属战区": [
+    {
+      "value": "苏皖大区",
+      "count": 1378
+    },
+    {
+      "value": "西北大区",
+      "count": 1266
+    },
+    {
+      "value": "浙闽大区",
+      "count": 1198
+    },
+    {
+      "value": "华北大区",
+      "count": 968
+    },
+    {
+      "value": "北京大区",
+      "count": 938
+    },
+    {
+      "value": "上海大区",
+      "count": 914
+    },
+    {
+      "value": "华南大区",
+      "count": 781
+    },
+    {
+      "value": "华中大区",
+      "count": 587
+    },
+    {
+      "value": "西南大区",
+      "count": 580
+    },
+    {
+      "value": "东北大区",
+      "count": 303
+    }
+  ],
+  "责任销售小组": [
+    {
+      "value": "One-沙旭东",
+      "count": 464
+    },
+    {
+      "value": "grace-刘姝彤",
+      "count": 411
+    },
+    {
+      "value": "Russell-姜吉斌",
+      "count": 368
+    },
+    {
+      "value": "martin-殷建飞",
+      "count": 362
+    },
+    {
+      "value": "Stone.Cao-曹磊",
+      "count": 341
+    },
+    {
+      "value": "public-浙闽大区",
+      "count": 286
+    },
+    {
+      "value": "Fanli-范理",
+      "count": 283
+    },
+    {
+      "value": "Bryant.L-刘海宇",
+      "count": 257
+    },
+    {
+      "value": "Benedict-李东麒",
+      "count": 254
+    },
+    {
+      "value": "justin-贾训祥",
+      "count": 235
+    }
+  ],
+  "责任销售": [
+    {
+      "value": "One-沙旭东",
+      "count": 329
+    },
+    {
+      "value": "浙闽大区-public",
+      "count": 286
+    },
+    {
+      "value": "Shane.Li-李珊雯",
+      "count": 224
+    },
+    {
+      "value": "苏皖大区-public",
+      "count": 212
+    },
+    {
+      "value": "Yara.zhang-张凤英",
+      "count": 193
+    },
+    {
+      "value": "William_-韦立铭",
+      "count": 165
+    },
+    {
+      "value": "华北大区-public",
+      "count": 140
+    },
+    {
+      "value": "Wade.Zhou-周港",
+      "count": 138
+    },
+    {
+      "value": "北京大区-public",
+      "count": 130
+    },
+    {
+      "value": "Pony.Yan-鄢德聪",
+      "count": 130
+    }
+  ]
+}

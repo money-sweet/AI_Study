@@ -1,0 +1,572 @@
+{
+  "biz_monthly": {
+    "1": {
+      "total_records": 1845,
+      "total_customers": 1383,
+      "by_zone": {
+        "苏皖大区": {
+          "records": 289,
+          "customers": 215
+        },
+        "华南大区": {
+          "records": 121,
+          "customers": 99
+        },
+        "上海大区": {
+          "records": 201,
+          "customers": 159
+        },
+        "浙闽大区": {
+          "records": 214,
+          "customers": 180
+        },
+        "西北大区": {
+          "records": 276,
+          "customers": 201
+        },
+        "北京大区": {
+          "records": 220,
+          "customers": 153
+        },
+        "西南大区": {
+          "records": 130,
+          "customers": 99
+        },
+        "华北大区": {
+          "records": 244,
+          "customers": 150
+        },
+        "东北大区": {
+          "records": 61,
+          "customers": 50
+        },
+        "华中大区": {
+          "records": 89,
+          "customers": 77
+        }
+      },
+      "by_segment": {
+        "JDY新客": {
+          "records": 1076,
+          "customers": 796
+        },
+        "JDY老客": {
+          "records": 412,
+          "customers": 321
+        },
+        "Fine+老客推新": {
+          "records": 357,
+          "customers": 266
+        }
+      }
+    },
+    "2": {
+      "total_records": 1324,
+      "total_customers": 1120,
+      "by_zone": {
+        "苏皖大区": {
+          "records": 133,
+          "customers": 111
+        },
+        "华南大区": {
+          "records": 127,
+          "customers": 110
+        },
+        "上海大区": {
+          "records": 165,
+          "customers": 141
+        },
+        "浙闽大区": {
+          "records": 173,
+          "customers": 158
+        },
+        "西北大区": {
+          "records": 223,
+          "customers": 176
+        },
+        "北京大区": {
+          "records": 138,
+          "customers": 108
+        },
+        "西南大区": {
+          "records": 134,
+          "customers": 122
+        },
+        "华北大区": {
+          "records": 111,
+          "customers": 90
+        },
+        "东北大区": {
+          "records": 49,
+          "customers": 44
+        },
+        "华中大区": {
+          "records": 71,
+          "customers": 60
+        }
+      },
+      "by_segment": {
+        "JDY新客": {
+          "records": 777,
+          "customers": 658
+        },
+        "JDY老客": {
+          "records": 354,
+          "customers": 290
+        },
+        "Fine+老客推新": {
+          "records": 193,
+          "customers": 172
+        }
+      }
+    },
+    "3": {
+      "total_records": 2973,
+      "total_customers": 2088,
+      "by_zone": {
+        "苏皖大区": {
+          "records": 455,
+          "customers": 315
+        },
+        "华南大区": {
+          "records": 247,
+          "customers": 183
+        },
+        "上海大区": {
+          "records": 318,
+          "customers": 237
+        },
+        "浙闽大区": {
+          "records": 408,
+          "customers": 314
+        },
+        "西北大区": {
+          "records": 413,
+          "customers": 266
+        },
+        "北京大区": {
+          "records": 338,
+          "customers": 239
+        },
+        "西南大区": {
+          "records": 156,
+          "customers": 116
+        },
+        "华北大区": {
+          "records": 316,
+          "customers": 202
+        },
+        "东北大区": {
+          "records": 99,
+          "customers": 69
+        },
+        "华中大区": {
+          "records": 223,
+          "customers": 147
+        }
+      },
+      "by_segment": {
+        "JDY新客": {
+          "records": 1733,
+          "customers": 1219
+        },
+        "JDY老客": {
+          "records": 652,
+          "customers": 472
+        },
+        "Fine+老客推新": {
+          "records": 588,
+          "customers": 397
+        }
+      }
+    },
+    "4": {
+      "total_records": 2497,
+      "total_customers": 1769,
+      "by_zone": {
+        "苏皖大区": {
+          "records": 459,
+          "customers": 308
+        },
+        "华南大区": {
+          "records": 248,
+          "customers": 189
+        },
+        "上海大区": {
+          "records": 212,
+          "customers": 152
+        },
+        "浙闽大区": {
+          "records": 369,
+          "customers": 279
+        },
+        "西北大区": {
+          "records": 309,
+          "customers": 195
+        },
+        "北京大区": {
+          "records": 231,
+          "customers": 180
+        },
+        "西南大区": {
+          "records": 151,
+          "customers": 107
+        },
+        "华北大区": {
+          "records": 256,
+          "customers": 159
+        },
+        "东北大区": {
+          "records": 85,
+          "customers": 67
+        },
+        "华中大区": {
+          "records": 177,
+          "customers": 133
+        }
+      },
+      "by_segment": {
+        "JDY新客": {
+          "records": 1421,
+          "customers": 1014
+        },
+        "JDY老客": {
+          "records": 591,
+          "customers": 420
+        },
+        "Fine+老客推新": {
+          "records": 485,
+          "customers": 335
+        }
+      }
+    }
+  },
+  "lead_compare": {
+    "3": {
+      "total": 1331,
+      "by_zone": {
+        "苏皖大区": {
+          "count": 79,
+          "a_plus_a": 54,
+          "converted": 60,
+          "conversion_rate": 75.9493670886076,
+          "avg_verify_days": 0.6064102564102565
+        },
+        "华南大区": {
+          "count": 287,
+          "a_plus_a": 134,
+          "converted": 86,
+          "conversion_rate": 29.965156794425084,
+          "avg_verify_days": 2.1597902097902097
+        },
+        "上海大区": {
+          "count": 71,
+          "a_plus_a": 53,
+          "converted": 51,
+          "conversion_rate": 71.83098591549296,
+          "avg_verify_days": 0.7161290322580643
+        },
+        "浙闽大区": {
+          "count": 102,
+          "a_plus_a": 67,
+          "converted": 65,
+          "conversion_rate": 63.725490196078425,
+          "avg_verify_days": 0.7112244897959182
+        },
+        "西北大区": {
+          "count": 328,
+          "a_plus_a": 66,
+          "converted": 65,
+          "conversion_rate": 19.817073170731707,
+          "avg_verify_days": 2.4496951219512195
+        },
+        "北京大区": {
+          "count": 91,
+          "a_plus_a": 67,
+          "converted": 61,
+          "conversion_rate": 67.03296703296702,
+          "avg_verify_days": 0.41208791208791207
+        },
+        "西南大区": {
+          "count": 90,
+          "a_plus_a": 56,
+          "converted": 48,
+          "conversion_rate": 53.333333333333336,
+          "avg_verify_days": 0.5999999999999999
+        },
+        "华北大区": {
+          "count": 125,
+          "a_plus_a": 71,
+          "converted": 88,
+          "conversion_rate": 70.39999999999999,
+          "avg_verify_days": 0.2370967741935484
+        },
+        "东北大区": {
+          "count": 115,
+          "a_plus_a": 33,
+          "converted": 60,
+          "conversion_rate": 52.17391304347826,
+          "avg_verify_days": 0.8739130434782606
+        },
+        "华中大区": {
+          "count": 43,
+          "a_plus_a": 32,
+          "converted": 35,
+          "conversion_rate": 81.3953488372093,
+          "avg_verify_days": 0.7488372093023257
+        }
+      },
+      "by_grade": {
+        "A+": 462,
+        "A": 171,
+        "B": 227,
+        "C": 471
+      },
+      "converted": 619,
+      "conversion_rate": 46.50638617580766,
+      "avg_verify_days": 1.3963498098859315
+    },
+    "4": {
+      "total": 1241,
+      "by_zone": {
+        "苏皖大区": {
+          "count": 77,
+          "a_plus_a": 46,
+          "converted": 66,
+          "conversion_rate": 85.71428571428571,
+          "avg_verify_days": 0.6027027027027028
+        },
+        "华南大区": {
+          "count": 202,
+          "a_plus_a": 95,
+          "converted": 68,
+          "conversion_rate": 33.663366336633665,
+          "avg_verify_days": 1.5060913705583758
+        },
+        "上海大区": {
+          "count": 66,
+          "a_plus_a": 32,
+          "converted": 46,
+          "conversion_rate": 69.6969696969697,
+          "avg_verify_days": 0.8545454545454547
+        },
+        "浙闽大区": {
+          "count": 100,
+          "a_plus_a": 60,
+          "converted": 48,
+          "conversion_rate": 48.0,
+          "avg_verify_days": 1.0223404255319148
+        },
+        "西北大区": {
+          "count": 327,
+          "a_plus_a": 32,
+          "converted": 65,
+          "conversion_rate": 19.877675840978593,
+          "avg_verify_days": 2.2330246913580245
+        },
+        "北京大区": {
+          "count": 81,
+          "a_plus_a": 38,
+          "converted": 66,
+          "conversion_rate": 81.48148148148148,
+          "avg_verify_days": 0.47000000000000003
+        },
+        "西南大区": {
+          "count": 100,
+          "a_plus_a": 50,
+          "converted": 59,
+          "conversion_rate": 59.0,
+          "avg_verify_days": 0.7999999999999999
+        },
+        "华北大区": {
+          "count": 128,
+          "a_plus_a": 72,
+          "converted": 79,
+          "conversion_rate": 61.71875,
+          "avg_verify_days": 0.26825396825396824
+        },
+        "东北大区": {
+          "count": 129,
+          "a_plus_a": 30,
+          "converted": 55,
+          "conversion_rate": 42.63565891472868,
+          "avg_verify_days": 1.2317829457364342
+        },
+        "华中大区": {
+          "count": 31,
+          "a_plus_a": 20,
+          "converted": 21,
+          "conversion_rate": 67.74193548387096,
+          "avg_verify_days": 0.5032258064516129
+        }
+      },
+      "by_grade": {
+        "A+": 361,
+        "A": 114,
+        "B": 199,
+        "C": 544
+      },
+      "converted": 573,
+      "conversion_rate": 46.17244157937147,
+      "avg_verify_days": 1.2679900744416874
+    }
+  },
+  "renew_apr": {
+    "total": 72,
+    "renewed_count": 45,
+    "churned_count": 27,
+    "renew_rate": 62.5,
+    "total_arr": 3294926.62963,
+    "renewed_arr": 3223173.0,
+    "by_zone": {
+      "苏皖大区": {
+        "total": 7,
+        "renewed": 3,
+        "churned": 4,
+        "rate": 42.857142857142854,
+        "arr": 320948.0,
+        "renewed_arr": 169981.0
+      },
+      "华南大区": {
+        "total": 6,
+        "renewed": 5,
+        "churned": 1,
+        "rate": 83.33333333333334,
+        "arr": 420995.0,
+        "renewed_arr": 462556.0
+      },
+      "上海大区": {
+        "total": 7,
+        "renewed": 7,
+        "churned": 0,
+        "rate": 100.0,
+        "arr": 684555.62963,
+        "renewed_arr": 891173.0
+      },
+      "浙闽大区": {
+        "total": 23,
+        "renewed": 11,
+        "churned": 12,
+        "rate": 47.82608695652174,
+        "arr": 421303.0,
+        "renewed_arr": 325670.0
+      },
+      "西北大区": {
+        "total": 3,
+        "renewed": 3,
+        "churned": 0,
+        "rate": 100.0,
+        "arr": 222240.0,
+        "renewed_arr": 270284.0
+      },
+      "北京大区": {
+        "total": 8,
+        "renewed": 6,
+        "churned": 2,
+        "rate": 75.0,
+        "arr": 544936.0,
+        "renewed_arr": 481565.0
+      },
+      "西南大区": {
+        "total": 8,
+        "renewed": 4,
+        "churned": 4,
+        "rate": 50.0,
+        "arr": 305176.0,
+        "renewed_arr": 305963.0
+      },
+      "华北大区": {
+        "total": 6,
+        "renewed": 3,
+        "churned": 3,
+        "rate": 50.0,
+        "arr": 157961.0,
+        "renewed_arr": 141802.0
+      },
+      "东北大区": {
+        "total": 2,
+        "renewed": 2,
+        "churned": 0,
+        "rate": 100.0,
+        "arr": 115491.0,
+        "renewed_arr": 115617.0
+      },
+      "华中大区": {
+        "total": 2,
+        "renewed": 1,
+        "churned": 1,
+        "rate": 50.0,
+        "arr": 101321.0,
+        "renewed_arr": 58562.0
+      }
+    },
+    "churn_reasons": {
+      "待补充原因": 3
+    }
+  },
+  "issues": {
+    "old_opp_total": 4854,
+    "old_opp_by_zone": {
+      "上海大区": 564,
+      "东北大区": 131,
+      "北京大区": 525,
+      "华中大区": 286,
+      "华北大区": 475,
+      "华南大区": 885,
+      "浙闽大区": 742,
+      "苏皖大区": 613,
+      "西北大区": 227,
+      "西南大区": 406
+    },
+    "old_opp_amount": {
+      "上海大区": 36575128.62,
+      "东北大区": 11599731.12,
+      "北京大区": 40285090.52,
+      "华中大区": 21666020.39,
+      "华北大区": 45192656.38,
+      "华南大区": 50357429.92,
+      "浙闽大区": 52790006.04,
+      "苏皖大区": 41140097.27,
+      "西北大区": 25271516.37,
+      "西南大区": 39245098.48
+    },
+    "no_biz_total": 5957,
+    "no_biz_by_zone": {
+      "上海大区": 807,
+      "东北大区": 155,
+      "北京大区": 631,
+      "华中大区": 377,
+      "华北大区": 525,
+      "华南大区": 1138,
+      "浙闽大区": 759,
+      "苏皖大区": 872,
+      "西北大区": 235,
+      "西南大区": 458
+    },
+    "no_biz_amount": {
+      "上海大区": 48634843.84,
+      "东北大区": 10702492.2,
+      "北京大区": 38241790.59,
+      "华中大区": 24116770.71,
+      "华北大区": 39596694.43,
+      "华南大区": 52158223.78,
+      "浙闽大区": 45845566.0,
+      "苏皖大区": 47199164.75,
+      "西北大区": 19433351.93,
+      "西南大区": 31738283.99
+    },
+    "tian_total": 1212,
+    "tian_by_zone": {
+      "上海大区": 164,
+      "东北大区": 46,
+      "北京大区": 167,
+      "华中大区": 105,
+      "华北大区": 39,
+      "华南大区": 241,
+      "浙闽大区": 116,
+      "苏皖大区": 192,
+      "西北大区": 70,
+      "西南大区": 72
+    }
+  }
+}

@@ -1,0 +1,1191 @@
+{
+  "columns": [
+    "业绩统计日期",
+    "业绩归属战区",
+    "统计归属小组",
+    "统计归属销售",
+    "公司ID",
+    "公司名称",
+    "JDY客户分类",
+    "SP客群标签",
+    "订阅类型",
+    "客户分层",
+    "客户一级行业",
+    "客户二级行业",
+    "客户三级行业",
+    "合同ID",
+    "合同名称",
+    "签单日期",
+    "是否Name客户",
+    "一级分类",
+    "二级分类",
+    "三级分类",
+    "JDY销售额-D"
+  ],
+  "业绩统计日期": [
+    {
+      "value": "2025-10-31 00:00:00",
+      "count": 283
+    },
+    {
+      "value": "2025-06-30 00:00:00",
+      "count": 67
+    },
+    {
+      "value": "2025-11-28 00:00:00",
+      "count": 64
+    },
+    {
+      "value": "2025-12-30 00:00:00",
+      "count": 43
+    },
+    {
+      "value": "2025-12-29 00:00:00",
+      "count": 36
+    },
+    {
+      "value": "2025-12-24 00:00:00",
+      "count": 35
+    },
+    {
+      "value": "2025-12-15 00:00:00",
+      "count": 34
+    },
+    {
+      "value": "2025-06-16 00:00:00",
+      "count": 33
+    },
+    {
+      "value": "2025-12-22 00:00:00",
+      "count": 33
+    },
+    {
+      "value": "2025-06-24 00:00:00",
+      "count": 32
+    },
+    {
+      "value": "2025-09-29 00:00:00",
+      "count": 32
+    },
+    {
+      "value": "2026-04-24 00:00:00",
+      "count": 30
+    },
+    {
+      "value": "2025-12-31 00:00:00",
+      "count": 30
+    },
+    {
+      "value": "2025-06-27 00:00:00",
+      "count": 29
+    },
+    {
+      "value": "2025-06-17 00:00:00",
+      "count": 28
+    },
+    {
+      "value": "2025-04-08 00:00:00",
+      "count": 28
+    },
+    {
+      "value": "2025-12-23 00:00:00",
+      "count": 27
+    },
+    {
+      "value": "2026-03-31 00:00:00",
+      "count": 26
+    },
+    {
+      "value": "2026-03-30 00:00:00",
+      "count": 26
+    },
+    {
+      "value": "2025-09-28 00:00:00",
+      "count": 26
+    }
+  ],
+  "业绩归属战区": [
+    {
+      "value": "浙闽大区",
+      "count": 903
+    },
+    {
+      "value": "华南大区",
+      "count": 847
+    },
+    {
+      "value": "苏皖大区",
+      "count": 632
+    },
+    {
+      "value": "上海大区",
+      "count": 606
+    },
+    {
+      "value": "西南大区",
+      "count": 513
+    },
+    {
+      "value": "北京大区",
+      "count": 449
+    },
+    {
+      "value": "华北大区",
+      "count": 418
+    },
+    {
+      "value": "西北大区",
+      "count": 326
+    },
+    {
+      "value": "华中大区",
+      "count": 269
+    },
+    {
+      "value": "东北大区",
+      "count": 170
+    }
+  ],
+  "统计归属小组": [
+    {
+      "value": "Benedict-李东麒",
+      "count": 520
+    },
+    {
+      "value": "Fanli-范理",
+      "count": 498
+    },
+    {
+      "value": "One-沙旭东",
+      "count": 412
+    },
+    {
+      "value": "justin-贾训祥",
+      "count": 220
+    },
+    {
+      "value": "martin-殷建飞",
+      "count": 193
+    },
+    {
+      "value": "Liuxun-刘讯",
+      "count": 186
+    },
+    {
+      "value": "Dong-薛金东",
+      "count": 178
+    },
+    {
+      "value": "Long.Zhang-张龙飞",
+      "count": 176
+    },
+    {
+      "value": "mattel-李虹达",
+      "count": 141
+    },
+    {
+      "value": "leon-陈鹏",
+      "count": 136
+    },
+    {
+      "value": "Russell-姜吉斌",
+      "count": 130
+    },
+    {
+      "value": "michael-姜学威",
+      "count": 122
+    },
+    {
+      "value": "answer-刘森",
+      "count": 119
+    },
+    {
+      "value": "grace-刘姝彤",
+      "count": 110
+    },
+    {
+      "value": "arthur-刘威",
+      "count": 109
+    },
+    {
+      "value": "brady-张建飞",
+      "count": 105
+    },
+    {
+      "value": "Wenwu.wang-王文武",
+      "count": 99
+    },
+    {
+      "value": "markus-马俊峰",
+      "count": 97
+    },
+    {
+      "value": "chris.gao-高元福",
+      "count": 92
+    },
+    {
+      "value": "Jeatom-沈子涛",
+      "count": 90
+    }
+  ],
+  "统计归属销售": [
+    {
+      "value": "One-沙旭东",
+      "count": 299
+    },
+    {
+      "value": "Benedict-李东麒",
+      "count": 239
+    },
+    {
+      "value": "Fanli-范理",
+      "count": 215
+    },
+    {
+      "value": "Carl.Zhou-周锦鹏",
+      "count": 181
+    },
+    {
+      "value": "William_-韦立铭",
+      "count": 178
+    },
+    {
+      "value": "Qari-秦冰清",
+      "count": 173
+    },
+    {
+      "value": "Wade.Zhou-周港",
+      "count": 150
+    },
+    {
+      "value": "Kyle.Zheng-郑秀锐",
+      "count": 139
+    },
+    {
+      "value": "Renee.Chen-陈露瑶",
+      "count": 130
+    },
+    {
+      "value": "Kylin.Fan-范麒麟",
+      "count": 92
+    },
+    {
+      "value": "Jack.Yan-史炎",
+      "count": 87
+    },
+    {
+      "value": "Lion.Ma-马盼龙",
+      "count": 86
+    },
+    {
+      "value": "Carys-杨奕青",
+      "count": 73
+    },
+    {
+      "value": "cusswu-吴东旭",
+      "count": 72
+    },
+    {
+      "value": "Blake-黄汝涛",
+      "count": 70
+    },
+    {
+      "value": "Nika-庹石毛",
+      "count": 63
+    },
+    {
+      "value": "Liuxun-刘讯",
+      "count": 59
+    },
+    {
+      "value": "Chris.Yan-闫震",
+      "count": 54
+    },
+    {
+      "value": "Karzuc.Li-李天宇",
+      "count": 53
+    },
+    {
+      "value": "Fancy.Feng-冯成",
+      "count": 52
+    }
+  ],
+  "公司ID": [
+    {
+      "value": "1d3beedf-cf97-4dfe-bfd5-ac6a793c1866",
+      "count": 85
+    },
+    {
+      "value": "6d7add87-4bd6-11ea-ba0b-7cd30ab79bc4",
+      "count": 61
+    },
+    {
+      "value": "f3ed51bf-238f-4bae-8d02-48a06808c199",
+      "count": 35
+    },
+    {
+      "value": "f7f92760-c98f-4aca-8aec-348d4bf790b3",
+      "count": 34
+    },
+    {
+      "value": "9c4ae74e-7448-4edf-a5cf-12c42dfc2af4",
+      "count": 30
+    },
+    {
+      "value": "8c21f342-f4d7-4188-afcc-a166a1057e36",
+      "count": 20
+    },
+    {
+      "value": "ddf14724-1aec-4a37-a6bd-b9d77bb94788",
+      "count": 20
+    },
+    {
+      "value": "f393101a-be6a-11e9-bc6f-7cd30ae4376a",
+      "count": 20
+    },
+    {
+      "value": "c4f90b1f-0a05-44de-894d-2d3eecda4e84",
+      "count": 19
+    },
+    {
+      "value": "7c0414c4-505d-4139-bfb9-df4fa6b4d73b",
+      "count": 19
+    },
+    {
+      "value": "bdd17fbf-79d2-4e19-87a1-ffbaa963dab2",
+      "count": 18
+    },
+    {
+      "value": "76537a36-c51f-4ef1-aa27-4f36cabd1230",
+      "count": 18
+    },
+    {
+      "value": "b28fde20-e48e-4595-b5fc-3298469ef875",
+      "count": 17
+    },
+    {
+      "value": "5d3831b9-86ab-11e9-bc6f-7cd30ae4376a",
+      "count": 16
+    },
+    {
+      "value": "8a1776a9-305b-11eb-961f-7cd30ab79bc4",
+      "count": 16
+    },
+    {
+      "value": "93e3c262-ac96-4e71-bb08-1ee5818140a2",
+      "count": 15
+    },
+    {
+      "value": "e37866e4-aa1a-48c1-8c93-1805a4b06293",
+      "count": 15
+    },
+    {
+      "value": "a93c093a-3e7f-340b-663a-15faef787867",
+      "count": 15
+    },
+    {
+      "value": "eae478a5-c169-11e8-aa79-7cd30ae4376a",
+      "count": 15
+    },
+    {
+      "value": "87ef87fd-4913-4e19-b565-f9ccf38d8bbd",
+      "count": 13
+    }
+  ],
+  "公司名称": [
+    {
+      "value": "博西华家用电器有限公司",
+      "count": 85
+    },
+    {
+      "value": "东方航空技术有限公司",
+      "count": 61
+    },
+    {
+      "value": "中粮可口可乐饮料（中国）投资有限公司",
+      "count": 35
+    },
+    {
+      "value": "广西同等科技有限公司",
+      "count": 34
+    },
+    {
+      "value": "东方日升新能源股份有限公司",
+      "count": 30
+    },
+    {
+      "value": "西部机场集团有限公司",
+      "count": 20
+    },
+    {
+      "value": "中移铁通有限公司江西分公司",
+      "count": 20
+    },
+    {
+      "value": "深圳市大疆创新科技有限公司",
+      "count": 20
+    },
+    {
+      "value": "广州樊文花化妆品有限公司",
+      "count": 19
+    },
+    {
+      "value": "上海鸿欢网络科技有限公司",
+      "count": 19
+    },
+    {
+      "value": "广州激活科技有限责任公司",
+      "count": 18
+    },
+    {
+      "value": "杭州一起来种地科技有限责任公司",
+      "count": 18
+    },
+    {
+      "value": "广西柳州钢铁集团有限公司",
+      "count": 17
+    },
+    {
+      "value": "山东新景表业有限公司",
+      "count": 16
+    },
+    {
+      "value": "航天电工集团有限公司",
+      "count": 16
+    },
+    {
+      "value": "福州市搞点啥网络科技有限公司",
+      "count": 15
+    },
+    {
+      "value": "蒙牛乳业（北京）有限责任公司",
+      "count": 15
+    },
+    {
+      "value": "高丘六和（瓦房店）工业有限公司",
+      "count": 15
+    },
+    {
+      "value": "中铁隧道局集团有限公司",
+      "count": 15
+    },
+    {
+      "value": "上汽通用五菱汽车股份有限公司",
+      "count": 13
+    }
+  ],
+  "JDY客户分类": [
+    {
+      "value": "JDY老客",
+      "count": 3243
+    },
+    {
+      "value": "JDY新客",
+      "count": 1519
+    },
+    {
+      "value": "Fine+老客推新",
+      "count": 369
+    },
+    {
+      "value": "nan",
+      "count": 2
+    }
+  ],
+  "SP客群标签": [
+    {
+      "value": "nan",
+      "count": 4735
+    },
+    {
+      "value": "汽车特战队",
+      "count": 95
+    },
+    {
+      "value": "烟草特战队",
+      "count": 73
+    },
+    {
+      "value": "能源电力特战队",
+      "count": 67
+    },
+    {
+      "value": "交通运输特战队",
+      "count": 61
+    },
+    {
+      "value": "航天军工特战队",
+      "count": 43
+    },
+    {
+      "value": "建筑工程特战队",
+      "count": 33
+    },
+    {
+      "value": "半导体特战队",
+      "count": 16
+    },
+    {
+      "value": "银行特战队",
+      "count": 8
+    },
+    {
+      "value": "医院特战队",
+      "count": 2
+    }
+  ],
+  "订阅类型": [
+    {
+      "value": "订阅",
+      "count": 4297
+    },
+    {
+      "value": "nan",
+      "count": 681
+    },
+    {
+      "value": "买断",
+      "count": 155
+    }
+  ],
+  "客户分层": [
+    {
+      "value": "头部客户",
+      "count": 2005
+    },
+    {
+      "value": "小腰客户",
+      "count": 1865
+    },
+    {
+      "value": "尾部客户",
+      "count": 901
+    },
+    {
+      "value": "大腰客户",
+      "count": 314
+    },
+    {
+      "value": "未知",
+      "count": 46
+    },
+    {
+      "value": "nan",
+      "count": 2
+    }
+  ],
+  "客户一级行业": [
+    {
+      "value": "大制造",
+      "count": 1874
+    },
+    {
+      "value": "其他",
+      "count": 1012
+    },
+    {
+      "value": "大消费",
+      "count": 708
+    },
+    {
+      "value": "大民生",
+      "count": 607
+    },
+    {
+      "value": "泛地产",
+      "count": 357
+    },
+    {
+      "value": "大健康",
+      "count": 283
+    },
+    {
+      "value": "未知",
+      "count": 196
+    },
+    {
+      "value": "大金融",
+      "count": 94
+    },
+    {
+      "value": "nan",
+      "count": 2
+    }
+  ],
+  "客户二级行业": [
+    {
+      "value": "装备制造",
+      "count": 700
+    },
+    {
+      "value": "电子电气",
+      "count": 469
+    },
+    {
+      "value": "能源化工",
+      "count": 441
+    },
+    {
+      "value": "科研与技服",
+      "count": 312
+    },
+    {
+      "value": "交通运输",
+      "count": 292
+    },
+    {
+      "value": "工程建设",
+      "count": 289
+    },
+    {
+      "value": "软件服务",
+      "count": 265
+    },
+    {
+      "value": "医药健康",
+      "count": 256
+    },
+    {
+      "value": "食品饮料",
+      "count": 216
+    },
+    {
+      "value": "nan",
+      "count": 198
+    },
+    {
+      "value": "商务服务业",
+      "count": 180
+    },
+    {
+      "value": "水电热燃",
+      "count": 167
+    },
+    {
+      "value": "教育行业",
+      "count": 138
+    },
+    {
+      "value": "快消品",
+      "count": 107
+    },
+    {
+      "value": "商贸零售",
+      "count": 100
+    },
+    {
+      "value": "其它消费",
+      "count": 88
+    },
+    {
+      "value": "非银金融",
+      "count": 86
+    },
+    {
+      "value": "耐消品",
+      "count": 74
+    },
+    {
+      "value": "餐饮茶饮",
+      "count": 71
+    },
+    {
+      "value": "烟草行业",
+      "count": 69
+    }
+  ],
+  "客户三级行业": [
+    {
+      "value": "科研与技服-未分组",
+      "count": 312
+    },
+    {
+      "value": "软件服务-未分组",
+      "count": 265
+    },
+    {
+      "value": "工程施工",
+      "count": 216
+    },
+    {
+      "value": "通用设备",
+      "count": 200
+    },
+    {
+      "value": "nan",
+      "count": 198
+    },
+    {
+      "value": "商务服务业-未分组",
+      "count": 180
+    },
+    {
+      "value": "汽车零部件",
+      "count": 168
+    },
+    {
+      "value": "专用设备",
+      "count": 147
+    },
+    {
+      "value": "【医药】医药制造",
+      "count": 146
+    },
+    {
+      "value": "电气设备",
+      "count": 143
+    },
+    {
+      "value": "精细化工",
+      "count": 141
+    },
+    {
+      "value": "家电3C",
+      "count": 135
+    },
+    {
+      "value": "精密电子",
+      "count": 127
+    },
+    {
+      "value": "酒业饮料",
+      "count": 95
+    },
+    {
+      "value": "其它消费-未分组",
+      "count": 88
+    },
+    {
+      "value": "建材制造",
+      "count": 85
+    },
+    {
+      "value": "交通装备",
+      "count": 84
+    },
+    {
+      "value": "石油与化工",
+      "count": 82
+    },
+    {
+      "value": "冶金加工",
+      "count": 80
+    },
+    {
+      "value": "发电",
+      "count": 77
+    }
+  ],
+  "合同ID": [
+    {
+      "value": "36178bf0-a91f-4f28-9ac9-7f3fbd2d0be1",
+      "count": 8
+    },
+    {
+      "value": "5e28c5da-1736-4a18-94ce-71d7d3a019a6",
+      "count": 8
+    },
+    {
+      "value": "b5d2104d-5053-4eaf-a148-3902dc3546f2",
+      "count": 8
+    },
+    {
+      "value": "c91d1799-63dc-41cc-86b8-4ba956c4a0f1",
+      "count": 8
+    },
+    {
+      "value": "a7759eab-a005-41ac-8f8e-d7241c90d771",
+      "count": 8
+    },
+    {
+      "value": "948e605c-b66e-4c53-97a5-5fa3e63915ec",
+      "count": 8
+    },
+    {
+      "value": "cd2afe0a-534e-4b70-af87-cb4016d2bde3",
+      "count": 8
+    },
+    {
+      "value": "36a31b28-e9fa-48a9-aa72-d6a6bbec623c",
+      "count": 8
+    },
+    {
+      "value": "d6764236-234d-46be-a07d-9e6065a206a1",
+      "count": 8
+    },
+    {
+      "value": "40ef65f4-5474-427d-909f-37049e37e55a",
+      "count": 8
+    },
+    {
+      "value": "f295dad9-e3b2-4464-b665-fc740707f377",
+      "count": 6
+    },
+    {
+      "value": "85ad2978-1b8c-44da-a273-c1407e17fff9",
+      "count": 6
+    },
+    {
+      "value": "4b67343a-2b8a-43ef-a77d-b643a2596678",
+      "count": 6
+    },
+    {
+      "value": "9ba09c3d-bada-4ec6-9ec1-3b207807430c",
+      "count": 6
+    },
+    {
+      "value": "94b6cdaa-7c8a-4247-8a6e-db4a8348ec0f",
+      "count": 6
+    },
+    {
+      "value": "eeae86e8-bdc3-4d28-b662-fcdd856e6e06",
+      "count": 6
+    },
+    {
+      "value": "1d3e998b-ba31-4b99-a123-ae9b51be42ae",
+      "count": 6
+    },
+    {
+      "value": "8603792d-c87a-41b2-9ce9-adfebbaceeef",
+      "count": 6
+    },
+    {
+      "value": "a08510c8-fdd4-4ef7-8b26-431a5e4ee113",
+      "count": 6
+    },
+    {
+      "value": "e73f5d23-e6e1-4723-aa68-701cc3c2e2e6",
+      "count": 6
+    }
+  ],
+  "合同名称": [
+    {
+      "value": "【自动创建】同等科技（柳钢供应商）的简道云公有云续费商机",
+      "count": 16
+    },
+    {
+      "value": "订单号:20250408152434728997991",
+      "count": 11
+    },
+    {
+      "value": "【自动创建】广州樊文花化妆品有限公司的简道云公有云续费商机2026",
+      "count": 8
+    },
+    {
+      "value": "久雀简道云机会",
+      "count": 8
+    },
+    {
+      "value": "简道云续费三年",
+      "count": 8
+    },
+    {
+      "value": "广钢账号续费+协作单位账号转正",
+      "count": 8
+    },
+    {
+      "value": "维珍妮简道云续费",
+      "count": 8
+    },
+    {
+      "value": "物流车辆低代码",
+      "count": 8
+    },
+    {
+      "value": "中国铁路成都局集团有限公司重庆车辆段\t高级功能临时授权",
+      "count": 8
+    },
+    {
+      "value": "【自动创建】意拉德电子（东莞）有限公司的简道云公有云续费商机",
+      "count": 8
+    },
+    {
+      "value": "工单管理系统",
+      "count": 6
+    },
+    {
+      "value": "蒙牛本地化机会",
+      "count": 6
+    },
+    {
+      "value": "中外运华东新购100人简道云",
+      "count": 6
+    },
+    {
+      "value": "浙江巴奥米特医药产品JDY年费",
+      "count": 6
+    },
+    {
+      "value": "泉峰汽车三年产品增购",
+      "count": 6
+    },
+    {
+      "value": "深圳市民乐管业有限公司的商机2023101214023",
+      "count": 6
+    },
+    {
+      "value": "【自动创建】巨人通力电梯有限公司的简道云公有云续费商机",
+      "count": 6
+    },
+    {
+      "value": "简道云本地化DG水电站",
+      "count": 6
+    },
+    {
+      "value": "25年续费",
+      "count": 6
+    },
+    {
+      "value": "紫江2025-2026简道云续费",
+      "count": 6
+    }
+  ],
+  "签单日期": [
+    {
+      "value": "2025-11-28 00:00:00",
+      "count": 72
+    },
+    {
+      "value": "2025-06-30 00:00:00",
+      "count": 58
+    },
+    {
+      "value": "2025-12-15 00:00:00",
+      "count": 42
+    },
+    {
+      "value": "2025-12-24 00:00:00",
+      "count": 39
+    },
+    {
+      "value": "2025-06-16 00:00:00",
+      "count": 38
+    },
+    {
+      "value": "2025-12-30 00:00:00",
+      "count": 37
+    },
+    {
+      "value": "2025-06-24 00:00:00",
+      "count": 35
+    },
+    {
+      "value": "2025-03-26 00:00:00",
+      "count": 34
+    },
+    {
+      "value": "2025-09-28 00:00:00",
+      "count": 32
+    },
+    {
+      "value": "2025-12-29 00:00:00",
+      "count": 32
+    },
+    {
+      "value": "2025-04-08 00:00:00",
+      "count": 31
+    },
+    {
+      "value": "2025-09-29 00:00:00",
+      "count": 31
+    },
+    {
+      "value": "2025-06-26 00:00:00",
+      "count": 30
+    },
+    {
+      "value": "2025-06-05 00:00:00",
+      "count": 29
+    },
+    {
+      "value": "2025-12-22 00:00:00",
+      "count": 28
+    },
+    {
+      "value": "2025-03-19 00:00:00",
+      "count": 28
+    },
+    {
+      "value": "2025-08-22 00:00:00",
+      "count": 27
+    },
+    {
+      "value": "2026-03-30 00:00:00",
+      "count": 26
+    },
+    {
+      "value": "2025-04-15 00:00:00",
+      "count": 26
+    },
+    {
+      "value": "2025-06-27 00:00:00",
+      "count": 26
+    }
+  ],
+  "是否Name客户": [
+    {
+      "value": "25年战区Name/26年战区Name",
+      "count": 2120
+    },
+    {
+      "value": "nan",
+      "count": 1393
+    },
+    {
+      "value": "25年战区Name",
+      "count": 1030
+    },
+    {
+      "value": "26年战区Name",
+      "count": 590
+    }
+  ],
+  "一级分类": [
+    {
+      "value": "产品",
+      "count": 4843
+    },
+    {
+      "value": "技术支持服务",
+      "count": 290
+    }
+  ],
+  "二级分类": [
+    {
+      "value": "公有云",
+      "count": 4295
+    },
+    {
+      "value": "nan",
+      "count": 278
+    },
+    {
+      "value": "常规服务",
+      "count": 248
+    },
+    {
+      "value": "本地化",
+      "count": 245
+    },
+    {
+      "value": "续服务",
+      "count": 42
+    },
+    {
+      "value": "私有云",
+      "count": 25
+    }
+  ],
+  "三级分类": [
+    {
+      "value": "新购",
+      "count": 1918
+    },
+    {
+      "value": "升级",
+      "count": 1494
+    },
+    {
+      "value": "续费",
+      "count": 750
+    },
+    {
+      "value": "云币",
+      "count": 403
+    },
+    {
+      "value": "基础售后服务",
+      "count": 283
+    },
+    {
+      "value": "nan",
+      "count": 283
+    },
+    {
+      "value": "高级售后服务-代运维服务包",
+      "count": 2
+    }
+  ],
+  "JDY销售额-D": [
+    {
+      "value": "0.0",
+      "count": 1496
+    },
+    {
+      "value": "5000.0",
+      "count": 85
+    },
+    {
+      "value": "10000.0",
+      "count": 74
+    },
+    {
+      "value": "1000.0",
+      "count": 70
+    },
+    {
+      "value": "2000.0",
+      "count": 61
+    },
+    {
+      "value": "5040.0",
+      "count": 61
+    },
+    {
+      "value": "500.0",
+      "count": 58
+    },
+    {
+      "value": "-0.5",
+      "count": 48
+    },
+    {
+      "value": "10950.0",
+      "count": 46
+    },
+    {
+      "value": "4880.0",
+      "count": 43
+    },
+    {
+      "value": "9800.0",
+      "count": 32
+    },
+    {
+      "value": "20000.0",
+      "count": 31
+    },
+    {
+      "value": "3000.0",
+      "count": 28
+    },
+    {
+      "value": "6000.0",
+      "count": 26
+    },
+    {
+      "value": "50000.0",
+      "count": 26
+    },
+    {
+      "value": "100000.0",
+      "count": 25
+    },
+    {
+      "value": "4000.0",
+      "count": 24
+    },
+    {
+      "value": "-0.4",
+      "count": 24
+    },
+    {
+      "value": "100.0",
+      "count": 22
+    },
+    {
+      "value": "30000.0",
+      "count": 21
+    }
+  ]
+}

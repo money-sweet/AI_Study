@@ -1,0 +1,71 @@
+--- 客户分部 唯一值 top10 ---
+客户分层
+未知      23256
+小腰客户    14341
+头部客户    13236
+尾部客户     7362
+大腰客户     2200
+
+--- 客户所属群英文 样本 ---
+北京大区-public
+Alexa.Lan-兰雯晴
+北京大区-public
+sibon-徐斌
+Alexa.Lan-兰雯晴
+Field.Tian-田野
+Alexa.Lan-兰雯晴
+北京大区-public
+John.Howe-庄志豪
+Yara.zhang-张凤英
+Patrick.C-陈家乐
+北京大区-public
+北京大区-public
+Patrick.C-陈家乐
+John.Howe-庄志豪
+Wayne.Ren-任慧博
+Wayne.Ren-任慧博
+Qari-秦冰清
+Halbert.Tang-唐汉超
+Vicent-王金涛
+
+--- 客户所属小群英文 样本 ---
+public-北京大区
+George.yu-于越
+public-北京大区
+sibon-徐斌
+George.yu-于越
+Field.Tian-田野
+George.yu-于越
+public-北京大区
+gavin-陆晓锋
+grace-刘姝彤
+vin-祁磊
+public-北京大区
+public-北京大区
+vin-祁磊
+gavin-陆晓锋
+gavin-陆晓锋
+gavin-陆晓锋
+grace-刘姝彤
+mattel-李虹达
+gavin-陆晓锋
+
+--- 列名 ---
+0: 公司ID
+1: 公司名称
+2: SP客群标签
+3: 客户分层
+4: 公司归属战区
+5: 责任销售小组中英文
+6: 责任销售中英文
+7: 责任售前中英文
+8: 客户一级行业
+9: 客户二级行业标签
+10: 客户三级行业标签
+11: 公司累计合同金额
+12: JDY合同额-总（非关联）
+13: JDY全量机会数
+14: JDY失败机会数
+15: JDY跟进中机会数
+16: 客户商务记录数
+17: JDY客户商务记录数

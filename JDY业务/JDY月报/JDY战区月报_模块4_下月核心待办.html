@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JDY战区月报 - 模块4 下月核心待办</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background: #f1f5f9; }
+  .card { background: white; border-radius: 12px; padding: 20px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+  .metric-card { padding: 16px; border-radius: 10px; text-align: center; }
+  .section-title { font-size: 16px; font-weight: 700; color: #1e293b; margin-bottom: 16px; display: flex; align-items: center; gap: 10px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { padding: 8px 10px; text-align: center; border-bottom: 1px solid #e2e8f0; }
+  th { background: #f8fafc; font-weight: 600; color: #475569; }
+  td:first-child, th:first-child { text-align: left; }
+  .up { color: #16a34a; font-weight: 600; }
+  .down { color: #dc2626; font-weight: 600; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 11px; font-weight: 600; }
+  .badge-green { background: #dcfce7; color: #166534; }
+  .badge-red { background: #fee2e2; color: #991b1b; }
+  .badge-yellow { background: #fef9c3; color: #854d0e; }
+  .badge-blue { background: #dbeafe; color: #1e40af; }
+  .cg-blue-light { background: #eff6ff; }
+  .cg-orange-light { background: #fff7ed; }
+  .cg-green-light { background: #f0fdf4; }
+  .cg-red-light { background: #fef2f2; }
+  .cg-purple-light { background: #faf5ff; }
+  .cg-gray-light { background: #f8fafc; }
+  .conclusion-box { border-radius: 8px; padding: 12px 16px; font-size: 13px; }
+  .todo-box { border-radius: 8px; padding: 12px 16px; border-left: 4px solid; margin-bottom: 10px; }
+  .todo-box-blue { border-color: #3b82f6; background: #eff6ff; }
+  .todo-box-green { border-color: #22c55e; background: #f0fdf4; }
+  .todo-box-red { border-color: #ef4444; background: #fef2f2; }
+  .todo-box-orange { border-color: #f97316; background: #fff7ed; }
+  .todo-box-purple { border-color: #a855f7; background: #faf5ff; }
+</style>
+</head>
+<body class="max-w-7xl mx-auto px-4 py-6 space-y-4">
+
+  <!-- 标题 -->
+  <div class="flex items-center justify-between mb-2">
+    <div>
+      <h1 class="text-2xl font-bold text-slate-800">JDY战区月报 — 模块4 下月核心待办</h1>
+      <p class="text-sm text-slate-500 mt-1">目标月份：2026年5月 | 基于模块1-3诊断结论制定</p>
+    </div>
+  </div>
+
+  <!-- 核心指标卡片 -->
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div class="card metric-card bg-blue-50 border border-blue-200">
+      <div class="text-sm text-blue-700 font-medium">5月跟进中商机</div>
+      <div class="text-2xl font-bold text-slate-800 mt-1">186个</div>
+      <div class="text-xs text-slate-500 mt-1">预计金额1,843.9万</div>
+    </div>
+    <div class="card metric-card bg-green-50 border border-green-200">
+      <div class="text-sm text-green-700 font-medium">5月到期续费</div>
+      <div class="text-2xl font-bold text-slate-800 mt-1">53家</div>
+      <div class="text-xs text-slate-500 mt-1">应续ARR 427.2万</div>
+    </div>
+    <div class="card metric-card bg-orange-50 border border-orange-200">
+      <div class="text-sm text-orange-700 font-medium">已关闭需排查</div>
+      <div class="text-2xl font-bold text-slate-800 mt-1">164个</div>
+      <div class="text-xs text-slate-500 mt-1">预计5月成交但已关闭</div>
+    </div>
+    <div class="card metric-card bg-red-50 border border-red-200">
+      <div class="text-sm text-red-700 font-medium">5月清理目标</div>
+      <div class="text-2xl font-bold text-slate-800 mt-1">1,000+</div>
+      <div class="text-xs text-slate-500 mt-1">超1年机会+失联客户</div>
+    </div>
+  </div>
+
+  <!-- 4.1 业绩冲刺待办 -->
+  <div class="card">
+    <div class="section-title">
+      <span class="w-8 h-8 rounded-lg bg-blue-100 text-blue-600 flex items-center justify-center text-sm font-bold">4.1</span>
+      业绩冲刺待办：5月跟进中商机盘点与重点推进
+    </div>
+
+    <div class="overflow-x-auto mb-4">
+      <table>
+        <colgroup><col><col span="3" class="cg-blue"><col span="2" class="cg-green"><col></colgroup>
+        <thead>
+          <tr>
+            <th>战区</th>
+            <th class="cg-blue-light">跟进中商机数</th><th class="cg-blue-light">预计金额（万）</th><th class="cg-blue-light">平均单额（万）</th>
+            <th class="cg-green-light">客户选定（碗里）</th><th class="cg-green-light">验证机会（锅里）</th><th class="cg-green-light">培育机会（田里）</th>
+            <th class="cg-orange-light">碗里金额（万）</th><th class="cg-orange-light">田里金额（万）</th>
+            <th>重点推进动作</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="font-medium">华中大区</td><td>17</td><td>542.6万</td><td>31.9</td><td>8</td><td>2</td><td>7</td><td>436.6万</td><td>91.0万</td><td class="text-xs text-left">17个商机543万，重点推进签约</td></tr>
+          <tr><td class="font-medium">浙闽大区</td><td>37</td><td>285.8万</td><td>7.7</td><td>14</td><td>10</td><td>13</td><td>107.9万</td><td>16.1万</td><td class="text-xs text-left">锂威100万+福建中烟81万必须拿下</td></tr>
+          <tr><td class="font-medium">北京大区</td><td>20</td><td>196.1万</td><td>9.8</td><td>7</td><td>6</td><td>7</td><td>105.0万</td><td>26.9万</td><td class="text-xs text-left">重点突破存量增购，激活新客</td></tr>
+          <tr><td class="font-medium">苏皖大区</td><td>24</td><td>193.2万</td><td>8.1</td><td>16</td><td>7</td><td>1</td><td>112.2万</td><td>10.0万</td><td class="text-xs text-left">推进苏盐/神马/诺威3个大单签约</td></tr>
+          <tr><td class="font-medium">上海大区</td><td>13</td><td>178.0万</td><td>13.7</td><td>5</td><td>4</td><td>4</td><td>127.0万</td><td>22.2万</td><td class="text-xs text-left">江原50万+中航光电子40万重点突破</td></tr>
+          <tr><td class="font-medium">西南大区</td><td>29</td><td>159.8万</td><td>5.5</td><td>15</td><td>5</td><td>9</td><td>94.7万</td><td>60.3万</td><td class="text-xs text-left">推进大单签约，扭转下滑趋势</td></tr>
+          <tr><td class="font-medium">华南大区</td><td>15</td><td>104.3万</td><td>7.0</td><td>4</td><td>5</td><td>6</td><td>19.2万</td><td>5.5万</td><td class="text-xs text-left">推进沃格/美宜佳/翰阳3个大单</td></tr>
+          <tr><td class="font-medium">华北大区</td><td>12</td><td>92.9万</td><td>7.7</td><td>4</td><td>8</td><td>0</td><td>7.7万</td><td>0.0万</td><td class="text-xs text-left">提升单客价值，突破大客</td></tr>
+          <tr><td class="font-medium">西北大区</td><td>18</td><td>88.3万</td><td>4.9</td><td>4</td><td>5</td><td>9</td><td>35.3万</td><td>13.5万</td><td class="text-xs text-left">大单持续跟进，确保西北高增长</td></tr>
+          <tr><td class="font-medium">东北大区</td><td>1</td><td>3.0万</td><td>3.0</td><td>0</td><td>1</td><td>0</td><td>0.0万</td><td>0.0万</td><td class="text-xs text-left">7个商机仅12万，需紧急拓新客</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+      <div class="todo-box todo-box-blue">
+        <div class="flex justify-between items-start">
+          <div>
+            <div class="text-sm font-bold text-slate-800">【华中大区】学习浙高运再增购10000个简道云账号</div>
+            <div class="text-xs text-slate-500 mt-1">江西省交通投资集团有限责任公司 | 客户选定 (碗里的)</div>
+          </div>
+          <div class="text-lg font-bold text-blue-700">300.0万</div>
+        </div>
+      </div>
+      <div class="todo-box todo-box-blue">
+        <div class="flex justify-between items-start">
+          <div>
+            <div class="text-sm font-bold text-slate-800">【浙闽大区】锂威-简道云</div>
+            <div class="text-xs text-slate-500 mt-1">浙江锂威能源科技有限公司 | 验证机会 (锅里的)</div>
+          </div>
+          <div class="text-lg font-bold text-blue-700">100.0万</div>
+        </div>
+      </div>
+      <div class="todo-box todo-box-blue">
+        <div class="flex justify-between items-start">
+          <div>
+            <div class="text-sm font-bold text-slate-800">【北京大区】中建材集团法人信息管理平台项目</div>
+            <div class="text-xs text-slate-500 mt-1">中建材资产管理有限公司 | 客户选定 (碗里的)</div>
+          </div>
+          <div class="text-lg font-bold text-blue-700">30.0万</div>
+        </div>
+      </div>
+      <div class="todo-box todo-box-blue">
+        <div class="flex justify-between items-start">
+          <div>
+            <div class="text-sm font-bold text-slate-800">【苏皖大区】苏盐第一战</div>
+            <div class="text-xs text-slate-500 mt-1">江苏省盐业集团有限责任公司 | 验证机会 (锅里的)</div>
+          </div>
+          <div class="text-lg font-bold text-blue-700">32.0万</div>
+        </div>
+      </div>
+      <div class="todo-box todo-box-blue">
+        <div class="flex justify-between items-start">
+          <div>
+            <div class="text-sm font-bold text-slate-800">【上海大区】江原简道云项目</div>
+            <div class="text-xs text-slate-500 mt-1">江原芯科技（上海）有限公司 | 客户选定 (碗里的)</div>
+          </div>
+          <div class="text-lg font-bold text-blue-700">50.0万</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="conclusion-box bg-blue-50 border border-blue-200 border-l-blue-500 text-slate-800">
+        <strong>整体复盘：</strong>5月跟进中商机186个/1,843.9万，其中合同签约阶段43个（可快速落单）、客户选定77个（重点攻关）、验证机会53个（需加速推进）、培育机会56个（需评估是否继续投入）。华中17个/542.6万平均单额最高（31.9万），浙闽37个/285.8万数量最多但平均仅7.7万——需重点筛选高价值商机。
+      </div>
+      <div class="conclusion-box bg-red-50 border border-red-200 border-l-red-500 text-slate-800">
+        <strong>紧急排查：</strong>164个预计5月成交的商机已关闭，涉及金额约1,068万。建议5月第一周完成排查——是客户推迟采购、竞品截胡、还是内部跟进失误？其中华南35个/78.4万、苏皖36个/309.7万、北京10个/26.5万关闭数量较多，需复盘关闭原因。
+      </div>
+    </div>
+  </div>
+
+  <!-- 4.2 续费保卫战待办 -->
+  <div class="card">
+    <div class="section-title">
+      <span class="w-8 h-8 rounded-lg bg-blue-100 text-blue-600 flex items-center justify-center text-sm font-bold">4.2</span>
+      续费保卫战待办：5月到期客户跟进与流失挽回
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
+      <div class="text-center p-3 bg-slate-50 rounded-lg">
+        <div class="text-xs text-slate-500">5月到期总数</div>
+        <div class="text-lg font-bold text-slate-800">53家</div>
+      </div>
+      <div class="text-center p-3 bg-green-50 rounded-lg border border-green-200">
+        <div class="text-xs text-green-600">已提前续约</div>
+        <div class="text-lg font-bold text-slate-800">12家</div>
+      </div>
+      <div class="text-center p-3 bg-red-50 rounded-lg border border-red-200">
+        <div class="text-xs text-red-600">待续约/已流失</div>
+        <div class="text-lg font-bold text-slate-800">41家</div>
+      </div>
+      <div class="text-center p-3 bg-slate-50 rounded-lg">
+        <div class="text-xs text-slate-500">应续ARR</div>
+        <div class="text-lg font-bold text-slate-800">427.2万</div>
+      </div>
+    </div>
+
+    <div class="overflow-x-auto mb-4">
+      <table>
+        <colgroup><col><col span="2" class="cg-gray"><col span="2" class="cg-green"><col span="2" class="cg-red"><col></colgroup>
+        <thead>
+          <tr>
+            <th>战区</th>
+            <th class="cg-gray-light">到期数</th><th class="cg-gray-light">应续ARR（万）</th>
+            <th class="cg-green-light">已续约</th><th class="cg-green-light">续约率</th>
+            <th class="cg-red-light">待续约</th><th class="cg-red-light">流失率</th>
+            <th>5月动作</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="font-medium">浙闽大区</td><td>8</td><td>106.5万</td><td>0</td><td class="text-red-600 font-bold">0.0%</td><td>8</td><td>100.0%</td><td class="text-xs text-left">8家/107万，4月续约率仅47.8%重点盯防</td></tr>
+          <tr><td class="font-medium">苏皖大区</td><td>14</td><td>87.3万</td><td>3</td><td class="text-red-600 font-bold">21.4%</td><td>11</td><td>78.6%</td><td class="text-xs text-left">14家/87万重点盯防，已流失需挽回</td></tr>
+          <tr><td class="font-medium">东北大区</td><td>2</td><td>58.0万</td><td>1</td><td class="">50.0%</td><td>1</td><td>50.0%</td><td class="text-xs text-left">2家/58万，大单续费重点保障</td></tr>
+          <tr><td class="font-medium">上海大区</td><td>6</td><td>48.0万</td><td>2</td><td class="text-red-600 font-bold">33.3%</td><td>4</td><td>66.7%</td><td class="text-xs text-left">6家/48万，保持100%续约</td></tr>
+          <tr><td class="font-medium">西南大区</td><td>6</td><td>40.2万</td><td>3</td><td class="">50.0%</td><td>3</td><td>50.0%</td><td class="text-xs text-left">6家/40万，4月续约率50%需关注</td></tr>
+          <tr><td class="font-medium">西北大区</td><td>3</td><td>31.3万</td><td>1</td><td class="text-red-600 font-bold">33.3%</td><td>2</td><td>66.7%</td><td class="text-xs text-left">3家/31万，保持100%续约</td></tr>
+          <tr><td class="font-medium">华中大区</td><td>4</td><td>22.9万</td><td>0</td><td class="text-red-600 font-bold">0.0%</td><td>4</td><td>100.0%</td><td class="text-xs text-left">4家/23万，4月续约率50%需关注</td></tr>
+          <tr><td class="font-medium">北京大区</td><td>4</td><td>18.7万</td><td>1</td><td class="text-red-600 font-bold">25.0%</td><td>3</td><td>75.0%</td><td class="text-xs text-left">4家/19万，正常推进</td></tr>
+          <tr><td class="font-medium">华北大区</td><td>4</td><td>12.2万</td><td>1</td><td class="text-red-600 font-bold">25.0%</td><td>3</td><td>75.0%</td><td class="text-xs text-left">4家/12万，4月续约率50%需关注</td></tr>
+          <tr><td class="font-medium">华南大区</td><td>2</td><td>2.0万</td><td>0</td><td class="text-red-600 font-bold">0.0%</td><td>2</td><td>100.0%</td><td class="text-xs text-left">2家/2万，低风险</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="conclusion-box bg-green-50 border border-green-200 border-l-green-500 text-slate-800">
+        <strong>续费目标：</strong>5月53家到期客户，应续ARR 427.2万。已提前续约12家，剩余41家需在5月完成续约或挽回。上海/西北/东北已100%续约，标杆经验可复盘复制。目标：5月底整体续约率达到<strong>85%</strong>（再续约33家），ARR回收率达到<strong>90%</strong>以上。
+      </div>
+      <div class="conclusion-box bg-red-50 border border-red-200 border-l-red-500 text-slate-800">
+        <strong>流失挽回：</strong>4月续约率不足60%的战区（浙闽47.8%、苏皖42.9%、西南50%、华北50%、华中50%）必须在5月重点盯防。浙闽8家/106.5万ARR最高，苏皖14家/87.3万数量最多——两战区续费专员需每周汇报进展。未续费原因大量"待补充"，5月必须强制要求销售填写真实流失原因，建立流失客户挽回SOP。
+      </div>
+    </div>
+  </div>
+
+  <!-- 4.4 商机清理待办 -->
+  <div class="card">
+    <div class="section-title">
+      <span class="w-8 h-8 rounded-lg bg-blue-100 text-blue-600 flex items-center justify-center text-sm font-bold">4.4</span>
+      商机清理待办：长期滞留 · 失联客户 · 培育停滞
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+      <div class="todo-box todo-box-red">
+        <div class="text-sm font-bold text-slate-800 mb-1">超1年未成交机会清理</div>
+        <div class="text-2xl font-bold text-red-700">462个</div>
+        <div class="text-xs text-slate-600 mt-1">涉及金额约4,495万（跟进中）</div>
+        <div class="text-xs text-slate-700 mt-2"><strong>5月目标：</strong>清理150个（关闭或推进至合同阶段），释放CRM资源。北京83个/华南103个/上海60个数量最多，优先清理。</div>
+      </div>
+      <div class="todo-box todo-box-orange">
+        <div class="text-sm font-bold text-slate-800 mb-1">3个月无商务记录客户激活</div>
+        <div class="text-2xl font-bold text-orange-700">1,149个</div>
+        <div class="text-xs text-slate-600 mt-1">涉及商机金额约8,000万（跟进中）</div>
+        <div class="text-xs text-slate-700 mt-2"><strong>5月目标：</strong>激活400个（产生至少1次商务记录），建立30天无跟进自动预警。上海186个/苏皖179个/华南226个/北京157个优先激活。</div>
+      </div>
+      <div class="todo-box todo-box-purple">
+        <div class="text-sm font-bold text-slate-800 mb-1">培育机会推进SOP</div>
+        <div class="text-2xl font-bold text-purple-700">1,212个</div>
+        <div class="text-xs text-slate-600 mt-1">长期停滞"田里"</div>
+        <div class="text-xs text-slate-700 mt-2"><strong>5月目标：</strong>300个推进至验证/选定阶段，剩余912个评估后关闭或转培育。华南241个/苏皖192个/北京167个/上海164个最多。</div>
+      </div>
+    </div>
+
+    <div class="overflow-x-auto mb-4">
+      <table>
+        <colgroup><col><col span="2" class="cg-red"><col span="2" class="cg-orange"><col span="1" class="cg-purple"><col></colgroup>
+        <thead>
+          <tr>
+            <th>战区</th>
+            <th class="cg-red-light">超1年机会</th><th class="cg-red-light">5月清理目标</th>
+            <th class="cg-orange-light">无商务商机</th><th class="cg-orange-light">5月激活目标</th>
+            <th class="cg-purple-light">培育停滞</th><th class="cg-purple-light">5月推进目标</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="font-medium">苏皖大区</td><td>52</td><td>10</td><td>179</td><td>45</td><td>192</td><td>96</td></tr>
+          <tr><td class="font-medium">华南大区</td><td>103</td><td>21</td><td>226</td><td>57</td><td>241</td><td>120</td></tr>
+          <tr><td class="font-medium">上海大区</td><td>60</td><td>12</td><td>186</td><td>47</td><td>164</td><td>82</td></tr>
+          <tr><td class="font-medium">浙闽大区</td><td>54</td><td>11</td><td>112</td><td>28</td><td>116</td><td>58</td></tr>
+          <tr><td class="font-medium">西北大区</td><td>23</td><td>5</td><td>34</td><td>9</td><td>70</td><td>35</td></tr>
+          <tr><td class="font-medium">北京大区</td><td>83</td><td>17</td><td>157</td><td>39</td><td>167</td><td>83</td></tr>
+          <tr><td class="font-medium">西南大区</td><td>26</td><td>5</td><td>85</td><td>21</td><td>72</td><td>36</td></tr>
+          <tr><td class="font-medium">华北大区</td><td>15</td><td>3</td><td>32</td><td>8</td><td>39</td><td>19</td></tr>
+          <tr><td class="font-medium">东北大区</td><td>17</td><td>3</td><td>39</td><td>10</td><td>46</td><td>23</td></tr>
+          <tr><td class="font-medium">华中大区</td><td>29</td><td>6</td><td>99</td><td>25</td><td>105</td><td>52</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="conclusion-box bg-slate-50 border border-slate-200 border-l-slate-500 text-slate-800">
+      <strong>整体复盘：</strong>商机池"虚胖"严重——9,062个总机会中已关闭6,902个（76%），跟进中2,160个但大量长期滞留。5月核心动作不是"新增更多商机"，而是<strong>清理无效商机、激活沉睡客户、推进培育机会</strong>。建议设立"商机健康度"指标：超1年机会占比<20%、30天无跟进占比<30%、培育机会占比<15%。当前三项指标均严重超标，需系统性治理。
+    </div>
+  </div>
+
+  <!-- 4.5 战区差异化待办 -->
+  <div class="card">
+    <div class="section-title">
+      <span class="w-8 h-8 rounded-lg bg-blue-100 text-blue-600 flex items-center justify-center text-sm font-bold">4.5</span>
+      各战区差异化待办：一梯队→四梯队
+    </div>
+
+    <!-- 一梯队 -->
+    <div class="mb-5">
+      <div class="text-sm font-bold text-slate-700 mb-2 border-b border-slate-200 pb-1">一梯队</div>
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+        <div class="todo-box todo-box-blue">
+          <div class="text-sm font-bold text-blue-800 mb-1">华南大区 | 新老均衡但Fine弱</div>
+          <div class="text-xs text-slate-700 space-y-1">
+            <div>• <strong>业绩冲刺：</strong>推进沃格30万/美宜佳21万/翰阳20万3个大单5月签约</div>
+            <div>• <strong>新客获取：</strong>4月线索202条环比-29.6%，需提升A+&A线索占比（当前47%）</div>
+            <div>• <strong>Fine转化：</strong>推新仅2.3%，5月至少激活3-5家Fine客户JD化</div>
+          </div>
+        </div>
+        <div class="todo-box todo-box-blue">
+          <div class="text-sm font-bold text-blue-800 mb-1">上海大区 | 存量依赖加深</div>
+          <div class="text-xs text-slate-700 space-y-1">
+            <div>• <strong>大单突破：</strong>江原50万+中航光电子40万必须5月落单，占跟进中金额52%</div>
+            <div>• <strong>新客破冰：</strong>新客占比从49%暴跌至16.4%，5月新客公司数目标≥8家</div>
+            <div>• <strong>续费深耕：</strong>6家到期/48万ARR，保持100%续约标杆</div>
+          </div>
+        </div>
+        <div class="todo-box todo-box-blue">
+          <div class="text-sm font-bold text-blue-800 mb-1">北京大区 | 新增枯竭</div>
+          <div class="text-xs text-slate-700 space-y-1">
+            <div>• <strong>新客破冰：</strong>新客仅1.1%，5月必须新增≥3家新客公司</div>
+            <div>• <strong>存量深挖：</strong>20个跟进中商机196万，平均9.8万，推进至合同签约</div>
+            <div>• <strong>结构优化：</strong>买断占比从53.6%降至12.1%，需恢复大单突破能力</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 二梯队 -->
+    <div class="mb-5">
+      <div class="text-sm font-bold text-slate-700 mb-2 border-b border-slate-200 pb-1">二梯队</div>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <div class="todo-box todo-box-green">
+          <div class="text-sm font-bold text-green-800 mb-1">苏皖大区 | 结构最优</div>
+          <div class="text-xs text-slate-700 space-y-1">
+            <div>• <strong>大单冲刺：</strong>苏盐32万+神马25.6万+诺威25万5月落单，确保 structure 领先</div>
+            <div>• <strong>低价管控：</strong>1笔低价买断，需建立大单价格审批机制</div>
+            <div>• <strong>续费盯防：</strong>14家到期/87万，4月续约率42.9%需重点挽回</div>
+          </div>
+        </div>
+        <div class="todo-box todo-box-green">
+          <div class="text-sm font-bold text-green-800 mb-1">浙闽大区 | 吃老本型</div>
+          <div class="text-xs text-slate-700 space-y-1">
+            <div>• <strong>大单突破：</strong>锂威100万+福建中烟81万是5月业绩支柱，必须拿下</div>
+            <div>• <strong>续费保卫战：</strong>8家到期/106.5万+4月续约率47.8%，续费专员全月盯防</div>
+            <div>• <strong>新客激活：</strong>新客仅8.6%，5月目标新增≥5家新客</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 三梯队 -->
+    <div class="mb-5">
+      <div class="text-sm font-bold text-slate-700 mb-2 border-b border-slate-200 pb-1">三梯队</div>
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+        <div class="todo-box todo-box-orange">
+          <div class="text-sm font-bold text-orange-800 mb-1">西南大区 | Fine转化空白</div>
+          <div class="text-xs text-slate-700 space-y-1">
+            <div>• <strong>Fine激活：</strong>Fine+从8.2%跌至0%，5月至少转化2-3家Fine客户</div>
+            <div>• <strong>业绩冲刺：</strong>29个跟进中/159.8万，平均5.5万，需筛选高价值推进</div>
+            <div>• <strong>续费关注：</strong>6家到期/40万，4月续约率50%需提升</div>
+          </div>
+        </div>
+        <div class="todo-box todo-box-orange">
+          <div class="text-sm font-bold text-orange-800 mb-1">华北大区 | 广种薄收型</div>
+          <div class="text-xs text-slate-700 space-y-1">
+            <div>• <strong>提质：</strong>平均合同额1.86万最低，5月目标≥3万（聚焦中大客户）</div>
+            <div>• <strong>续费：</strong>4家到期/12万+4月续约率50%，存量留存需加强</div>
+            <div>• <strong>商机清理：</strong>475个超1年/525个失联，5月清理目标200+</div>
+          </div>
+        </div>
+        <div class="todo-box todo-box-orange">
+          <div class="text-sm font-bold text-orange-800 mb-1">华中大区 | 全面倒退</div>
+          <div class="text-xs text-slate-700 space-y-1">
+            <div>• <strong>大单突破：</strong>17个跟进中/542.6万，平均31.9万十大战区最高，5月至少签约3个大单</div>
+            <div>• <strong>续费挽回：</strong>4家到期/23万+4月续约率50%，需专项挽回</div>
+            <div>• <strong>线索质量：</strong>4月仅31条线索，需提升线索获取量</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 四梯队 -->
+    <div class="mb-5">
+      <div class="text-sm font-bold text-slate-700 mb-2 border-b border-slate-200 pb-1">四梯队</div>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <div class="todo-box todo-box-red">
+          <div class="text-sm font-bold text-red-800 mb-1">西北大区 | 大单驱动型</div>
+          <div class="text-xs text-slate-700 space-y-1">
+            <div>• <strong>大单持续：</strong>18个跟进中/88.3万，平均4.9万，需保持大单节奏</div>
+            <div>• <strong>Fine恢复：</strong>Fine+从10.4%跌至1.5%，5月恢复Fine客户跟进</div>
+            <div>• <strong>续费保持：</strong>3家到期/31万，保持100%续约</div>
+          </div>
+        </div>
+        <div class="todo-box todo-box-red">
+          <div class="text-sm font-bold text-red-800 mb-1">东北大区 | 纯续费驱动</div>
+          <div class="text-xs text-slate-700 space-y-1">
+            <div>• <strong>新客破冰：</strong>7个跟进中仅12.2万，5月必须新增≥3家新客</div>
+            <div>• <strong>大单突破：</strong>公有云100%+买断0%，需突破本地化/买断大单</div>
+            <div>• <strong>续费保障：</strong>2家到期/58万，确保100%续约+ARR不流失</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
