@@ -4,19 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>JDY战区月报</title>
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
 <script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
 <style>
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background: #f1f5f9; }
-  .nav-fixed { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba(255,255,255,0.95); backdrop-filter: blur(8px); border-bottom: 1px solid #e2e8f0; }
-  .module-section { background: white; border-radius: 12px; margin-bottom: 24px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); padding: 24px; }
-  .nav-btn { padding: 6px 14px; border-radius: 6px; font-size: 13px; font-weight: 500; transition: all 0.2s; white-space: nowrap; text-decoration: none; cursor: pointer; border: none; background: transparent; }
-  .nav-btn:hover { background: #e2e8f0; }
-  .nav-btn.active { background: #3b82f6; color: white; }
-</style>
-<style>
-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; background: #f3f4f6; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; background: #f3f4f6; }
   .card { background: white; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); padding: 20px; margin-bottom: 16px; }
   .tab-active { border-bottom: 3px solid #3b82f6; color: #1d4ed8; font-weight: 600; }
   .tab-inactive { color: #6b7280; }
@@ -45,173 +36,27 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC'
   .conclusion-box strong { font-size: 15px; }
   .compact-table th { padding: 6px 8px; font-size: 12px; }
   .compact-table td { padding: 5px 8px; font-size: 12px; }
+  .nav-fixed { position: fixed; top: 0; left: 0; right: 0; z-index: 50; background: white; border-bottom: 1px solid #e2e8f0; }
+  .nav-btn { padding: 6px 12px; border-radius: 6px; font-size: 14px; white-space: nowrap; cursor: pointer; border: none; background: transparent; transition: all 0.2s; }
+  .nav-btn:hover { background: #f1f5f9; }
+  .nav-btn.active { background: #dbeafe; color: #1e40af; font-weight: 600; }
 </style>
 
-<style>
-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; background: #f3f4f6; }
-  .card { background: white; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); padding: 20px; margin-bottom: 16px; }
-  .tab-active { border-bottom: 3px solid #3b82f6; color: #1d4ed8; font-weight: 600; }
-  .tab-inactive { color: #6b7280; }
-  .tab-inactive:hover { color: #374151; }
-  .metric-card { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 4px solid #0ea5e9; }
-  .warning { background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 100%); border-left: 4px solid #f97316; }
-  .danger { background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%); border-left: 4px solid #ef4444; }
-  .success { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid #22c55e; }
-  table { border-collapse: collapse; width: 100%; }
-  th { background: #f8fafc; font-weight: 600; text-align: left; padding: 10px 12px; font-size: 13px; color: #475569; border-bottom: 1px solid #e2e8f0; }
-  td { padding: 10px 12px; font-size: 13px; border-bottom: 1px solid #f1f5f9; }
-  tr:hover td { background: #f8fafc; }
-  .up { color: #16a34a; }
-  .down { color: #dc2626; }
-  .section-title { font-size: 18px; font-weight: 700; color: #1e293b; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
-  .badge { display: inline-flex; align-items: center; padding: 2px 8px; border-radius: 9999px; font-size: 11px; font-weight: 600; }
-  .badge-blue { background: #dbeafe; color: #1e40af; }
-  .badge-green { background: #dcfce7; color: #166534; }
-  .badge-red { background: #fee2e2; color: #991b1b; }
-  .badge-yellow { background: #fef3c7; color: #92400e; }
-  .badge-orange { background: #ffedd5; color: #9a3412; }
-  .badge-gray { background: #f3f4f6; color: #374151; }
-  .badge-purple { background: #f3e8ff; color: #6b21a8; }
-  .conclusion-box { font-size: 14px; line-height: 1.6; padding: 12px 16px; border-radius: 8px; border-left-width: 4px; }
-  .conclusion-box strong { font-size: 15px; }
-  .compact-table th { padding: 6px 8px; font-size: 12px; }
-  .compact-table td { padding: 5px 8px; font-size: 12px; }
-  .zone-card { border-radius: 10px; padding: 16px; margin-bottom: 12px; }
-  .zone-good { background: #f0fdf4; border: 1px solid #bbf7d0; }
-  .zone-warn { background: #fffbeb; border: 1px solid #fde68a; }
-  .zone-risk { background: #fef2f2; border: 1px solid #fecaca; }
-  /* table column grouping styles */
-  .cg-base { }
-  .cg-blue { background: #eff6ff; }
-  .cg-blue-light { background: #dbeafe; }
-  .cg-green { background: #f0fdf4; }
-  .cg-green-light { background: #dcfce7; }
-  .cg-purple { background: #faf5ff; }
-  .cg-purple-light { background: #f3e8ff; }
-  .cg-orange { background: #fff7ed; }
-  .cg-orange-light { background: #ffedd5; }
-  .cg-red { background: #fef2f2; }
-  .cg-red-light { background: #fee2e2; }
-  .cg-gray { background: #f8fafc; }
-  .cg-gray-light { background: #f1f5f9; }
-  .cg-yellow { background: #fefce8; }
-  .cg-yellow-light { background: #fef9c3; }
-</style>
-
-<style>
-body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background: #f1f5f9; }
-  .card { background: white; border-radius: 12px; padding: 20px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
-  .metric-card { padding: 16px; border-radius: 10px; text-align: center; }
-  .section-title { font-size: 16px; font-weight: 700; color: #1e293b; margin-bottom: 16px; display: flex; align-items: center; gap: 10px; }
-  table { width: 100%; border-collapse: collapse; font-size: 13px; }
-  th, td { padding: 8px 10px; text-align: center; border-bottom: 1px solid #e2e8f0; }
-  th { background: #f8fafc; font-weight: 600; color: #475569; }
-  td:first-child, th:first-child { text-align: left; }
-  .up { color: #16a34a; font-weight: 600; }
-  .down { color: #dc2626; font-weight: 600; }
-  .badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 11px; font-weight: 600; }
-  .badge-green { background: #dcfce7; color: #166534; }
-  .badge-red { background: #fee2e2; color: #991b1b; }
-  .badge-yellow { background: #fef9c3; color: #854d0e; }
-  .badge-blue { background: #dbeafe; color: #1e40af; }
-  .cg-blue-light { background: #eff6ff; }
-  .cg-orange-light { background: #fff7ed; }
-  .cg-green-light { background: #f0fdf4; }
-  .cg-red-light { background: #fef2f2; }
-  .cg-purple-light { background: #faf5ff; }
-  .cg-gray-light { background: #f8fafc; }
-  .cg-yellow-light { background: #fefce8; }
-  .conclusion-box { border-radius: 8px; padding: 12px 16px; font-size: 13px; }
-  .chart-container { position: relative; height: 300px; margin-bottom: 8px; }
-  .chart-container-sm { position: relative; height: 240px; margin-bottom: 8px; }
-</style>
-
-<style>
-body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background: #f1f5f9; }
-  .card { background: white; border-radius: 12px; padding: 20px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
-  .metric-card { padding: 16px; border-radius: 10px; text-align: center; }
-  .section-title { font-size: 16px; font-weight: 700; color: #1e293b; margin-bottom: 16px; display: flex; align-items: center; gap: 10px; }
-  table { width: 100%; border-collapse: collapse; font-size: 13px; }
-  th, td { padding: 8px 10px; text-align: center; border-bottom: 1px solid #e2e8f0; }
-  th { background: #f8fafc; font-weight: 600; color: #475569; }
-  td:first-child, th:first-child { text-align: left; }
-  .up { color: #16a34a; font-weight: 600; }
-  .down { color: #dc2626; font-weight: 600; }
-  .badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 11px; font-weight: 600; }
-  .badge-green { background: #dcfce7; color: #166534; }
-  .badge-red { background: #fee2e2; color: #991b1b; }
-  .badge-yellow { background: #fef9c3; color: #854d0e; }
-  .badge-blue { background: #dbeafe; color: #1e40af; }
-  .cg-blue-light { background: #eff6ff; }
-  .cg-orange-light { background: #fff7ed; }
-  .cg-green-light { background: #f0fdf4; }
-  .cg-red-light { background: #fef2f2; }
-  .cg-purple-light { background: #faf5ff; }
-  .cg-gray-light { background: #f8fafc; }
-  .conclusion-box { border-radius: 8px; padding: 12px 16px; font-size: 13px; }
-  .todo-box { border-radius: 8px; padding: 12px 16px; border-left: 4px solid; margin-bottom: 10px; }
-  .todo-box-blue { border-color: #3b82f6; background: #eff6ff; }
-  .todo-box-green { border-color: #22c55e; background: #f0fdf4; }
-  .todo-box-red { border-color: #ef4444; background: #fef2f2; }
-  .todo-box-orange { border-color: #f97316; background: #fff7ed; }
-  .todo-box-purple { border-color: #a855f7; background: #faf5ff; }
-</style>
-
-<style>
-body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background: #f1f5f9; }
-  .card { background: white; border-radius: 12px; padding: 20px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
-  .metric-card { padding: 16px; border-radius: 10px; text-align: center; }
-  .section-title { font-size: 16px; font-weight: 700; color: #1e293b; margin-bottom: 16px; display: flex; align-items: center; gap: 10px; }
-  table { width: 100%; border-collapse: collapse; font-size: 13px; }
-  th, td { padding: 8px 10px; text-align: center; border-bottom: 1px solid #e2e8f0; }
-  th { background: #f8fafc; font-weight: 600; color: #475569; }
-  td:first-child, th:first-child { text-align: left; }
-  .badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 11px; font-weight: 600; }
-  .badge-green { background: #dcfce7; color: #166534; }
-  .badge-blue { background: #dbeafe; color: #1e40af; }
-  .badge-purple { background: #f3e8ff; color: #7e22ce; }
-  .badge-orange { background: #ffedd5; color: #c2410c; }
-  .badge-red { background: #fee2e2; color: #991b1b; }
-  .conclusion-box { border-radius: 8px; padding: 12px 16px; font-size: 13px; }
-  .star { color: #f59e0b; font-size: 14px; }
-  .has-biz { color: #16a34a; font-weight: 600; }
-  .no-biz { color: #94a3b8; }
-  .has-opp { color: #2563eb; cursor: pointer; text-decoration: underline; }
-  .industry-card { background: white; border-radius: 10px; padding: 16px; border: 1px solid #e2e8f0; }
-  .ind-header { font-size: 15px; font-weight: 700; color: #1e293b; margin-bottom: 12px; padding-bottom: 10px; border-bottom: 2px solid #e2e8f0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 4px; }
-  .two-col { display: grid; grid-template-columns: 1fr; gap: 20px; }
-  @media (min-width: 1024px) { .two-col { grid-template-columns: 2fr 3fr; } }
-  .right-table { min-width: 580px; }
-  .right-table th, .right-table td { white-space: nowrap; }
-  /* Modal */
-  .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 50; justify-content: center; align-items: center; }
-  .modal-overlay.active { display: flex; }
-  .modal-content { background: white; border-radius: 12px; width: 90%; max-width: 800px; max-height: 80vh; overflow: hidden; display: flex; flex-direction: column; }
-  .modal-header { padding: 16px 20px; border-bottom: 1px solid #e2e8f0; display: flex; justify-content: space-between; align-items: center; }
-  .modal-body { padding: 16px 20px; overflow-y: auto; flex: 1; }
-  .modal-close { cursor: pointer; font-size: 20px; color: #64748b; }
-  .modal-close:hover { color: #1e293b; }
-  .opp-row { padding: 10px; border-radius: 8px; margin-bottom: 8px; background: #f8fafc; }
-  .opp-row:last-child { margin-bottom: 0; }
-</style>
-</head>
 <body>
-<div class="nav-fixed">
-  <div class="max-w-7xl mx-auto px-4 py-3 flex items-center gap-2 overflow-x-auto">
-    <span class="text-sm font-bold text-slate-800 mr-2 whitespace-nowrap">JDY战区月报</span>
-    <button class="nav-btn text-slate-600" data-target="module1">业绩完成&机会概况</button>
-    <button class="nav-btn text-slate-600" data-target="module2">模块2 经营结构诊断</button>
-    <button class="nav-btn text-slate-600" data-target="module3">模块3 本月跟进复盘</button>
-    <button class="nav-btn text-slate-600" data-target="module4">模块4 下月核心待办</button>
-      </div>
-</div>
-<div style="height: 56px;"></div>
+  <div class="nav-fixed">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center gap-2 overflow-x-auto">
+      <span class="text-sm font-bold text-slate-800 mr-2 whitespace-nowrap">JDY战区月报</span>
+      <button class="nav-btn text-slate-600" data-target="module1">业绩完成&机会概况</button>
+      <button class="nav-btn text-slate-600" data-target="module2">模块2 经营结构诊断</button>
+      <button class="nav-btn text-slate-600" data-target="module3">模块3 本月跟进复盘</button>
+      <button class="nav-btn text-slate-600" data-target="module4">模块4 下月核心待办</button>
+    </div>
+  </div>
+  <div style="height: 56px;"></div>
 <div class="max-w-7xl mx-auto px-4 py-6">
 <section id="module1" class="module-section" style="display: block;">
-  <div class="flex items-center gap-2 mb-4">
-    <span class="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-sm font-bold">1</span>
-    <h2 class="text-lg font-bold text-slate-800">业绩完成&机会概况</h2>
-  </div>
+
+
   <!-- 核心指标总览 -->
   <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
     <div class="card metric-card">
@@ -278,23 +123,24 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helv
         <thead>
           <tr>
             <th>战区</th><th>梯队</th><th>销售额-D</th><th>全年目标</th>
-            <th>目标完成率</th><th>25年同期</th><th>年同比</th><th>机会概率金额</th><th>预估全年完成率</th><th>26年大单数（20w以上）</th><th>大单合同总额</th><th>风险评估</th>
+            <th>目标完成率</th><th>25年同期</th><th>年同比</th><th>机会概率金额</th><th>预估全年完成率</th><th>26年大单数（20w以上）<br><span class="text-xs text-red-500 font-normal">点击数值可查看详情</span></th><th>大单合同总额</th><th>风险评估</th>
           </tr>
         </thead>
         <tbody>
-          <tr><td class="font-medium">苏皖大区</td><td><span class="badge badge-yellow">二梯队</span></td><td class="font-semibold text-green-600">549.9</td><td>2,300</td><td><span class="font-semibold text-green-600">23.91%</span></td><td>373.0</td><td><span class="font-semibold text-green-600"><span class="up">▲</span> +47.4%</span></td><td>1,157.2</td><td><span class="font-semibold text-yellow-600">74.2%</span></td><td><a href="javascript:void(0)" onclick="showBigOrderModal('苏皖大区')" class="text-blue-600 hover:underline font-bold">8</a></td><td class="font-semibold text-green-600">349.1</td><td><span class="badge badge-green">领先</span></td></tr>
-          <tr><td class="font-medium">华南大区</td><td><span class="badge badge-blue">一梯队</span></td><td class="font-semibold text-slate-800">347.8</td><td>2,300</td><td><span class="font-semibold text-yellow-600">15.12%</span></td><td>628.0</td><td><span class="font-semibold text-red-600"><span class="down">▼</span> -44.6%</span></td><td>957.7</td><td><span class="font-semibold text-red-600">56.8%</span></td><td><a href="javascript:void(0)" onclick="showBigOrderModal('华南大区')" class="text-blue-600 hover:underline font-bold">6</a></td><td class="font-semibold text-slate-800">194.9</td><td><span class="badge badge-red">落后</span></td></tr>
-          <tr><td class="font-medium">上海大区</td><td><span class="badge badge-blue">一梯队</span></td><td class="font-semibold text-slate-800">337.4</td><td>1,650</td><td><span class="font-semibold text-green-600">20.45%</span></td><td>283.0</td><td><span class="font-semibold text-green-600"><span class="up">▲</span> +19.1%</span></td><td>725.9</td><td><span class="font-semibold text-red-600">64.4%</span></td><td><a href="javascript:void(0)" onclick="showBigOrderModal('上海大区')" class="text-blue-600 hover:underline font-bold">3</a></td><td class="font-semibold text-slate-800">176.5</td><td><span class="badge badge-green">领先</span></td></tr>
-          <tr><td class="font-medium">浙闽大区</td><td><span class="badge badge-yellow">二梯队</span></td><td class="font-semibold text-slate-800">332.8</td><td>2,400</td><td><span class="font-semibold text-red-600">13.87%</span></td><td>334.0</td><td><span class="font-semibold text-red-600"><span class="down">▼</span> -0.5%</span></td><td>1,128.9</td><td><span class="font-semibold text-red-600">60.9%</span></td><td><a href="javascript:void(0)" onclick="showBigOrderModal('浙闽大区')" class="text-blue-600 hover:underline font-bold">1</a></td><td class="font-semibold text-red-600">20.5</td><td><span class="badge badge-yellow">持平</span></td></tr>
-          <tr><td class="font-medium">西北大区</td><td><span class="badge badge-gray">四梯队</span></td><td class="font-semibold text-green-600">405.0</td><td>800</td><td><span class="font-semibold text-green-600">50.62%</span></td><td>156.0</td><td><span class="font-semibold text-green-600"><span class="up">▲</span> +159.6%</span></td><td>647.6</td><td><span class="font-semibold text-green-600">131.6%</span></td><td><a href="javascript:void(0)" onclick="showBigOrderModal('西北大区')" class="text-blue-600 hover:underline font-bold">5</a></td><td class="font-semibold text-green-600">284.0</td><td><span class="badge badge-green">领先</span></td></tr>
-          <tr><td class="font-medium">北京大区</td><td><span class="badge badge-blue">一梯队</span></td><td class="font-semibold text-slate-800">250.8</td><td>2,100</td><td><span class="font-semibold text-red-600">11.94%</span></td><td>324.0</td><td><span class="font-semibold text-red-600"><span class="down">▼</span> -22.6%</span></td><td>1,020.0</td><td><span class="font-semibold text-red-600">60.5%</span></td><td><a href="javascript:void(0)" onclick="showBigOrderModal('北京大区')" class="text-blue-600 hover:underline font-bold">2</a></td><td class="font-semibold text-slate-800">83.4</td><td><span class="badge badge-red">落后</span></td></tr>
-          <tr><td class="font-medium">西南大区</td><td><span class="badge badge-orange">三梯队</span></td><td class="font-semibold text-slate-800">240.9</td><td>1,650</td><td><span class="font-semibold text-red-600">14.60%</span></td><td>379.0</td><td><span class="font-semibold text-red-600"><span class="down">▼</span> -36.4%</span></td><td>668.7</td><td><span class="font-semibold text-red-600">55.1%</span></td><td><a href="javascript:void(0)" onclick="showBigOrderModal('西南大区')" class="text-blue-600 hover:underline font-bold">4</a></td><td class="font-semibold text-slate-800">138.0</td><td><span class="badge badge-red">落后</span></td></tr>
-          <tr><td class="font-medium">华北大区</td><td><span class="badge badge-orange">三梯队</span></td><td class="font-semibold text-slate-800">150.4</td><td>1,492</td><td><span class="font-semibold text-red-600">10.08%</span></td><td>164.0</td><td><span class="font-semibold text-red-600"><span class="down">▼</span> -8.3%</span></td><td>513.0</td><td><span class="font-semibold text-red-600">44.5%</span></td><td><a href="javascript:void(0)" onclick="showBigOrderModal('华北大区')" class="text-blue-600 hover:underline font-bold">2</a></td><td class="font-semibold text-slate-800">65.7</td><td><span class="badge badge-yellow">持平</span></td></tr>
-          <tr><td class="font-medium">东北大区</td><td><span class="badge badge-gray">四梯队</span></td><td class="font-semibold text-red-600">81.5</td><td>450</td><td><span class="font-semibold text-yellow-600">18.12%</span></td><td>67.0</td><td><span class="font-semibold text-green-600"><span class="up">▲</span> +21.5%</span></td><td>336.1</td><td><span class="font-semibold text-yellow-600">92.8%</span></td><td><a href="javascript:void(0)" onclick="showBigOrderModal('东北大区')" class="text-blue-600 hover:underline font-bold">1</a></td><td class="font-semibold text-red-600">25.0</td><td><span class="badge badge-green">领先</span></td></tr>
-          <tr><td class="font-medium">华中大区</td><td><span class="badge badge-orange">三梯队</span></td><td class="font-semibold text-red-600">61.8</td><td>1,000</td><td><span class="font-semibold text-red-600">6.18%</span></td><td>94.0</td><td><span class="font-semibold text-red-600"><span class="down">▼</span> -34.0%</span></td><td>1,073.9</td><td><span class="font-semibold text-green-600">113.6%</span></td><td><a href="javascript:void(0)" onclick="showBigOrderModal('华中大区')" class="text-blue-600 hover:underline font-bold">2</a></td><td class="font-semibold text-red-600">41.4</td><td><span class="badge badge-red">落后</span></td></tr>
+          <tr><td class="font-medium">苏皖大区</td><td><span class="badge badge-yellow">二梯队</span></td><td class="font-semibold text-green-600">549.9</td><td>2,300</td><td><span class="font-semibold text-green-600">23.91%</span></td><td>373.0</td><td><span class="font-semibold text-green-600"><span class="up">▲</span> +47.4%</span></td><td>1,157.2</td><td><span class="font-semibold text-yellow-600">74.2%</span></td><td><a href="javascript:void(0)" onclick="showBigOrderModal('苏皖大区')" class="text-blue-600 underline font-bold">8</a></td><td class="font-semibold text-green-600">349.1</td><td><span class="badge badge-green">领先</span></td></tr>
+          <tr><td class="font-medium">华南大区</td><td><span class="badge badge-blue">一梯队</span></td><td class="font-semibold text-slate-800">347.8</td><td>2,300</td><td><span class="font-semibold text-yellow-600">15.12%</span></td><td>628.0</td><td><span class="font-semibold text-red-600"><span class="down">▼</span> -44.6%</span></td><td>957.7</td><td><span class="font-semibold text-red-600">56.8%</span></td><td><a href="javascript:void(0)" onclick="showBigOrderModal('华南大区')" class="text-blue-600 underline font-bold">6</a></td><td class="font-semibold text-slate-800">194.9</td><td><span class="badge badge-red">落后</span></td></tr>
+          <tr><td class="font-medium">上海大区</td><td><span class="badge badge-blue">一梯队</span></td><td class="font-semibold text-slate-800">337.4</td><td>1,650</td><td><span class="font-semibold text-green-600">20.45%</span></td><td>283.0</td><td><span class="font-semibold text-green-600"><span class="up">▲</span> +19.1%</span></td><td>725.9</td><td><span class="font-semibold text-red-600">64.4%</span></td><td><a href="javascript:void(0)" onclick="showBigOrderModal('上海大区')" class="text-blue-600 underline font-bold">3</a></td><td class="font-semibold text-slate-800">176.5</td><td><span class="badge badge-green">领先</span></td></tr>
+          <tr><td class="font-medium">浙闽大区</td><td><span class="badge badge-yellow">二梯队</span></td><td class="font-semibold text-slate-800">332.8</td><td>2,400</td><td><span class="font-semibold text-red-600">13.87%</span></td><td>334.0</td><td><span class="font-semibold text-red-600"><span class="down">▼</span> -0.5%</span></td><td>1,128.9</td><td><span class="font-semibold text-red-600">60.9%</span></td><td><a href="javascript:void(0)" onclick="showBigOrderModal('浙闽大区')" class="text-blue-600 underline font-bold">1</a></td><td class="font-semibold text-red-600">20.5</td><td><span class="badge badge-yellow">持平</span></td></tr>
+          <tr><td class="font-medium">西北大区</td><td><span class="badge badge-gray">四梯队</span></td><td class="font-semibold text-green-600">405.0</td><td>800</td><td><span class="font-semibold text-green-600">50.62%</span></td><td>156.0</td><td><span class="font-semibold text-green-600"><span class="up">▲</span> +159.6%</span></td><td>647.6</td><td><span class="font-semibold text-green-600">131.6%</span></td><td><a href="javascript:void(0)" onclick="showBigOrderModal('西北大区')" class="text-blue-600 underline font-bold">5</a></td><td class="font-semibold text-green-600">284.0</td><td><span class="badge badge-green">领先</span></td></tr>
+          <tr><td class="font-medium">北京大区</td><td><span class="badge badge-blue">一梯队</span></td><td class="font-semibold text-slate-800">250.8</td><td>2,100</td><td><span class="font-semibold text-red-600">11.94%</span></td><td>324.0</td><td><span class="font-semibold text-red-600"><span class="down">▼</span> -22.6%</span></td><td>1,020.0</td><td><span class="font-semibold text-red-600">60.5%</span></td><td><a href="javascript:void(0)" onclick="showBigOrderModal('北京大区')" class="text-blue-600 underline font-bold">2</a></td><td class="font-semibold text-slate-800">83.4</td><td><span class="badge badge-red">落后</span></td></tr>
+          <tr><td class="font-medium">西南大区</td><td><span class="badge badge-orange">三梯队</span></td><td class="font-semibold text-slate-800">240.9</td><td>1,650</td><td><span class="font-semibold text-red-600">14.60%</span></td><td>379.0</td><td><span class="font-semibold text-red-600"><span class="down">▼</span> -36.4%</span></td><td>668.7</td><td><span class="font-semibold text-red-600">55.1%</span></td><td><a href="javascript:void(0)" onclick="showBigOrderModal('西南大区')" class="text-blue-600 underline font-bold">4</a></td><td class="font-semibold text-slate-800">138.0</td><td><span class="badge badge-red">落后</span></td></tr>
+          <tr><td class="font-medium">华北大区</td><td><span class="badge badge-orange">三梯队</span></td><td class="font-semibold text-slate-800">150.4</td><td>1,492</td><td><span class="font-semibold text-red-600">10.08%</span></td><td>164.0</td><td><span class="font-semibold text-red-600"><span class="down">▼</span> -8.3%</span></td><td>513.0</td><td><span class="font-semibold text-red-600">44.5%</span></td><td><a href="javascript:void(0)" onclick="showBigOrderModal('华北大区')" class="text-blue-600 underline font-bold">2</a></td><td class="font-semibold text-slate-800">65.7</td><td><span class="badge badge-yellow">持平</span></td></tr>
+          <tr><td class="font-medium">东北大区</td><td><span class="badge badge-gray">四梯队</span></td><td class="font-semibold text-red-600">81.5</td><td>450</td><td><span class="font-semibold text-yellow-600">18.12%</span></td><td>67.0</td><td><span class="font-semibold text-green-600"><span class="up">▲</span> +21.5%</span></td><td>336.1</td><td><span class="font-semibold text-yellow-600">92.8%</span></td><td><a href="javascript:void(0)" onclick="showBigOrderModal('东北大区')" class="text-blue-600 underline font-bold">1</a></td><td class="font-semibold text-red-600">25.0</td><td><span class="badge badge-green">领先</span></td></tr>
+          <tr><td class="font-medium">华中大区</td><td><span class="badge badge-orange">三梯队</span></td><td class="font-semibold text-red-600">61.8</td><td>1,000</td><td><span class="font-semibold text-red-600">6.18%</span></td><td>94.0</td><td><span class="font-semibold text-red-600"><span class="down">▼</span> -34.0%</span></td><td>1,073.9</td><td><span class="font-semibold text-green-600">113.6%</span></td><td><a href="javascript:void(0)" onclick="showBigOrderModal('华中大区')" class="text-blue-600 underline font-bold">2</a></td><td class="font-semibold text-red-600">41.4</td><td><span class="badge badge-red">落后</span></td></tr>
         </tbody>
       </table>
     </div>
+
 
     <div class="mt-6 bg-slate-50 rounded-lg p-4">
       <div class="text-sm font-semibold text-slate-700 mb-3">梯队对比分析</div>
@@ -337,98 +183,40 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helv
       <span class="w-8 h-8 rounded-lg bg-blue-100 text-blue-600 flex items-center justify-center text-sm font-bold">1.2</span>
       机会概况
     </div>
-    <div class="grid grid-cols-1 gap-6">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
       <div>
         <div class="text-xs font-semibold text-slate-600 mb-1 text-center">图1.2-1 机会缺口与概率金额分布</div>
         <div id="chart4" class="chart-container"></div>
+      </div>
+      <div>
+        <div class="text-xs font-semibold text-slate-600 mb-1 text-center">图1.2-2 机会概率金额客户类型分布</div>
+        <div id="chart5" class="chart-container"></div>
       </div>
     </div>
     <div class="mt-6 overflow-x-auto">
       <table>
         <thead>
-          <tr><th>战区</th><th>当前完成额（万）</th><th>机会概率金额（万）</th><th>预测完成额（万）</th><th>全年目标（万）</th><th>预计全年完成率</th><th>机会缺口（万）</th><th>风险等级</th></tr>
+          <tr><th>战区</th><th>机会缺口（万）</th><th>签单转化率</th><th>26年平均合同额（万）</th><th>需创建机会数</th><th>缺口难度</th></tr>
         </thead>
         <tbody>
-          <tr><td class="font-medium">华中大区</td><td>61.8</td><td>1,073.9</td><td>1,135.7</td><td>1,000</td><td><span class="up font-bold">113.6%</span></td><td><span class="up">-135.7</span></td><td><span class="badge badge-green">无忧</span></td></tr>
-          <tr><td class="font-medium">西北大区</td><td>405.0</td><td>647.6</td><td>1,052.6</td><td>800</td><td><span class="up font-bold">131.6%</span></td><td><span class="up">-252.6</span></td><td><span class="badge badge-green">无忧</span></td></tr>
-          <tr><td class="font-medium">东北大区</td><td>81.5</td><td>336.1</td><td>417.6</td><td>450</td><td><span class="up font-bold">92.8%</span></td><td>32.4</td><td><span class="badge badge-yellow">关注</span></td></tr>
-          <tr><td class="font-medium">苏皖大区</td><td>549.9</td><td>1,157.2</td><td>1,707.1</td><td>2,300</td><td>74.2%</td><td>593.0</td><td><span class="badge badge-yellow">关注</span></td></tr>
-          <tr><td class="font-medium">上海大区</td><td>337.4</td><td>725.9</td><td>1,063.3</td><td>1,650</td><td>64.4%</td><td>586.7</td><td><span class="badge badge-yellow">关注</span></td></tr>
-          <tr><td class="font-medium">浙闽大区</td><td>332.8</td><td>1,128.9</td><td>1,461.7</td><td>2,400</td><td>60.9%</td><td>938.3</td><td><span class="badge badge-red">风险</span></td></tr>
-          <tr><td class="font-medium">北京大区</td><td>250.8</td><td>1,020.0</td><td>1,270.8</td><td>2,100</td><td>60.5%</td><td>829.2</td><td><span class="badge badge-red">风险</span></td></tr>
-          <tr><td class="font-medium">华南大区</td><td>347.8</td><td>957.7</td><td>1,305.5</td><td>2,300</td><td>56.8%</td><td>994.5</td><td><span class="badge badge-red">风险</span></td></tr>
-          <tr><td class="font-medium">西南大区</td><td>240.9</td><td>668.7</td><td>909.6</td><td>1,650</td><td>55.1%</td><td>740.4</td><td><span class="badge badge-red">风险</span></td></tr>
-          <tr><td class="font-medium">华北大区</td><td>150.4</td><td>513.0</td><td>663.4</td><td>1,492</td><td>44.5%</td><td>828.5</td><td><span class="badge badge-red">高风险</span></td></tr>
+          <tr><td class="font-medium">华南大区</td><td class="font-bold text-red-600">994.5</td><td>35.6%</td><td>3.48</td><td><span class="font-bold text-red-600">803</span></td><td><span class="badge badge-red">高</span></td></tr>
+          <tr><td class="font-medium">浙闽大区</td><td class="font-bold text-red-600">938.3</td><td>47.8%</td><td>3.11</td><td><span class="font-bold text-orange-600">631</span></td><td><span class="badge badge-red">高</span></td></tr>
+          <tr><td class="font-medium">北京大区</td><td class="font-bold text-red-600">829.2</td><td>45.3%</td><td>3.34</td><td><span class="font-bold text-orange-600">548</span></td><td><span class="badge badge-orange">中高</span></td></tr>
+          <tr><td class="font-medium">华北大区</td><td class="font-bold text-red-600">828.5</td><td>33.4%</td><td>1.86</td><td><span class="font-bold text-red-600">1,334</span></td><td><span class="badge badge-red">极高</span></td></tr>
+          <tr><td class="font-medium">西南大区</td><td class="font-bold text-orange-600">740.4</td><td>47.9%</td><td>4.08</td><td><span class="font-bold text-orange-600">379</span></td><td><span class="badge badge-yellow">中等</span></td></tr>
+          <tr><td class="font-medium">苏皖大区</td><td class="font-bold text-yellow-600">593.0</td><td>36.8%</td><td>6.79</td><td><span class="font-bold text-green-600">237</span></td><td><span class="badge badge-green">较低</span></td></tr>
+          <tr><td class="font-medium">上海大区</td><td class="font-bold text-orange-600">586.7</td><td>46.5%</td><td>4.02</td><td><span class="font-bold text-yellow-600">314</span></td><td><span class="badge badge-yellow">中等</span></td></tr>
+          <tr><td class="font-medium">东北大区</td><td class="font-bold text-yellow-600">32.4</td><td>43.9%</td><td>4.08</td><td><span class="font-bold text-green-600">18</span></td><td><span class="badge badge-green">低</span></td></tr>
+          <tr><td class="font-medium">华中大区</td><td><span class="up text-green-600 font-bold">-135.7</span></td><td>41.9%</td><td>1.67</td><td><span class="font-bold text-green-600">0</span></td><td><span class="badge badge-green">无忧</span></td></tr>
+          <tr><td class="font-medium">西北大区</td><td><span class="up text-green-600 font-bold">-252.6</span></td><td>53.0%</td><td>8.62</td><td><span class="font-bold text-green-600">0</span></td><td><span class="badge badge-green">无忧</span></td></tr>
         </tbody>
       </table>
     </div>
-    <div class="mt-3 text-xs text-slate-500">
-      <p>* 机会概率金额 = 碗里(×0.8) + 锅里(×0.5) + 田里(×0.2)；田里机会可能存在管理水分，需结合机会创建时间和最近商务记录判断真实性。</p>
+    <div class="mt-3 p-3 bg-orange-50 rounded text-xs text-orange-800">
+      <strong>关键发现：</strong>
+      <span class="font-bold">华北大区缺口最大且难度最高</span>：平均合同额仅1.86万（十大战区最低），转化率仅33.4%（最低），意味着需创建1,334个新机会才能弥补828.5万缺口，任务量相当于其他战区的2-4倍。
+      <span class="font-bold">苏皖大区虽然缺口593万，但因平均合同额高达6.79万（十大战区最高），仅需创建237个机会即可弥补</span>，难度显著低于华南（803个）和浙闽（631个）。
     </div>
-
-    <!-- 缺口拆解：按合同额与转化率推算需创建机会数 -->
-    <div class="mt-6">
-      <div class="text-sm font-semibold text-slate-700 mb-3">缺口拆解：按平均合同额与转化率推算需创建机会数</div>
-      <p class="text-xs text-slate-500 mb-3">推算逻辑：需创建机会数 = 缺口金额 ÷ 平均合同额 ÷ 签单转化率。数据来源：业绩明细（1-4月平均合同额）、机会明细（历史签单转化率）。</p>
-      <div class="overflow-x-auto">
-        <table>
-          <thead>
-            <tr>
-              <th>战区</th><th>机会缺口（万）</th><th>平均合同额（万）</th><th>签单转化率</th>
-              <th>需新签合同数</th><th>需创建机会数</th><th>缺口难度</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="font-medium">华北大区</td><td class="font-bold text-red-600">828.5</td><td>1.86</td><td>33.4%</td><td>445</td><td><span class="font-bold text-red-600">1,334</span></td>
-              <td><span class="badge badge-red">极高</span></td>
-            </tr>
-            <tr>
-              <td class="font-medium">华南大区</td><td class="font-bold text-red-600">994.5</td><td>3.48</td><td>35.6%</td><td>286</td><td><span class="font-bold text-red-600">803</span></td>
-              <td><span class="badge badge-red">高</span></td>
-            </tr>
-            <tr>
-              <td class="font-medium">浙闽大区</td><td class="font-bold text-red-600">938.3</td><td>3.11</td><td>47.8%</td><td>302</td><td><span class="font-bold text-orange-600">631</span></td>
-              <td><span class="badge badge-red">高</span></td>
-            </tr>
-            <tr>
-              <td class="font-medium">北京大区</td><td class="font-bold text-orange-600">829.2</td><td>3.34</td><td>45.3%</td><td>248</td><td><span class="font-bold text-orange-600">548</span></td>
-              <td><span class="badge badge-orange">中高</span></td>
-            </tr>
-            <tr>
-              <td class="font-medium">西南大区</td><td class="font-bold text-orange-600">740.4</td><td>4.08</td><td>47.9%</td><td>181</td><td><span class="font-bold text-orange-600">379</span></td>
-              <td><span class="badge badge-yellow">中等</span></td>
-            </tr>
-            <tr>
-              <td class="font-medium">上海大区</td><td class="font-bold text-orange-600">586.7</td><td>4.02</td><td>46.5%</td><td>146</td><td><span class="font-bold text-yellow-600">314</span></td>
-              <td><span class="badge badge-yellow">中等</span></td>
-            </tr>
-            <tr>
-              <td class="font-medium">苏皖大区</td><td class="font-bold text-yellow-600">593.0</td><td>6.79</td><td>36.8%</td><td>87</td><td><span class="font-bold text-green-600">237</span></td>
-              <td><span class="badge badge-green">较低</span></td>
-            </tr>
-            <tr>
-              <td class="font-medium">东北大区</td><td class="font-bold text-yellow-600">32.4</td><td>4.08</td><td>43.9%</td><td>8</td><td><span class="font-bold text-green-600">18</span></td>
-              <td><span class="badge badge-green">低</span></td>
-            </tr>
-            <tr>
-              <td class="font-medium">华中大区</td><td><span class="up">-135.7</span></td><td>1.67</td><td>41.9%</td><td>0</td><td>0</td>
-              <td><span class="badge badge-green">无忧</span></td>
-            </tr>
-            <tr>
-              <td class="font-medium">西北大区</td><td><span class="up">-252.6</span></td><td>8.62</td><td>53.0%</td><td>0</td><td>0</td>
-              <td><span class="badge badge-green">无忧</span></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="mt-3 p-3 bg-orange-50 rounded text-xs text-orange-800">
-        <strong>关键发现：</strong>
-        <span class="font-bold">华北大区缺口最大且难度最高</span>：平均合同额仅1.86万（十大战区最低），转化率仅33.4%（最低），意味着需创建1,334个新机会才能弥补828.5万缺口，任务量相当于其他战区的2-4倍。
-        <span class="font-bold">苏皖大区虽然缺口593万，但因平均合同额高达6.79万（十大战区最高），仅需创建237个机会即可弥补</span>，难度显著低于华南（803个）和浙闽（631个）。
-      </div>
-    </div>
-  </div>
 
   
 <script>
@@ -460,7 +248,7 @@ chart2.setOption({
   grid: { left: '3%', right: '3%', bottom: '15%', top: '10%', containLabel: true },
   xAxis: { type: 'category', data: zones, axisLabel: { rotate: 30, fontSize: 11 } },
   yAxis: { type: 'value', name: '同比增长率（%）', axisLabel: { formatter: '{value}%' } },
-  series: [{ type: 'bar', data: yoy.map((v, i) => ({ value: v, itemStyle: { color: yoyColors[i], borderRadius: v >= 0 ? [4,4,0,0] : [0,0,4,4] } })), barWidth: '50%', label: { show: true, position: 'top', formatter: '{c}%', fontSize: 10, color: '#333' } }]
+  series: [{ type: 'bar', data: yoy.map((v, i) => ({ value: v, itemStyle: { color: yoyColors[i], borderRadius: v >= 0 ? [4,4,0,0] : [0,0,4,4] } })), barWidth: '50%', label: { show: true, position: 'top', formatter: '{c}%', fontSize: 10, color: '#666' } }]
 });
 
 const chart3 = echarts.init(document.getElementById('chart3'));
@@ -481,21 +269,37 @@ chart4.setOption({
   xAxis: { type: 'category', data: zones, axisLabel: { rotate: 30, fontSize: 11 } },
   yAxis: { type: 'value', name: '金额（万）' },
   series: [
-    { name: '机会概率金额', type: 'bar', stack: 'total', data: probAmount, itemStyle: { color: '#3b82f6' }, barWidth: '40%' },
-    { name: '机会缺口', type: 'bar', data: gap.map(v => v > 0 ? v : 0), itemStyle: { color: '#ef4444' }, barWidth: '40%' }
+    { name: '机会概率金额', type: 'bar', stack: 'total', data: probAmount, itemStyle: { color: '#3b82f6' }, barWidth: '40%', label: { show: true, position: 'top', fontSize: 10, color: '#3b82f6', formatter: '{c}' } },
+    { name: '机会缺口', type: 'bar', data: gap.map(v => v > 0 ? v : 0), itemStyle: { color: '#ef4444' }, barWidth: '40%', label: { show: true, position: 'top', fontSize: 10, color: '#ef4444', formatter: '{c}' } }
   ]
 });
 
-window.addEventListener('resize', () => { chart1.resize(); chart2.resize(); chart3.resize(); chart4.resize(); });
-// 图1.1-1, 图1.1-2, 图1.1-3, 图1.2-1
+const chart5 = echarts.init(document.getElementById('chart5'));
+const newCustRate = [19.7, 25.7, 16.4, 8.6, 21.7, 1.1, 9.5, 62.6, 6.7, 2.5];
+const oldCustRate = [38.9, 72.0, 80.1, 85.3, 76.8, 95.6, 90.5, 32.7, 93.3, 94.4];
+const fineCustRate = [41.4, 2.3, 3.5, 6.0, 1.5, 3.2, 0.0, 4.7, 0.0, 3.1];
+chart5.setOption({
+  tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' } },
+  legend: { data: ['JDY新客', 'JDY老客', 'Fine+老客推新'], bottom: 0 },
+  grid: { left: '3%', right: '3%', bottom: '15%', top: '10%', containLabel: true },
+  xAxis: { type: 'category', data: zones, axisLabel: { rotate: 30, fontSize: 11 } },
+  yAxis: { type: 'value', name: '金额（万）' },
+  series: [
+    { name: 'JDY新客', type: 'bar', stack: 'total', data: probAmount.map((v, i) => +(v * newCustRate[i] / 100).toFixed(1)), itemStyle: { color: '#3b82f6' }, barWidth: '50%' },
+    { name: 'JDY老客', type: 'bar', stack: 'total', data: probAmount.map((v, i) => +(v * oldCustRate[i] / 100).toFixed(1)), itemStyle: { color: '#22c55e' }, barWidth: '50%' },
+    { name: 'Fine+老客推新', type: 'bar', stack: 'total', data: probAmount.map((v, i) => +(v * fineCustRate[i] / 100).toFixed(1)), itemStyle: { color: '#f59e0b' }, barWidth: '50%' }
+  ]
+});
+
+window.addEventListener('resize', () => { chart1.resize(); chart2.resize(); chart3.resize(); chart4.resize(); chart5.resize(); });
 </script>
 </section>
 
 <section id="module2" class="module-section" style="display: none;">
-  <div class="flex items-center gap-2 mb-4">
-    <span class="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-sm font-bold">2</span>
-    <h2 class="text-lg font-bold text-slate-800">模块2：经营结构诊断</h2>
-  </div>
+
+
+
+
   <!-- 核心指标总览 -->
   <div class="grid grid-cols-2 md:grid-cols-5 gap-4 mb-6">
     <div class="card metric-card">
@@ -1134,13 +938,18 @@ window.addEventListener('resize', () => { chart1.resize(); chart2.resize(); char
       </div>
     </div>
   </div>
+
 </section>
 
 <section id="module3" class="module-section" style="display: none;">
-  <div class="flex items-center gap-2 mb-4">
-    <span class="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-sm font-bold">3</span>
-    <h2 class="text-lg font-bold text-slate-800">模块3 本月跟进复盘</h2>
+<!-- 标题 -->
+  <div class="flex items-center justify-between mb-2">
+    <div>
+      <h1 class="text-2xl font-bold text-slate-800">JDY战区月报 — 模块3 本月跟进复盘</h1>
+      <p class="text-sm text-slate-500 mt-1">分析周期：2026年4月 | 对比周期：2026年3月</p>
+    </div>
   </div>
+
   <!-- 核心指标卡片 -->
   <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
     <div class="card metric-card bg-blue-50 border border-blue-200">
@@ -1411,108 +1220,17 @@ window.addEventListener('resize', () => { chart1.resize(); chart2.resize(); char
   </div>
 
   <!-- Chart.js Scripts -->
-  <script>
-  const cd = {"zones": ["苏皖大区", "华南大区", "上海大区", "浙闽大区", "西北大区", "北京大区", "西南大区", "华北大区", "东北大区", "华中大区"], "biz_records_m3": [455, 247, 318, 408, 413, 338, 156, 316, 99, 223], "biz_records_m4": [459, 248, 212, 369, 309, 231, 151, 256, 85, 177], "biz_customers_m3": [315, 183, 237, 314, 266, 239, 116, 202, 69, 147], "biz_customers_m4": [308, 189, 152, 279, 195, 180, 107, 159, 67, 133], "biz_seg_labels": ["JDY新客", "JDY老客", "Fine+老客推新"], "biz_seg_m3": [1733, 652, 588], "biz_seg_m4": [1421, 591, 485], "lead_zones": ["苏皖大区", "华南大区", "上海大区", "浙闽大区", "西北大区", "北京大区", "西南大区", "华北大区", "东北大区", "华中大区"], "lead_count_m3": [79, 287, 71, 102, 328, 91, 90, 125, 115, 43], "lead_count_m4": [77, 202, 66, 100, 327, 81, 100, 128, 129, 31], "lead_a_rate_m3": [68.4, 46.7, 74.6, 65.7, 20.1, 73.6, 62.2, 56.8, 28.7, 74.4], "lead_a_rate_m4": [59.7, 47.0, 48.5, 60.0, 9.8, 46.9, 50.0, 56.2, 23.3, 64.5], "renew_zones": ["上海大区", "西北大区", "东北大区", "华南大区", "北京大区", "西南大区", "华北大区", "华中大区", "浙闽大区", "苏皖大区"], "renew_total": [7, 3, 2, 6, 8, 8, 6, 2, 23, 7], "renew_renewed": [7, 3, 2, 5, 6, 4, 3, 1, 11, 3], "renew_rate": [100.0, 100.0, 100.0, 83.3, 75.0, 50.0, 50.0, 50.0, 47.8, 42.9], "old_opp_by_zone": {"上海大区": 564, "东北大区": 131, "北京大区": 525, "华中大区": 286, "华北大区": 475, "华南大区": 885, "浙闽大区": 742, "苏皖大区": 613, "西北大区": 227, "西南大区": 406}, "no_biz_by_zone": {"上海大区": 807, "东北大区": 155, "北京大区": 631, "华中大区": 377, "华北大区": 525, "华南大区": 1138, "浙闽大区": 759, "苏皖大区": 872, "西北大区": 235, "西南大区": 458}, "tian_by_zone": {"上海大区": 164, "东北大区": 46, "北京大区": 167, "华中大区": 105, "华北大区": 39, "华南大区": 241, "浙闽大区": 116, "苏皖大区": 192, "西北大区": 70, "西南大区": 72}};
-  const commonOptions = {
-    responsive: true, maintainAspectRatio: false,
-    plugins: { legend: { position: 'top', labels: { font: { size: 11 } } } },
-    scales: { y: { beginAtZero: true, grid: { color: '#f1f5f9' } }, x: { grid: { display: false } } }
-  };
-
-  // 3.1 商务记录数
-  new Chart(document.getElementById('chartBizRecords'), {
-    type: 'bar',
-    data: {
-      labels: cd.zones,
-      datasets: [
-        { label: '3月', data: cd.biz_records_m3, backgroundColor: '#94a3b8', borderRadius: 4 },
-        { label: '4月', data: cd.biz_records_m4, backgroundColor: '#3b82f6', borderRadius: 4 }
-      ]
-    },
-    options: commonOptions
-  });
-
-  // 3.1 客群分布
-  new Chart(document.getElementById('chartBizSegment'), {
-    type: 'bar',
-    data: {
-      labels: cd.biz_seg_labels,
-      datasets: [
-        { label: '3月', data: cd.biz_seg_m3, backgroundColor: '#94a3b8', borderRadius: 4 },
-        { label: '4月', data: cd.biz_seg_m4, backgroundColor: '#10b981', borderRadius: 4 }
-      ]
-    },
-    options: commonOptions
-  });
-
-  // 3.2 线索数量
-  new Chart(document.getElementById('chartLeadCount'), {
-    type: 'bar',
-    data: {
-      labels: cd.lead_zones,
-      datasets: [
-        { label: '3月', data: cd.lead_count_m3, backgroundColor: '#94a3b8', borderRadius: 4 },
-        { label: '4月', data: cd.lead_count_m4, backgroundColor: '#3b82f6', borderRadius: 4 }
-      ]
-    },
-    options: commonOptions
-  });
-
-  // 3.2 线索质量占比
-  new Chart(document.getElementById('chartLeadQuality'), {
-    type: 'bar',
-    data: {
-      labels: cd.lead_zones,
-      datasets: [
-        { label: '3月A+&A占比%', data: cd.lead_a_rate_m3, backgroundColor: '#94a3b8', borderRadius: 4 },
-        { label: '4月A+&A占比%', data: cd.lead_a_rate_m4, backgroundColor: '#f59e0b', borderRadius: 4 }
-      ]
-    },
-    options: { ...commonOptions, scales: { ...commonOptions.scales, y: { beginAtZero: true, max: 100, grid: { color: '#f1f5f9' } } } }
-  });
-
-  // 3.3 续约情况
-  new Chart(document.getElementById('chartRenew'), {
-    type: 'bar',
-    data: {
-      labels: cd.renew_zones,
-      datasets: [
-        { label: '到期客户数', data: cd.renew_total, backgroundColor: '#e2e8f0', borderRadius: 4 },
-        { label: '已续约数', data: cd.renew_renewed, backgroundColor: '#22c55e', borderRadius: 4 },
-        { label: '续约率%', type: 'line', data: cd.renew_rate, borderColor: '#dc2626', backgroundColor: '#dc2626', pointRadius: 4, yAxisID: 'y1' }
-      ]
-    },
-    options: {
-      ...commonOptions,
-      scales: {
-        x: { grid: { display: false } },
-        y: { beginAtZero: true, grid: { color: '#f1f5f9' }, position: 'left' },
-        y1: { beginAtZero: true, max: 110, position: 'right', grid: { display: false }, ticks: { callback: v => v + '%' } }
-      }
-    }
-  });
-
-  // 3.4 跟进问题
-  new Chart(document.getElementById('chartIssues'), {
-    type: 'bar',
-    data: {
-      labels: cd.zones,
-      datasets: [
-        { label: '超1年机会', data: cd.zones.map(z => cd.old_opp_by_zone ? cd.old_opp_by_zone[z] : 0), backgroundColor: '#ef4444', borderRadius: 4 },
-        { label: '3月无商务', data: cd.zones.map(z => cd.no_biz_by_zone ? cd.no_biz_by_zone[z] : 0), backgroundColor: '#f97316', borderRadius: 4 },
-        { label: '培育停滞', data: cd.zones.map(z => cd.tian_by_zone ? cd.tian_by_zone[z] : 0), backgroundColor: '#eab308', borderRadius: 4 }
-      ]
-    },
-    options: commonOptions
-  });
-  </script>
 </section>
 
 <section id="module4" class="module-section" style="display: none;">
-  <div class="flex items-center gap-2 mb-4">
-    <span class="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-sm font-bold">4</span>
-    <h2 class="text-lg font-bold text-slate-800">模块4 下月核心待办</h2>
+<!-- 标题 -->
+  <div class="flex items-center justify-between mb-2">
+    <div>
+      <h1 class="text-2xl font-bold text-slate-800">JDY战区月报 — 模块4 下月核心待办</h1>
+      <p class="text-sm text-slate-500 mt-1">目标月份：2026年5月 | 基于模块1-3诊断结论制定</p>
+    </div>
   </div>
+
   <!-- 核心指标卡片 -->
   <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
     <div class="card metric-card bg-blue-50 border border-blue-200">
@@ -1866,28 +1584,11 @@ window.addEventListener('resize', () => { chart1.resize(); chart2.resize(); char
       </div>
     </div>
   </div>
-</section>
-
 
 </div>
-<script>
-function showModule(moduleId) {
-  document.querySelectorAll('.module-section').forEach(sec => sec.style.display = 'none');
-  document.getElementById(moduleId).style.display = 'block';
-  document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
-  document.querySelector('.nav-btn[data-target="' + moduleId + '"]').classList.add('active');
-}
-document.querySelectorAll('.nav-btn').forEach(btn => {
-  btn.addEventListener('click', function() {
-    showModule(this.dataset.target);
-  });
-});
-document.addEventListener('DOMContentLoaded', function() {
-  const firstNav = document.querySelector('.nav-btn');
-  if (firstNav) firstNav.classList.add('active');
-});
-</script>
+</section>
 
+</div>
 <!-- 大单详情Modal -->
 <div id="bigOrderModal" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);z-index:100;justify-content:center;align-items:center;">
   <div style="background:white;border-radius:12px;width:90%;max-width:900px;max-height:85vh;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 20px 25px -5px rgba(0,0,0,0.1);">
@@ -1898,8 +1599,6 @@ document.addEventListener('DOMContentLoaded', function() {
     <div style="padding:16px 20px;overflow-y:auto;flex:1;" id="modalBody"></div>
   </div>
 </div>
-
-
 <script>
 function showBigOrderModal(zone) {
   const modal = document.getElementById('bigOrderModal');
@@ -1929,7 +1628,23 @@ function closeBigOrderModal() {
 document.getElementById('bigOrderModal').addEventListener('click', function(e) {
   if (e.target === this) closeBigOrderModal();
 });
-
+</script>
+<script>
+function showModule(moduleId) {
+  document.querySelectorAll('.module-section').forEach(el => el.style.display = 'none');
+  document.getElementById(moduleId).style.display = 'block';
+  document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
+  document.querySelector('.nav-btn[data-target="' + moduleId + '"]').classList.add('active');
+}
+document.querySelectorAll('.nav-btn').forEach(btn => {
+  btn.addEventListener('click', function() {
+    showModule(this.dataset.target);
+  });
+});
+document.addEventListener('DOMContentLoaded', function() {
+  const firstNav = document.querySelector('.nav-btn');
+  if (firstNav) firstNav.classList.add('active');
+});
 </script>
 </body>
 </html>
