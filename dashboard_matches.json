@@ -1,0 +1,222 @@
+[
+  {
+    "entry": "新产品经营分析看板-Kitty.Qian",
+    "base": "新产品经营分析看板",
+    "matches": [
+      {
+        "reportId": "e1bedf43284a4a449db07f21fd7e4e48",
+        "name": "新产品经营分析",
+        "initTime": 1764835667493,
+        "lastUpdateTime": 0,
+        "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+        "watermark": true
+      },
+      {
+        "reportId": "fe575b65ebca47d7994f4e15b082fe34",
+        "name": "经营分析",
+        "initTime": 1731639372260,
+        "lastUpdateTime": 0,
+        "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+        "watermark": true
+      }
+    ]
+  },
+  {
+    "entry": "JDY作战地图-Kitty.Qian",
+    "base": "JDY作战地图",
+    "matches": [
+      {
+        "reportId": "54b7a8ec09c344c8806a8401d6208dc1",
+        "name": "JDY",
+        "initTime": 1768546731462,
+        "lastUpdateTime": 0,
+        "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+        "watermark": true
+      },
+      {
+        "reportId": "600d4353b3a24f03b223510d8dc76b8d",
+        "name": "JDY",
+        "initTime": 1725456752310,
+        "lastUpdateTime": 0,
+        "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+        "watermark": true
+      }
+    ]
+  },
+  {
+    "entry": "新产品作战地图(迭代中)-Kitty.Qian",
+    "base": "新产品作战地图(迭代中)",
+    "matches": [
+      {
+        "reportId": "7b9a499bc2674f0cb7b7f1db141a3002",
+        "name": "新产品作战地图",
+        "initTime": 1762247461322,
+        "lastUpdateTime": 0,
+        "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+        "watermark": true
+      }
+    ]
+  },
+  {
+    "entry": "战区简道云续费Name名单-EasonSun",
+    "base": "战区简道云续费Name名单",
+    "matches": [
+      {
+        "reportId": "e15638afd8424f2090c25dd7fd6b13bf",
+        "name": "续费",
+        "initTime": 1776249618327,
+        "lastUpdateTime": 0,
+        "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+        "watermark": true
+      }
+    ]
+  },
+  {
+    "entry": "能力意愿模型初版-Bigface",
+    "base": "能力意愿模型初版",
+    "matches": [
+      {
+        "reportId": "040587858d6f47098da5f5d4b9970706",
+        "name": "能力意愿",
+        "initTime": 1764834910034,
+        "lastUpdateTime": 0,
+        "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+        "watermark": true
+      },
+      {
+        "reportId": "e0813e059b3840b78bc150c069d4ea68",
+        "name": "能力意愿",
+        "initTime": 1742442491432,
+        "lastUpdateTime": 0,
+        "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+        "watermark": true
+      },
+      {
+        "reportId": "b716ee950a6e490a93756cb9f75bdc8e",
+        "name": "能力意愿",
+        "initTime": 1734601038728,
+        "lastUpdateTime": 0,
+        "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+        "watermark": true
+      },
+      {
+        "reportId": "347e5d4599764cdb9c6425fb50a611b1",
+        "name": "能力意愿",
+        "initTime": 1733313170829,
+        "lastUpdateTime": 0,
+        "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+        "watermark": true
+      }
+    ]
+  },
+  {
+    "entry": "营销线赋能看板-Bigface",
+    "base": "营销线赋能看板",
+    "matches": []
+  },
+  {
+    "entry": "帕累托分析-Bigface",
+    "base": "帕累托分析",
+    "matches": []
+  },
+  {
+    "entry": "FineChatBI机会分析-Kitty.Qian",
+    "base": "FineChatBI机会分析",
+    "matches": [
+      {
+        "reportId": "84046d2e349c4a0097fa07a60f507bc0",
+        "name": "机会",
+        "initTime": 1772764812277,
+        "lastUpdateTime": 0,
+        "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+        "watermark": true
+      },
+      {
+        "reportId": "442ab9a44b4c444ea619d5fc633b2947",
+        "name": "机会分析",
+        "initTime": 1741867521099,
+        "lastUpdateTime": 0,
+        "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+        "watermark": true
+      },
+      {
+        "reportId": "aa85ef8b4220412aaea60c65771a0ec3",
+        "name": "机会",
+        "initTime": 1731641445112,
+        "lastUpdateTime": 0,
+        "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+        "watermark": true
+      }
+    ]
+  },
+  {
+    "entry": "FineChatBI 2025前帆学堂考试与学习进度看板",
+    "base": "FineChatBI 2025前帆学堂考试与学习进度看板",
+    "matches": []
+  },
+  {
+    "entry": "25年JDY&FDL合同维度激励-Kitty.Qian",
+    "base": "25年JDY&FDL合同维度激励",
+    "matches": [
+      {
+        "reportId": "43c95b7548844fd3abcbde59d3bcf5e9",
+        "name": "FDL",
+        "initTime": 1768546814759,
+        "lastUpdateTime": 0,
+        "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+        "watermark": true
+      },
+      {
+        "reportId": "243b6ef4e5d048ce86e72b36d3eb1f43",
+        "name": "合同",
+        "initTime": 1773384400541,
+        "lastUpdateTime": 0,
+        "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+        "watermark": true
+      },
+      {
+        "reportId": "54b7a8ec09c344c8806a8401d6208dc1",
+        "name": "JDY",
+        "initTime": 1768546731462,
+        "lastUpdateTime": 0,
+        "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+        "watermark": true
+      },
+      {
+        "reportId": "600d4353b3a24f03b223510d8dc76b8d",
+        "name": "JDY",
+        "initTime": 1725456752310,
+        "lastUpdateTime": 0,
+        "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+        "watermark": true
+      }
+    ]
+  },
+  {
+    "entry": "AAA外企分析",
+    "base": "AAA外企分析",
+    "matches": []
+  },
+  {
+    "entry": "华北BI经营分析-Kitty.Qian",
+    "base": "华北BI经营分析",
+    "matches": [
+      {
+        "reportId": "4f10fe343f534534a47f4f3e14fbb33b",
+        "name": "BI经营分析",
+        "initTime": 1772449391923,
+        "lastUpdateTime": 0,
+        "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+        "watermark": true
+      },
+      {
+        "reportId": "fe575b65ebca47d7994f4e15b082fe34",
+        "name": "经营分析",
+        "initTime": 1731639372260,
+        "lastUpdateTime": 0,
+        "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+        "watermark": true
+      }
+    ]
+  }
+]

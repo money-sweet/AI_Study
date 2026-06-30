@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>数小搭 - 数据分析提示词生成器</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="app-header">
+      <h1>📊 数小搭</h1>
+      <p>为非数据分析专业人士打造：按顺序完成下方三步，即可一键生成纯样式提示词</p>
+    </header>
+
+    <main class="app-main">
+      <div class="wizard-card">
+        <div class="wizard-header">
+          <h2>配置分析需求</h2>
+        </div>
+
+        <div class="wizard-body" id="stepContent">
+          <!-- 三步内容由 JS 渲染 -->
+        </div>
+
+        <div class="wizard-footer">
+          <button class="btn secondary" id="resetBtn">↺ 重新配置</button>
+          <div class="spacer"></div>
+          <button class="btn primary" id="previewBtn" style="display:none">🔍 预览报告效果</button>
+          <button class="btn primary" id="generateBtn" style="display:none">✨ 生成提示词</button>
+        </div>
+      </div>
+    </main>
+
+    <footer class="app-footer">
+      <p>生成后的提示词可直接复制到 Kimi、ChatGPT、Claude 等 AI 工具中使用。</p>
+    </footer>
+  </div>
+
+  <!-- 效果预览弹窗 -->
+  <div class="modal-overlay" id="previewModal" style="display:none">
+    <div class="modal-container preview-modal">
+      <div class="modal-header">
+        <h3>🔍 预估分析报告效果确认</h3>
+        <button class="btn icon" id="closePreviewBtn">✕</button>
+      </div>
+      <div class="modal-body" id="previewBody">
+        <!-- 预览内容由 JS 渲染 -->
+      </div>
+      <div class="modal-footer">
+        <button class="btn secondary" id="backToEditBtn">返回修改</button>
+        <button class="btn primary" id="confirmEffectBtn">✓ 确认效果</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 结果弹窗 -->
+  <div class="modal-overlay" id="resultModal" style="display:none">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3>✨ 已生成纯样式提示词</h3>
+        <button class="btn icon" id="closeModalBtn">✕</button>
+      </div>
+      <div class="modal-body">
+        <textarea id="promptOutput" readonly></textarea>
+      </div>
+      <div class="modal-footer">
+        <button class="btn primary" id="copyBtn">📋 一键复制</button>
+        <button class="btn secondary" id="closeModalBtn2">关闭</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/promptBuilder.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

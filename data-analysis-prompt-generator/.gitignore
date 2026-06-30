@@ -1,0 +1,12 @@
+# 依赖
+backend/node_modules/
+
+# 数据文件
+backend/records.json
+
+# 日志
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db

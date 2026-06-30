@@ -1,0 +1,3990 @@
+{
+  "userInfo": {
+    "displayName": "钱甜(Kitty.Qian)",
+    "postNames": [
+      "组员"
+    ],
+    "departmentNames": [
+      "售前组"
+    ],
+    "customRoleNames": [
+      "职能-售前组",
+      "团队职能-产品&行业解决方案行销部-售前组",
+      "一级组织-国内营销与服务线",
+      "职能职位-售前组-组员",
+      "团队-产品&行业解决方案行销部",
+      "手机号脱敏",
+      "职位-组员",
+      "部门/团队小组-产品&行业解决方案行销部-产品行销组",
+      "所有用户"
+    ],
+    "departmentPosts": [
+      {
+        "jobTitle": "组员",
+        "departments": "售前组"
+      }
+    ]
+  },
+  "dashboards": [
+    {
+      "reportId": "e21e818f45814a79b7474a1410ad8ff1",
+      "name": "成单",
+      "initTime": 1731641267328,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "88e3838647d54f7294d0fd98b98dde98",
+      "name": "新购整体",
+      "initTime": 1766999261521,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "1167a5eeacae4e418a3c1da3d3014b47",
+      "name": "上海简道云作战地图",
+      "initTime": 1746616028413,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "e7b8d5674f374e74935c152d562938c2",
+      "name": "行业-信息汇总",
+      "initTime": 1749608598079,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "28f3219359134d8fab959376f6efa6a8",
+      "name": "JDY增长方式",
+      "initTime": 1725346418506,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "12355c7836f342aeb03308b73e7feb85",
+      "name": "A新产品绩效",
+      "initTime": 1743565011990,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "654a64762fa8479f873d6eae5f442c9b",
+      "name": "仪表板",
+      "initTime": 1779375699048,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "174a5d7c59134688bddaf7102bfe70f2",
+      "name": "权限管理看板",
+      "initTime": 1769500486721,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "69b27d3f24344103a85e63605e73ff8b",
+      "name": "作战-机会概况",
+      "initTime": 1741335742549,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "61d2118e0ee94872b4e22073a9ba9718",
+      "name": "投产比",
+      "initTime": 1737524940693,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "abafd5e3c7c9405887a9703110270fce",
+      "name": "作战-重点机会成功盘点",
+      "initTime": 1762326641161,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "64af2bbeaf2c4129b5d4d04cfcf7ea8c",
+      "name": "仪表板1",
+      "initTime": 1756452799668,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "61991001cdcf41d2a944a4cbead47b7f",
+      "name": "JDY投产情况",
+      "initTime": 1764846470645,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "6ed4ddbc64e2458dbbcfb2224f659853",
+      "name": "策略1-新购",
+      "initTime": 1738910379960,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "73e627e4f66645899045b5f44b399645",
+      "name": "C客户覆盖情况",
+      "initTime": 1764835551260,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "caefb53b609142509ebfa714f863aa4c",
+      "name": "脱敏",
+      "initTime": 1765938235332,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "48043eca7c0d4a249a52163cfff9926b",
+      "name": "仪表板",
+      "initTime": 1767925433557,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "4a590413727c4b9492cc90769d4ffa01",
+      "name": "E签单情况",
+      "initTime": 1771899700196,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "a1a9a1519e9547139ff05e9976c1f1f2",
+      "name": "经营-留存率",
+      "initTime": 1734600782560,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "601830e2ffbc4733af198f283850c3c5",
+      "name": "FDL作战地图",
+      "initTime": 1745552405955,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "d6e1af3a3eeb48a59643322f19c999c8",
+      "name": "作战-机会概率",
+      "initTime": 1762326641161,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "e4899008687c4f4e9947010620c7de26",
+      "name": "跟进汇总",
+      "initTime": 1764846470645,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "60c6a44a6bdf4f93be2541f77a7a3bab",
+      "name": "作战地图-销售自拓",
+      "initTime": 1734600938306,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "4747d76424d54118a3c7b76184e16236",
+      "name": "绝对值排名",
+      "initTime": 1735868098493,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "f54e68eee6d243fa93f01f06500ff9fd",
+      "name": "机会管理",
+      "initTime": 1772785993781,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "9cd3be66c740413791678cb424c01689",
+      "name": "查询客户看板",
+      "initTime": 1756800719021,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "9556cad60ad044c8801b7128422f6b8a",
+      "name": "B战区月度预测",
+      "initTime": 1764835551261,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "984a77d759fc43d7ac848197c8d11a2b",
+      "name": "能源电力体系对比",
+      "initTime": 1758782956942,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "eafceae2ba4c497f87106ae62c8a0853",
+      "name": "复购概况",
+      "initTime": 1766565970250,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "7a14797ca35744ef8853a3d30bf29a4b",
+      "name": "JDY历史所有合同",
+      "initTime": 1742297387823,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "9bfc805765b448f883e189defc4851fa",
+      "name": "新购-主动推广",
+      "initTime": 1763433408625,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "4ac18f3451d34610b0519432007cccb7",
+      "name": "作战-复购-JDY老客跟进",
+      "initTime": 1764846195076,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "f6341be8f1d647af960bb34a2fac4611",
+      "name": "商务记录",
+      "initTime": 1732876134639,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "0f5e43690d89490ba8292a724287bb10",
+      "name": "JDY续费概况",
+      "initTime": 1755064892820,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "6d34ab1cbf694679b24b9718bec43a15",
+      "name": "BI新客经营概况",
+      "initTime": 1772415044573,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "39096cd11b6c4f0196309405927f3f4e",
+      "name": "作战-售前跟进但未建机会",
+      "initTime": 1764899827967,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "65d74eb66c594a28b7ca4d11f6be8305",
+      "name": "AA三级分类拆解",
+      "initTime": 1764835551260,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "1c2f2cf4f1be4a138771d5a50ed76639",
+      "name": "汇总看板",
+      "initTime": 1776421021421,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "2f68644aa0ce4b23ad645d350bb13c50",
+      "name": "大客户-信息汇总",
+      "initTime": 1748226218645,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "985a71ce14834c989a7d0b1a6049f19d",
+      "name": "AB行业概况",
+      "initTime": 1755672050920,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "8584693e15c7495185297f7345d61c4d",
+      "name": "脱敏",
+      "initTime": 1765797611186,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "f812e8b291ab4d1e8283c38fa0d490f5",
+      "name": "A三级分类拆解",
+      "initTime": 1762246892693,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "1fc5d886d55544ee8593aff84f510e4b",
+      "name": "机会情况",
+      "initTime": 1776421407050,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "6abe5337d18242cb8aac1145e887d1b1",
+      "name": "行业分析汇总",
+      "initTime": 1758615822841,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "155e39fb6d894423b26c571427553819",
+      "name": "跟进汇总",
+      "initTime": 1753156186522,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "a2675f83b6ab41cd9e3d6864ff43fa74",
+      "name": "仪表板",
+      "initTime": 1746525017299,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "61e230e212954f62be63de2cc60383ec",
+      "name": "简道云蝴蝶图",
+      "initTime": 1754989824235,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "b4ad4c8dac9d46c7bebc66e5035ea3a7",
+      "name": "新购",
+      "initTime": 1732238169374,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "3818458d9a174fe58e1386d17fb6b61c",
+      "name": "作战-引导测试情况",
+      "initTime": 1740123149285,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "5c3e0ed910184ca0ac77508f260cbedf",
+      "name": "作战-测试30天后不更新机会",
+      "initTime": 1740385446626,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "f6a8f39ad41943f7b527970ee72058b1",
+      "name": "体系&客户对比",
+      "initTime": 1760408777659,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "d3b6b9d6052d4155bfc38d495ecdd229",
+      "name": "作战-重点机会失败复盘",
+      "initTime": 1740038626730,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "f2fcc4ffd54b479fa102073a5d00f46c",
+      "name": "A新产品绩效",
+      "initTime": 1737106350224,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "3dc1b34f226846d18728bf5799180045",
+      "name": "作战-机会概况",
+      "initTime": 1753841152255,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "a7d0af7c327c44a2bfd69509b28a0e4c",
+      "name": "行业TOP客户&推荐客户",
+      "initTime": 1766130145008,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "6e14232e31154204b10a6b18dfc92795",
+      "name": "体系&客户对比",
+      "initTime": 1775617813558,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "87d297fa731c4c74b7c1b6eaabdf23be",
+      "name": "CD行业最佳实践",
+      "initTime": 1757506210838,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "c187ceec557c4b2ab34709eb6f948e74",
+      "name": "交接客户",
+      "initTime": 1731651966095,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "9b80e649c5a14f89a12417e6f9bc35bf",
+      "name": "线索消化概况",
+      "initTime": 1729153536953,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "459b87a454124e109954d65492ec344e",
+      "name": "国际行业经营概况",
+      "initTime": 1765423707357,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "dadddb90bec5483a8aa9391f978d05c5",
+      "name": "JDY售卖分析",
+      "initTime": 1765114482105,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "747cce1ee99f47c3a8014301d02ad982",
+      "name": "作战-Name客户跟进",
+      "initTime": 1753841152254,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "3f6866d510c3484bb0361cc7fa37f5dc",
+      "name": "一页纸",
+      "initTime": 1732082675785,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "50f7ac085e964cbd8a6dfdf15ca8533b",
+      "name": "作战-重点机会失败复盘",
+      "initTime": 1764899827967,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "dc110eafa385432b8524fd8f74f445e8",
+      "name": "简道云分析-新购",
+      "initTime": 1727081539384,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "dff7f29cd3f74392a262f49a8a431574",
+      "name": "排名-年同比",
+      "initTime": 1742442491432,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "d87948a291754924a83bfda4fb036099",
+      "name": "作战-Name客户跟进",
+      "initTime": 1764899827967,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "92e53a02859f471282f5f8bdfe6c9e8e",
+      "name": "战区经营拆解看板",
+      "initTime": 1733724359113,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "53826eb2208844abbfd1b3e720836175",
+      "name": "战区视角",
+      "initTime": 1742442491432,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "1e64feaf58294f57b261fbb436903214",
+      "name": "排名",
+      "initTime": 1764834966506,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "1b3170cebcb9443c95e9626e4fe1df86",
+      "name": "作战-引导测试情况",
+      "initTime": 1753841152256,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "09e60d22af4a4411b193655c31c3951d",
+      "name": "机会预计金额和产品分布不一致情况",
+      "initTime": 1735551014466,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "e30132611be042ff8be1f970a081e34f",
+      "name": "作战地图-合同额",
+      "initTime": 1762339338529,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "c13fe843c4744f12aef96ba30e7866e7",
+      "name": "历史合作-独享版已续&待续",
+      "initTime": 1756784099821,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "01d3ad207cb44a3c865e2ab6952bd7c8",
+      "name": "作战分析",
+      "initTime": 1732241299502,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "830569a33dad4933b5ecd4483817a876",
+      "name": "作战-复购-续签率",
+      "initTime": 1733895774424,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "7be41bf1effa443bacb86f26fc568cff",
+      "name": "A签单结构",
+      "initTime": 1743564965513,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "cf6af8163b0e4f4f98a25bd51e39b979",
+      "name": "V2未被标记的客户",
+      "initTime": 1757483431499,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "27f3f229b07b47619c5208c74a3a0a16",
+      "name": "售前行程分析看板",
+      "initTime": 1745235372317,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "e149413a54f44f868de94a73dc525370",
+      "name": "大单辐射重点跟进商户池",
+      "initTime": 1729245580255,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "d357797f792244d3a6cda3484b47d388",
+      "name": "临时数据",
+      "initTime": 1771899700195,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "730eb37d07944e858e77bf7baf475f0b",
+      "name": "作战-新购old",
+      "initTime": 1732532675168,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "92730a8ab0784c8abca1e1943bca6606",
+      "name": "作战-机会盘点",
+      "initTime": 1762326641161,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "e50af5574b2b4f7a99eea0a47a219a2f",
+      "name": "复购-升级增购",
+      "initTime": 1763537985075,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "b13be8bf57da45589f17be869c5ebe98",
+      "name": "作战-当年触达JDY后建机会情况",
+      "initTime": 1753841152255,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "7ae1bb7e72c54c88bd126d9e1acbe4ba",
+      "name": "汽车零部件行业汇总",
+      "initTime": 1757772172986,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "a4f1dfd5856a483c81239f77dae8d08f",
+      "name": "CD行业最佳实践",
+      "initTime": 1757649677538,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "e084a649273c4108bab5e6db7006af76",
+      "name": "老客推新",
+      "initTime": 1733313142758,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "38325d061fe64eadbcd4022557d674db",
+      "name": "A签单结构",
+      "initTime": 1771899639615,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "404915060b754d25a15ae58451c2cdcf",
+      "name": "AA三级分类拆解",
+      "initTime": 1741920959009,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "6b91a9fccf9c4860b1230d86f05f32f6",
+      "name": "作战-老客推新old",
+      "initTime": 1732532680291,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "5bffc2b0d87c406987e73f8e928e2b8d",
+      "name": "业务概览",
+      "initTime": 1776329665438,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "2e3b59c281b34891ba80c6563b3af20a",
+      "name": "行业渗透2",
+      "initTime": 1760345906700,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "285dea66802b46c39caeca7fcd516241",
+      "name": "体系&客户对比",
+      "initTime": 1775722281161,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "ed5e6b53845c4866b6610c7655e9596a",
+      "name": "多样图表展示",
+      "initTime": 1751446528368,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "fb2deb8d93c04e7f843790d62e605638",
+      "name": "E签单情况",
+      "initTime": 1756173282089,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "f1f14a3eaafb40039a3ee0a95672b870",
+      "name": "用户运营仪表板",
+      "initTime": 1776669359211,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "48c92b61b4494ffeb998b238d86ceec8",
+      "name": "作战-Name客户跟进",
+      "initTime": 1762326641161,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "9c0c74dd0f034edfa254cc77122adcb0",
+      "name": "四要素3",
+      "initTime": 1775011867034,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "0caa4cdbf7354e67a6982692f277ba8c",
+      "name": "CD行业最佳实践",
+      "initTime": 1758693166760,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "6f2369ff0c964e1ba3aea6cf1aef7bf5",
+      "name": "FineChatBI机会概况",
+      "initTime": 1745227506639,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "9f5732b8a54543f3bf7c969d05a660c3",
+      "name": "2510月",
+      "initTime": 1761122819697,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "fda67755053140a896b781d744f282ee",
+      "name": "BI老客经营概况",
+      "initTime": 1744887504441,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "b25cb5df819243a38ec3e1ef1599b84f",
+      "name": "BI-业绩增长",
+      "initTime": 1741867521099,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "43c95b7548844fd3abcbde59d3bcf5e9",
+      "name": "FDL",
+      "initTime": 1768546814759,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "72bee0b8e4d44fdd912b742c00fe3557",
+      "name": "AB行业概况",
+      "initTime": 1757037024242,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "441d89bc2e0f447d9a1a2bdc1b03fc8f",
+      "name": "作战地图-市场线索消化",
+      "initTime": 1764845927878,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "cdc669b1f4ed431095066f245aa19c90",
+      "name": "临时",
+      "initTime": 1772605091470,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "180954d3c3dc47aaa6a86699e3169ff0",
+      "name": "目标测算",
+      "initTime": 1757678146094,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "d12e26b2f51e4577be4211edfbb58412",
+      "name": "战区视角排名",
+      "initTime": 1735867936906,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "040587858d6f47098da5f5d4b9970706",
+      "name": "能力意愿",
+      "initTime": 1764834910034,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "f95cbada1a98461a97c32307c50050f3",
+      "name": "作战-重点机会成功盘点",
+      "initTime": 1753841152255,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "a685a6b5eb4d457a9a58b0868a8ade68",
+      "name": "脱敏",
+      "initTime": 1765793798272,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "371ce2a52b2242eaab8981e206978840",
+      "name": "经营概况1",
+      "initTime": 1761016740794,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "a624cccb45ed418db4beeaa7bb2b72f4",
+      "name": "售前行程分析看板",
+      "initTime": 1745235043704,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "471ce5a522ba49e9988ebc9afec1a80d",
+      "name": "绩效达成",
+      "initTime": 1775036154369,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "84b3367ec8a54c569210afc0378fdd81",
+      "name": "销售自拓",
+      "initTime": 1732259753164,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "0fd49f55f8f540dbbe02da8cda887cbe",
+      "name": "财务破圈概览",
+      "initTime": 1773121688582,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "243b6ef4e5d048ce86e72b36d3eb1f43",
+      "name": "合同",
+      "initTime": 1773384400541,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "7e26d3d87fb440c0a65ab946858e97d6",
+      "name": "客户信息概览",
+      "initTime": 1756093201634,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "5a1878bdd13949aba04cf9b31d9a895e",
+      "name": "综合看板-发布",
+      "initTime": 1743564965513,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "401d016c164143f0bc43946ac5b21397",
+      "name": "策略复盘",
+      "initTime": 1730200396220,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "056bfa1003f848f0b4397f7e039ca527",
+      "name": "整车制造行业汇总",
+      "initTime": 1755770436195,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "ddbdd3e5247f4247bb59ba78af4e5f9d",
+      "name": "业务视角",
+      "initTime": 1734600782560,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "61bb31deaf9a4d7db65bed3b86b27c02",
+      "name": "行程分析",
+      "initTime": 1764836674760,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "8ce00323ef6041b98cf80b9130b8832d",
+      "name": "作战-目标预估完成概况",
+      "initTime": 1762326641161,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "81b48ec0a09a4b8098e4760540016a10",
+      "name": "汽车零部件行业汇总",
+      "initTime": 1757649677538,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "26c34da51e2d46a0b4b79d9f526f83cb",
+      "name": "苏皖-外企",
+      "initTime": 1773994605064,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "2ead265c604540e1bfd95fa775abf17e",
+      "name": "仪表板",
+      "initTime": 1768894222978,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "1c45e70710f64fa0a183f5d2ab9f231f",
+      "name": "AA三级分类拆解",
+      "initTime": 1771899700195,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "d3f62c72700345758d7f5cef8a281c31",
+      "name": "仪表板",
+      "initTime": 1750227566639,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "eac66fb195b14fda98efdbc37fa8fb96",
+      "name": "战区应收拆解看板",
+      "initTime": 1736936272973,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "167444dcc1804d84a86a51c2f85025ed",
+      "name": "财务-上海、华南、浙闽",
+      "initTime": 1772244145848,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "1d9573176c914a8aaa48a8cfcce99b18",
+      "name": "商务行程分析",
+      "initTime": 1737363497589,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "e0813e059b3840b78bc150c069d4ea68",
+      "name": "能力意愿",
+      "initTime": 1742442491432,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "a004554106f64ebf85a38922a57e95e4",
+      "name": "作战-老客推新-跟进情况",
+      "initTime": 1734600973268,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "b851846f46ab487986f4c59f71eeb32c",
+      "name": "经营概况1",
+      "initTime": 1775011867034,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "0c2664370daf4789a5e8e99ca6d6213a",
+      "name": "仪表板",
+      "initTime": 1756369057014,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "054bd54de8c24e47a31e4b6ee05ddb8c",
+      "name": "迭代-新产品绩效看板",
+      "initTime": 1732255198741,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "565b990ded154962872eef6a266c8c39",
+      "name": "商务记录-上传",
+      "initTime": 1747720995275,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "022634e670044ae2a06bb8a2370d4b0f",
+      "name": "半导体行业概况汇总",
+      "initTime": 1757988303373,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "82df1a205a794f0bada7ce6a17618ae9",
+      "name": "标杆案例4",
+      "initTime": 1759141513067,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "58d055557f9148e29346646b3f8e083f",
+      "name": "仪表板",
+      "initTime": 1767775529424,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "83e5993bfbae4ce7a3054bc48ad29d37",
+      "name": "经营-留存率",
+      "initTime": 1757319674433,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "8756d0b113b1413c9c1ad40d4bebcb7e",
+      "name": "AI评审概率",
+      "initTime": 1745227612033,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "200eb3c3ee8c40df9fecc948650cc902",
+      "name": "绝对值对比",
+      "initTime": 1764837682968,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "3325ad87086b4f439db4ab185436fbae",
+      "name": "商务明细",
+      "initTime": 1728885082827,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "28bbc95c96e64f40af9ff8c5bddbe4ea",
+      "name": "11月",
+      "initTime": 1744110123310,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "de2ef64f0cbe4d0488e3f636dd8f5de5",
+      "name": "投产比",
+      "initTime": 1737452388233,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "3e5c357493b842c0843c9bbdb9d34ad2",
+      "name": "B机会",
+      "initTime": 1772510262253,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "a61c9dba43fd4eafa44869e203406f9c",
+      "name": "作战-机会概率",
+      "initTime": 1741076985330,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "1d4d1829ad764dbfa2d98c532c064206",
+      "name": "线索两边跟进",
+      "initTime": 1735613893854,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "28f241624cc64c9d8c5ee22787ad006d",
+      "name": "机会&合同",
+      "initTime": 1772764972838,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "fb62fc0e956046209dbbefc3ed1d2b05",
+      "name": "线下客户明细",
+      "initTime": 1760665034929,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "78617620fa52416db437862391816e1c",
+      "name": "排名",
+      "initTime": 1742436410376,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "939551d6e94b48f6987c877436fa30f9",
+      "name": "C客户覆盖情况",
+      "initTime": 1737106350223,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "227dde52e45842c5ba4777004885a41e",
+      "name": "汇总",
+      "initTime": 1729740315341,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "b073c9be242b45778c4c9f0d36d5da12",
+      "name": "售前行业经营分析",
+      "initTime": 1775119857232,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "41d2a54a1327498b9264be746497c891",
+      "name": "综合看板-发布",
+      "initTime": 1771899639616,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "cf728e57dc21420fab078c2bf9dc1ac1",
+      "name": "用户复购",
+      "initTime": 1731305416356,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "e3ac470aa2e74d23aa8cbbdc98fd0c1a",
+      "name": "仪表板",
+      "initTime": 1772603967136,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "b36114a793d7456a8c9513204a83ccde",
+      "name": "汇总",
+      "initTime": 1734600899325,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "955fd6df3f2a4d3ab3c5c6e503f025ae",
+      "name": "新产品经营概况",
+      "initTime": 1765016770092,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "63303ec3496e4fde96ff7ded1a8eac0d",
+      "name": "D机会情况",
+      "initTime": 1764835551260,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "ff377df4ec524a529d93218f426f894e",
+      "name": "能源电力行业汇总",
+      "initTime": 1758693166759,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "5f7bb4f5325742d3a84f47c611078f01",
+      "name": "A客户分布情况",
+      "initTime": 1757902610016,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "c657f989436443fb9f4f5bef8d400e48",
+      "name": "BI完成概况",
+      "initTime": 1744614543467,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "665863e1ac344d9fb29d6af16cab49d4",
+      "name": "作战-当年触达JDY后建机会情况",
+      "initTime": 1739872458702,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "d2babc85c90a4bb180e2b907eca53e31",
+      "name": "JDY跟进情况汇总",
+      "initTime": 1764846470645,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "8e99a593c8df4750810cf878f45b2987",
+      "name": "作战-重点机会成功盘点",
+      "initTime": 1740054296525,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "2c2109ed1bb249bca522aeedbfd8987f",
+      "name": "作战-售前未跟进重点机会",
+      "initTime": 1739273204973,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "317e0cf826944665bd8dbd020ad2fd44",
+      "name": "简道云分析",
+      "initTime": 1726033003205,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "fef85836ea6647d1b3307b850d78d1f6",
+      "name": "作战-售前跟进但未建机会",
+      "initTime": 1753841152255,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "56ff2dcae6954957bbd0a2b0aee77bda",
+      "name": "BI完成概况",
+      "initTime": 1749464427498,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "ceb1fab48a794bb8af7843c034100731",
+      "name": "历史合作-公有云已续&待续",
+      "initTime": 1756724519110,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "1d38e5d868454d0cb7530f3b9847a3ab",
+      "name": "临时1",
+      "initTime": 1757988303373,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "108f3a2f9e0a463aa447b6e32405ff79",
+      "name": "新产品-客户跟进概况",
+      "initTime": 1762322257002,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "839230b39163456db67600abe958175a",
+      "name": "AB行业概况",
+      "initTime": 1757772172986,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "464b0bd4f4c6446f91c9babb929d41ff",
+      "name": "D机会情况",
+      "initTime": 1737106350223,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "1828131026794f618a23a9dfa880c61d",
+      "name": "JDY跟进情况汇总",
+      "initTime": 1753064866159,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "255d1dd212504a7b95621f8bc3e18542",
+      "name": "复购",
+      "initTime": 1731650578928,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "769f2cd4f5424b2da520539342a1cdb8",
+      "name": "仪表板1",
+      "initTime": 1769046784332,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "1f34117c6b1f492cbd70acc0e693aefa",
+      "name": "商务行程分析",
+      "initTime": 1748831295546,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "2308f49ece2d467a9247a35c72510314",
+      "name": "作战-复购-到期续签率",
+      "initTime": 1764846195076,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "55f5d013a1db4449b9cc339ab7d28c13",
+      "name": "C客户覆盖情况",
+      "initTime": 1771899700196,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "dfda3c3f074346d5a5045609691c18e9",
+      "name": "A签单结构",
+      "initTime": 1741867521099,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "f7d87358f23e47f5914d836cb85b82fa",
+      "name": "作战-战区自定义Name名单",
+      "initTime": 1745292132311,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "a461321169d044fdb97a390a9b529ca8",
+      "name": "注册线索",
+      "initTime": 1734600899325,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "b00cad1fc1fc410ab7aed60c9608eb54",
+      "name": "C客户覆盖情况",
+      "initTime": 1743565011991,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "d10e198f37594bcaa01114bbb7e50978",
+      "name": "能力&赋能",
+      "initTime": 1731656164141,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "fa64cb2f73254d60b42c15ed76b599bd",
+      "name": "机会人&客户归属不一致",
+      "initTime": 1735545027499,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "586c727c53264dbf8f47a6dded9176da",
+      "name": "Fine+老客推新",
+      "initTime": 1778049040073,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "8a8cb859ddb949a391e4d85cb2f2f777",
+      "name": "浏览概况",
+      "initTime": 1749113413915,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "b716ee950a6e490a93756cb9f75bdc8e",
+      "name": "能力意愿",
+      "initTime": 1734601038728,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "ace5d7cd9b60489eb811b59ecf5974b2",
+      "name": "排名",
+      "initTime": 1756709642078,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "ba14a539c0894cb8b16de09caeb4dd18",
+      "name": "AA三级分类拆解",
+      "initTime": 1743565011990,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "58d99bf387a44d9f9bc06ecde4caced0",
+      "name": "仪表板-整车",
+      "initTime": 1755334204934,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "f0ef18b16e96479c8b81b0528d00fc89",
+      "name": "临时数据",
+      "initTime": 1756173282088,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "956c9fc1ba7c46eeb51430e5bd7283cb",
+      "name": "苏皖简道云分析",
+      "initTime": 1729130737730,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "264238f49a2745e4bd36f7eb15eaef00",
+      "name": "作战-Name客户跟进",
+      "initTime": 1741577442279,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "c81ead493dc84c5b97cfffc47e511f6e",
+      "name": "作战-售前跟进但未建机会",
+      "initTime": 1739273222511,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "261e12d956524187b73be0ee20ca4a5b",
+      "name": "仪表板",
+      "initTime": 1760682351508,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "7c5dbd7dca9b4899a60cd369b1a88b7f",
+      "name": "产品商业模式分析看板",
+      "initTime": 1741867521099,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "5e23c2aadbcd4c31a6dc3d195ec6e7ee",
+      "name": "C客户覆盖情况",
+      "initTime": 1756173282088,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "a9f7bfcb1a214371ab2c6efb268f154e",
+      "name": "CD行业最佳实践",
+      "initTime": 1757772172986,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "69e5dcbdbda9457986823983e2d5cb61",
+      "name": "B战区月度预测",
+      "initTime": 1737106350223,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "7b9a499bc2674f0cb7b7f1db141a3002",
+      "name": "新产品作战地图",
+      "initTime": 1762247461322,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "c31a681e3cfe429cb3da3095c217d821",
+      "name": "作战-机会概况",
+      "initTime": 1764899827967,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "53586ab2a6f344ee96ca3d919c7b3638",
+      "name": "华北年初交接H1盘点",
+      "initTime": 1740105033344,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "af755e3bfff04e27bcdf879b27162474",
+      "name": "回款概览",
+      "initTime": 1764846100535,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "09bdc037800d4c49a27d6f5ab73149c1",
+      "name": "业务视角",
+      "initTime": 1757319674433,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "ba714c5f96ba4cb19d18282bb689cde9",
+      "name": "D机会情况",
+      "initTime": 1756173282088,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "6632de9a29c74eeda8f63fda4295be87",
+      "name": "大单概况",
+      "initTime": 1729763143279,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "b417aee28c7045a49e0307d2fdb054cb",
+      "name": "B战区月度预测",
+      "initTime": 1756173282089,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "3215866d715341e8bc973439d45a141b",
+      "name": "新购",
+      "initTime": 1742442491432,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "6637fea267fb40b7b5574856e5ac52bf",
+      "name": "排名-绝对值",
+      "initTime": 1742442491432,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "33f7a285cdd64817a2488bf066674e41",
+      "name": "客户信息查询JDY",
+      "initTime": 1749630104911,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "242c3047d30849ba8bae8421e5aba9b2",
+      "name": "仪表板",
+      "initTime": 1779189642036,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "a0f9a0cf95c34cddb2a0277768fb94fb",
+      "name": "回款概览",
+      "initTime": 1746616925507,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "e6487dd22fd44b8995699561928035e9",
+      "name": "机会人&客户归属不一致",
+      "initTime": 1735631551209,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "10632484946f46bbac562dc0889681f2",
+      "name": "AB行业概况",
+      "initTime": 1758693166760,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "347e5d4599764cdb9c6425fb50a611b1",
+      "name": "能力意愿",
+      "initTime": 1733313170829,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "43a48b5e7b164487a13fc78d74ec6820",
+      "name": "商务明细",
+      "initTime": 1730173470003,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "045c6cda5c00472e8b18b821f805af62",
+      "name": "商务情况",
+      "initTime": 1732259862128,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "e22af9d40a014fdaa574dd93ba21ad38",
+      "name": "行业&大客户推荐",
+      "initTime": 1764846429246,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "f5630408a2ee409b8e9e511313bb590d",
+      "name": "上海战区简道云经营作战看板",
+      "initTime": 1732256301372,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "142f176d4d4d4706b4f5ad18c8272aaf",
+      "name": "策略2-大单辐射",
+      "initTime": 1764846361367,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "08231405c20b4625b224a80f13a4e437",
+      "name": "摘星台_右",
+      "initTime": 1764836877100,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "86148d33ef934a4481161de3251b1e02",
+      "name": "客户",
+      "initTime": 1766113594583,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "1670e83634df4628b5c8f6d3f051efc5",
+      "name": "大单概况",
+      "initTime": 1757319674433,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "337be16cfae74c9b88f7b207e89bbc9d",
+      "name": "先成单后建机会",
+      "initTime": 1736840707816,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "59b04e346b534a508de1b30c849236cd",
+      "name": "用户分析看板",
+      "initTime": 1769500486721,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "dcc549ac90e5496b90c140c504557f16",
+      "name": "A新产品绩效",
+      "initTime": 1773050839092,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "5745298d7e504278897de861a867fbea",
+      "name": "作战-JDY复购重大机会跟进情况",
+      "initTime": 1753841152255,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "b14e55075e294d27ab58453c6043fbd0",
+      "name": "临时1",
+      "initTime": 1757772172986,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "e53a759825ff4249963f9bf4186d47a5",
+      "name": "独享版查询",
+      "initTime": 1741867521099,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "03b793d3994f43dea3dc09ae351931f2",
+      "name": "作战-重点机会失败复盘",
+      "initTime": 1753841152255,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "fd611e1add874f0494c6fc1c70e08ccf",
+      "name": "作战-老客推新-跟进情况",
+      "initTime": 1733915925261,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "3b085283b52247a38f9e45c50906a966",
+      "name": "个性化数据分析",
+      "initTime": 1761186081064,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "810013a4c9d542b6be2afe87ac1d0383",
+      "name": "仪表板",
+      "initTime": 1772417047742,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "04834c51f97541d4b489995862050cf7",
+      "name": "策略1-老客推新",
+      "initTime": 1738910394483,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "efc137b393df49f3a66204ffbe910c8d",
+      "name": "脱敏",
+      "initTime": 1765865979835,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "77d58e8948ac4daf868662561159ff52",
+      "name": "BI新客经营概况",
+      "initTime": 1744887524369,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "69e96c981b4b4438a25fbcfb846ab9ac",
+      "name": "A签单结构",
+      "initTime": 1764835667493,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "57f011c4adcd499597659ff9609c4bf6",
+      "name": "作战-机会盘点",
+      "initTime": 1739261845256,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "baf7869393bd4c37a585bc1bf6a0e3a6",
+      "name": "年同比排名",
+      "initTime": 1734071560849,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "1514adb9448240358ce52e3cd0667da6",
+      "name": "E签单情况",
+      "initTime": 1744963349181,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "0a952919f78a4e06b937e0ae05633ed5",
+      "name": "A新产品绩效",
+      "initTime": 1756173282089,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "7b604c974afb4ba79340515cd129c1c8",
+      "name": "经营-客户概况",
+      "initTime": 1757319674433,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "90a92b420d484fc58bc6efff4ba45b2d",
+      "name": "JDY核心行业空间测算",
+      "initTime": 1774868508413,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "defe9a5ca3d94e84a7e374f181082611",
+      "name": "内容分析看板",
+      "initTime": 1769500486721,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "f110e68b493f4560b8561529a04a5e7e",
+      "name": "仪表板1",
+      "initTime": 1773212484258,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "beac422b572c4a01a5c79ed56b1e7fb9",
+      "name": "孙毅看板",
+      "initTime": 1746600205843,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "89521e5a258e45b48e8daf12cbcdd2e9",
+      "name": "升级客户推荐",
+      "initTime": 1733301324901,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "ad70e57a2c0e4c95a102d8c71432d6b7",
+      "name": "作战地图-销售自拓",
+      "initTime": 1764845927878,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "b314b828bbab441e931bc7653b8863ac",
+      "name": "新老客机会挖掘",
+      "initTime": 1741867521099,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "b25da47685f84eb4b74da7dd89b0a191",
+      "name": "目标贡献排名",
+      "initTime": 1735884356955,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "1846232aef0f4d2ebfb05d40342865d6",
+      "name": "25年客户满满意度看板",
+      "initTime": 1760519972082,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "c6551422652043cb9ec6e283cbd4c6b2",
+      "name": "汇总",
+      "initTime": 1732158786684,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "25686ccc3fbe4d93b10d0510feeb6363",
+      "name": "售前",
+      "initTime": 1744098528769,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "1ad1e37b84ac46838a03bbc6946f4282",
+      "name": "能力意愿&行程",
+      "initTime": 1775532745119,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "ef2ea132fb8d445a834ae51f4bca7674",
+      "name": "AB行业概况",
+      "initTime": 1757649677538,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "1092a775a7d046ada2677d502aac90b4",
+      "name": "汇总页",
+      "initTime": 1735799872797,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "e67a045c3e0b4b75870fbd05e6607768",
+      "name": "仪表板",
+      "initTime": 1755489728300,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "e55fbcf2c5274ef7a5af5110ac7e68a2",
+      "name": "作战-目标预估完成概况",
+      "initTime": 1764899827967,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "7c16021e7e0d48329a6571b4c9d155b7",
+      "name": "A签单结构",
+      "initTime": 1772417453072,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "6e7f9eca22a94740a6ff67b23fa0b14e",
+      "name": "作战-JDY复购重大机会跟进情况",
+      "initTime": 1764899827967,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "3aa17d0bb7a34dbda0bfc4827e796527",
+      "name": "AA三级分类拆解",
+      "initTime": 1756173282088,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "3572c31332394fb2b1fa0c4f83233b2c",
+      "name": "作战-跟进异常机会",
+      "initTime": 1762326641161,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "912efd6d5a0b4b82bf160184fe2b1d2c",
+      "name": "CD行业最佳实践",
+      "initTime": 1755743019405,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "d72262fe9bc3439aa2db46f6666a9b51",
+      "name": "A签单结构",
+      "initTime": 1775011915410,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "26a36b847f0346dca8715062775b8f73",
+      "name": "test",
+      "initTime": 1761271255721,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "d4a8ecd8d4bc43bf91791e83fee28c1a",
+      "name": "新产品目录看板",
+      "initTime": 1746604427679,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "fe32e81b8a404c6dbcb85776000970d9",
+      "name": "线索两边跟进",
+      "initTime": 1735631551209,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "8d2d8dff83db4df68594ac7f2f15e32e",
+      "name": "客户细分",
+      "initTime": 1757037024242,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "d407311321bc48cb81dc8e2498d378d3",
+      "name": "B战区月度预测",
+      "initTime": 1762246892694,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "0863756318ce4318afb790effa2d0aeb",
+      "name": "CD行业最佳实践",
+      "initTime": 1757037024242,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "772ac925574d409ea41bc4e727074d49",
+      "name": "合同分析",
+      "initTime": 1776409507487,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "23d9d75ce2d542c095cd789a49aeb75e",
+      "name": "军队客户现状",
+      "initTime": 1764746408315,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "e1bedf43284a4a449db07f21fd7e4e48",
+      "name": "新产品经营分析",
+      "initTime": 1764835667493,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "3f522a2cb1f748a5b6414cbf49171221",
+      "name": "综合看板-BI",
+      "initTime": 1741867521099,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "60c6731b93e74df4a241806060e7f025",
+      "name": "作战-目标预估完成概况",
+      "initTime": 1753841152255,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "e32e09fa24f448e9b16eacee5433c4e0",
+      "name": "四大平台浏览情况",
+      "initTime": 1745202760909,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "802e1f16418f4f10afecd7ac2fa8cb5b",
+      "name": "作战-机会概率",
+      "initTime": 1764899827967,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "ff664ec38d764bc6930d541a118b4da7",
+      "name": "A三级分类拆解",
+      "initTime": 1773050839092,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "1b29e955b5b7494dbd0fa742aeaca5d7",
+      "name": "仪表板",
+      "initTime": 1778656446217,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "fcf24a28ba8042d4b38c23f0b4b00386",
+      "name": "客户分布情况",
+      "initTime": 1757404029185,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "e237747384844f36a6a8060e2522ab88",
+      "name": "D机会情况",
+      "initTime": 1744963349180,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "1f4c467bbdb84a679c6ecbee5c4e952a",
+      "name": "仪表板",
+      "initTime": 1781084985871,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "b2e0d171b2d443f48a46113d35feb025",
+      "name": "汇总",
+      "initTime": 1744099287250,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "0173d68dfef2430b9a1374f7fa40c026",
+      "name": "目标测算",
+      "initTime": 1758693166759,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "f328e5eb4b274e008d899235dfb845be",
+      "name": "仪表板",
+      "initTime": 1745235372317,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "09368027d9b645c7854aa38f3a85a62c",
+      "name": "A新产品绩效1",
+      "initTime": 1756173174194,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "644982c8d7804a90847bc3b392c01bcf",
+      "name": "临时1",
+      "initTime": 1757506210838,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "329abe45f8eb4ade9ff0738f4b1dd7ba",
+      "name": "合同情况",
+      "initTime": 1775120601272,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "1cce91d94b9d45728c8bf4c58a7d37bc",
+      "name": "复购",
+      "initTime": 1732504011176,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "2afb2c0b6740465ca17a1287ca902796",
+      "name": "作战看板汇总",
+      "initTime": 1732237995353,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "ccd65fd227ca4a40ac313db25a22fd38",
+      "name": "A新产品绩效",
+      "initTime": 1771899700196,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "6d596b6eeb8a489597ff231e60456541",
+      "name": "汇总页",
+      "initTime": 1757319674433,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "0a6923a00d6c42ee902ebfce08c1b5f5",
+      "name": "作战-战区自定义Name名单",
+      "initTime": 1753841152255,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "7a22fb02a85f40c49e36fc84dcc4c28b",
+      "name": "JDY近2年业绩",
+      "initTime": 1771899639616,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "8a1d814690f445a39c3d3e6b4bc34521",
+      "name": "行业汇总",
+      "initTime": 1757037024242,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "7c35597270324163a7361f605ebeac7f",
+      "name": "财务破圈-汇总",
+      "initTime": 1773108394390,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "08a40bd95cd24978a20043d1a4a778ff",
+      "name": "战区JDY挑战目标回款概况",
+      "initTime": 1750646982121,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "d7c9a0e4081b474fb31c8dfd7ae84edb",
+      "name": "作战-重点机会成功盘点",
+      "initTime": 1764899827967,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "6f0695152e9543f5bf3c5bb31edcd5b8",
+      "name": "JDY单独看板",
+      "initTime": 1741867521099,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "d15926cd3a394739991822772e630e3b",
+      "name": "历史合作-已流失",
+      "initTime": 1756716918865,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "213e458f9f92458a9acf76191306b9c8",
+      "name": "仪表板",
+      "initTime": 1768634972704,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "65b9192ba5e1417191aea154a6a9a2a4",
+      "name": "作战-复购-JDY老客跟进",
+      "initTime": 1734600973268,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "585e6f0312a948eea817d3546f0455a7",
+      "name": "A签单结构",
+      "initTime": 1737105429530,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "e44882de85274c88893bbf97d9896213",
+      "name": "作战地图-销售自拓",
+      "initTime": 1732535284992,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "c3d3942dc8704f539fe093ed1e392c82",
+      "name": "浏览概况",
+      "initTime": 1745201914079,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "ea09081eb6344f518048f527de9d3d09",
+      "name": "苏皖24年BI项目",
+      "initTime": 1736238307670,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "c4e7c69b42984c8093b4dafbcc7f80c0",
+      "name": "E签单情况",
+      "initTime": 1737106350224,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "cdbc9bd557e2470390bdf1085cddbb4a",
+      "name": "FineChatBI机会&转化情况",
+      "initTime": 1745221517389,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "3e087d3c1b6548e0be7c4a9825f7ca38",
+      "name": "升级客户推荐",
+      "initTime": 1734600996591,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "beb5c1beb73943c3b0415c8a76834e45",
+      "name": "AB行业概况",
+      "initTime": 1757506210838,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "bb69ca96ed0646d8a4e5eed401932aac",
+      "name": "作战-跟进异常机会",
+      "initTime": 1753841152255,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "988f7e7bc26b451daed9d029bd30b38f",
+      "name": "复购-续费",
+      "initTime": 1763536403882,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "dda0f1d6f3e04303b7ce76f22ede017d",
+      "name": "经营概况-客户归属",
+      "initTime": 1729683494783,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "bb5177bf0502468fbf4e42859a0da0ee",
+      "name": "商务行程分析",
+      "initTime": 1735030099084,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "86d1fc0101b24d3692969ae43fc76178",
+      "name": "仪表板",
+      "initTime": 1763032285835,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "e1dd2e80d7f947e180a7a38803e3872f",
+      "name": "作战-机会盘点",
+      "initTime": 1764899827967,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "a06ef3227fd14c7886c8555e3209dcd1",
+      "name": "JDY销售能力意愿模型",
+      "initTime": 1764905330976,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "c45f2456d6514f97a7272f9c83eb6a77",
+      "name": "行业&大客户推荐",
+      "initTime": 1749635048536,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "4a715187a84040a7b0b8c72ce336ee5a",
+      "name": "剔除续费&运维",
+      "initTime": 1752560772432,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "2185736191af40b2bd03a2ee6d77d550",
+      "name": "大客户信息汇总页",
+      "initTime": 1747910460985,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "4c75fa0f9ca946b5baee56042e64988c",
+      "name": "目标贡献排名",
+      "initTime": 1735884466950,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "6d6c609023a54306a67b9a6e67207091",
+      "name": "仪表板",
+      "initTime": 1725517689175,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "978ff2c6f2ab4e5fa47edb1d66a8cff5",
+      "name": "销售自拓",
+      "initTime": 1734600938306,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "cbfcffbb6e3742c592da7c6617db7b07",
+      "name": "BI完成概况",
+      "initTime": 1772415044574,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "74751dc43d094e14b7c2263a72cc0df4",
+      "name": "经营概况",
+      "initTime": 1747793418014,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "d75c13fb4d5c455c9cb99b70b1088e49",
+      "name": "临时",
+      "initTime": 1757037024242,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "12ea1cbc9b7940b6a20645a1977cd461",
+      "name": "AB行业概况",
+      "initTime": 1757988303374,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "e15638afd8424f2090c25dd7fd6b13bf",
+      "name": "续费",
+      "initTime": 1776249618327,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "3d99772fb69145cb994b7a08e484936c",
+      "name": "体系JDY概况",
+      "initTime": 1741165607415,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "467fb3e6135f48bf8f097d40a002d564",
+      "name": "作战-老客推新-跟进情况",
+      "initTime": 1764846195076,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "99da03fc3c584bf384b9da6252305ed3",
+      "name": "老客推新-跟进",
+      "initTime": 1763545738487,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "33b3c309ffbb4c6792bca50a147d4172",
+      "name": "JDY近2年业绩",
+      "initTime": 1749211975764,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "1918fe5b6afb40d8a6a7a28ddf551ffa",
+      "name": "作战-售前未跟进重点机会",
+      "initTime": 1764899827967,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "30f84ac7849c4ff3bc86e80507059797",
+      "name": "业务视角",
+      "initTime": 1729738766617,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "2cd6b6a338834263853cba1d2a443fea",
+      "name": "BI老客经营概况",
+      "initTime": 1772415044574,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "8eff24d643354e11b1986588ca458f8d",
+      "name": "四要素3",
+      "initTime": 1759141502231,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "fdeb47e33b4e4e32a1bad8009cb550fc",
+      "name": "临时数据",
+      "initTime": 1751620124788,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "c51cf38e74054bf78be71c5db89ab0bb",
+      "name": "客户健康分和用户数看板",
+      "initTime": 1736936370753,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "fcd247dcd1fe42cfbc43f4945ac47757",
+      "name": "复购",
+      "initTime": 1742442491432,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "156dd0e889ab440c8d4eb295d486f8ea",
+      "name": "临时1",
+      "initTime": 1755582654301,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "f0f09ba626bb4835a2c5b66eb7c7d308",
+      "name": "B战区月度预测",
+      "initTime": 1773050839092,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "60340cf6c8f84c0fbed68b386b8d4cba",
+      "name": "老陆看板",
+      "initTime": 1741867521099,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "4f9a2acc45b44ec79252973b1a571651",
+      "name": "销售额回款月度趋势",
+      "initTime": 1746674596158,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "c709b705f34746b5a052b5e16ec93e3b",
+      "name": "作战看板汇总",
+      "initTime": 1734601038728,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "84046d2e349c4a0097fa07a60f507bc0",
+      "name": "机会",
+      "initTime": 1772764812277,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "fc28b48ff90f4621bc22c563a39c9e4f",
+      "name": "线索消化概况",
+      "initTime": 1734600938305,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "100664660cbe47a9862294f7dbba2cfc",
+      "name": "BI作战地图V1",
+      "initTime": 1772415044574,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "687eb82d23d14e309886c1b6391a9705",
+      "name": "售前异常合同额",
+      "initTime": 1744707333414,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "44aaf468bf50456aac9abf3dc94ac128",
+      "name": "作战-机会概率",
+      "initTime": 1753841152255,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "a2df14cda085412e8a880c51fbd27fbc",
+      "name": "作战-复购-到期续签率",
+      "initTime": 1734600973267,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "d35ee0efa72b412aa5b6b255cfb14054",
+      "name": "简道云分析-新购",
+      "initTime": 1730173470003,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "df8b888e08284129874b5cf4599938a3",
+      "name": "新购-线索跟进",
+      "initTime": 1763432651992,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "9895b8b91e2c43ae803800289f4be23b",
+      "name": "战区客户一号位&高层接触情况",
+      "initTime": 1763115814406,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "1afd132b8c0548c18885c279b3ddf47f",
+      "name": "B战区月度预测",
+      "initTime": 1744963349181,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "6c9884da54ab4469ac3b2a9102ff3266",
+      "name": "数据管理看板",
+      "initTime": 1769500486721,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "63eb3930408e4c798059ca5613caeafd",
+      "name": "BI作战地图V1",
+      "initTime": 1749464427498,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "c3419fe6be0b48f29320908fb02ba6d1",
+      "name": "作战地图-市场线索消化",
+      "initTime": 1732187418421,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "07b767364e2349acb52b4454589b85fe",
+      "name": "合同额排名",
+      "initTime": 1763439361265,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "755de28e0b624a6bade006837b2abaad",
+      "name": "仪表板",
+      "initTime": 1767843268095,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "2d46f8dbf8484c7fa6bded85cd396466",
+      "name": "汇总-机会",
+      "initTime": 1735807713627,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "0f99559267a54d35b3379c3e6cc1664c",
+      "name": "仪表板",
+      "initTime": 1731314663370,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "399bc81d93e5476587369f05135e1f06",
+      "name": "脱敏",
+      "initTime": 1765855291073,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "8df8c0052956442c9d646fcc7b7f0d5e",
+      "name": "临时2",
+      "initTime": 1757067521127,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "abda934601f5442aa603f2852afae6e4",
+      "name": "摘星台_左",
+      "initTime": 1764836877101,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "2f71195f845e4502a92d0f58848f8d00",
+      "name": "2508月",
+      "initTime": 1755048992003,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "a9fcb5fe49d44500b79c6c5627f88628",
+      "name": "A客户分布情况",
+      "initTime": 1757988303373,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "5c0e16a2ad3f4b27b0af051a6a1a26c7",
+      "name": "定向营销效果看板",
+      "initTime": 1753170576918,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "97ba99ef44624ed8938c9e8d69fe53e1",
+      "name": "CDE行业&客户推荐",
+      "initTime": 1772510271713,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "f401bcd326aa4b9e9e7f5c9be57ebce8",
+      "name": "JDY售前能力意愿模型",
+      "initTime": 1764905330977,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "e3e77bed7dcc4a31a3545fa2cd0ab9f8",
+      "name": "作战-机会盘点",
+      "initTime": 1753841152254,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "393fcda22b644e56a7af07af45fe03a0",
+      "name": "BI运维总览看板",
+      "initTime": 1769500486721,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "0ed1c57d43c14c31a94be29b3390b26a",
+      "name": "大单概况",
+      "initTime": 1734600782560,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "c1ea0d1380c04686b706c5c6ce6bf6ac",
+      "name": "作战-机会概况",
+      "initTime": 1762326641161,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "c01a6c6a483847c4b2f3ee7abd186472",
+      "name": "D机会情况",
+      "initTime": 1771899700196,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "9749c045cc3547c487e1e7ba9a4398e0",
+      "name": "11月",
+      "initTime": 1733107530889,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "2dea861262564f2291ed1f570eed9aa5",
+      "name": "商务情况",
+      "initTime": 1734600899325,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "5f7d87ea9e634c6eb3c0f6d9e6a5f84e",
+      "name": "AA三级分类拆解",
+      "initTime": 1744963349181,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "df584e81ca234653a476d7dbe02f6c15",
+      "name": "综合看板-发布",
+      "initTime": 1737105429530,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "7005e19797614984855344790051e25f",
+      "name": "经营-客户概况",
+      "initTime": 1734600782560,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "442ab9a44b4c444ea619d5fc633b2947",
+      "name": "机会分析",
+      "initTime": 1741867521099,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "4f10fe343f534534a47f4f3e14fbb33b",
+      "name": "BI经营分析",
+      "initTime": 1772449391923,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "2aa0915721a64e74af76cbe17e13199d",
+      "name": "作战-新购new",
+      "initTime": 1734575579898,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "cc3afcadd6f44c77b390b2c07f76ee0f",
+      "name": "排名-绝对值",
+      "initTime": 1764834910034,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "cdebb34831174e8bb35d2d778b5656ca",
+      "name": "左右对比情况",
+      "initTime": 1764836877101,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "828ea94e9a1d4ab0aaf9db271632e806",
+      "name": "作战-售前未跟进重点机会",
+      "initTime": 1753841152254,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "825a76d9c06c449598e0ff58196fa324",
+      "name": "JDY版本经营概况",
+      "initTime": 1751440715605,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "d9fd2a5d34d4493fadd423a3518984b4",
+      "name": "整车制造行业空间预估",
+      "initTime": 1755348101830,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "6de9fd6888ad4f5696ef6f4599f0a1ad",
+      "name": "A新产品绩效",
+      "initTime": 1764835551261,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "db05115b1ba541ff909a4fec5b6fe14d",
+      "name": "独享版",
+      "initTime": 1731652320917,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "9f7c3bec7667414fa6e2af3072b23485",
+      "name": "机会情况",
+      "initTime": 1775365463588,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "bad0aa6e03a247199ada88b76b8ed3ce",
+      "name": "A客户分布情况",
+      "initTime": 1758693166759,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "e6b014390c6d4b9c9d3ee8ce72a14a86",
+      "name": "作战分析",
+      "initTime": 1742442491432,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "b47253e00e794d0c98c66fe4e98d9185",
+      "name": "汇总页",
+      "initTime": 1734600782560,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "c1da2dd145ef4738b4e40f016d2cdc4b",
+      "name": "绝对值排名",
+      "initTime": 1735868529761,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "92a4ab0881a643a08049564b39386463",
+      "name": "BI老客经营概况",
+      "initTime": 1749464427498,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "d9a8de0b886842d0a67a2fe121ee24d0",
+      "name": "机会看板",
+      "initTime": 1730882159322,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "1f4fa1a5c3f24668bf6a96e1a0058423",
+      "name": "经营概况-销售额D",
+      "initTime": 1772077050436,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "91517539cd0c40a381a8fcef54be4013",
+      "name": "注册线索",
+      "initTime": 1731487089293,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "6d46867c993d487cba0dd6f895a4c47e",
+      "name": "综合看板-发布",
+      "initTime": 1741867521099,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "5ab6d984adfc42f3bc61dab96ff462fa",
+      "name": "整车体系对比",
+      "initTime": 1757385155428,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "e0386b74e9a54e3ca8765e0ce193d4dc",
+      "name": "2025年公司门店财务经营分析",
+      "initTime": 1769997720692,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "98da1c3210174e7384eefb3e8de902b0",
+      "name": "排名",
+      "initTime": 1742276614181,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "b66f9f23cf3543799449b1fa9ed41496",
+      "name": "完成率同期对比",
+      "initTime": 1748329211125,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "34298a0e611342709e8e71b1dbd8b987",
+      "name": "D机会情况",
+      "initTime": 1743565011990,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "8afdd60831c74351bb0a37dfebbc50ea",
+      "name": "策略2-大单辐射",
+      "initTime": 1743592672588,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "13fa42c6cf304b8f968aee20d690fab9",
+      "name": "作战-测试30天后不更新机会",
+      "initTime": 1753841152255,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "8950c75815ff4630930a1a89f5c8523e",
+      "name": "仪表板",
+      "initTime": 1765799424185,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "fe575b65ebca47d7994f4e15b082fe34",
+      "name": "经营分析",
+      "initTime": 1731639372260,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "474b935f51c34ac4a184a75a72235515",
+      "name": "完成率同期对比",
+      "initTime": 1764837682968,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "dcf1b9b06c9b4295b145ff8cb8b8c651",
+      "name": "简道云分析",
+      "initTime": 1730173470003,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "f19895b4b91b44ab97e259a41c63f581",
+      "name": "联系人",
+      "initTime": 1750841834445,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "a007111ee0114c29bb20d625426bfab0",
+      "name": "16种不同的KPI可视化方式",
+      "initTime": 1736385266767,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "f80a7bb261974ca2805d56abcab4ba78",
+      "name": "JDY月报数据集",
+      "initTime": 1778139363694,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "2dba9e31e66542d0a8c408a5007ded35",
+      "name": "仪表板",
+      "initTime": 1770024589681,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "ce5e2d298bb14b84acf5029c39de43f3",
+      "name": "仪表板",
+      "initTime": 1752734166635,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "f56c889790a6441da5eb0269662f7487",
+      "name": "仪表板",
+      "initTime": 1733734913204,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "1a6e270e97bb40f183dc1f059447c4f8",
+      "name": "战区经营拆解看板",
+      "initTime": 1740105033344,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "553b8414424b4227b9d6f516ef43324b",
+      "name": "仪表板",
+      "initTime": 1755742654436,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "84212c73e52048e0909a93155e48305c",
+      "name": "作战-复购",
+      "initTime": 1732532684169,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "76f58f43e0504782bc08199f04671220",
+      "name": "作战-引导测试情况",
+      "initTime": 1762326641162,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "b1b0597bf40b4e8ca0f6f5ed85fd6905",
+      "name": "能源电力",
+      "initTime": 1761191878314,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "451e13dee6d54ad69f501cf82698b684",
+      "name": "A新产品绩效",
+      "initTime": 1744963349181,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "14cdc68206c840af8d53b7f1e51a19ee",
+      "name": "BI新客经营概况",
+      "initTime": 1749464427498,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "31c980001b004caaaf8a2d923ae1532b",
+      "name": "售前&项目",
+      "initTime": 1778750183188,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "54b7a8ec09c344c8806a8401d6208dc1",
+      "name": "JDY",
+      "initTime": 1768546731462,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "838069fcd9304f3488be842065088aa5",
+      "name": "E签单情况",
+      "initTime": 1764835551261,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "15716b34da7a40929e0f12b7971ae6f8",
+      "name": "B战区月度预测",
+      "initTime": 1771899700196,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "1af65f2b60c244bdbd690a0fc3a9846c",
+      "name": "商务行程分析",
+      "initTime": 1744110571832,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "a2c05fa47bca4d798086dad907956e66",
+      "name": "作战-跟进异常机会",
+      "initTime": 1740116664081,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "21921428ca1b47298c9f43c48bfc3760",
+      "name": "作战-跟进异常机会",
+      "initTime": 1764899827967,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "8577d5a545de409f9c5b1ac2a7757c29",
+      "name": "A新产品绩效",
+      "initTime": 1762246892693,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "08cc78f2a1d24809a25cb928ff9dac43",
+      "name": "仪表板",
+      "initTime": 1736478063752,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "0e0e39f83b3d49738c77a92752d1d2ac",
+      "name": "行业渗透2",
+      "initTime": 1775011867033,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "c5d247522ffd4c008d7c1f952ab25172",
+      "name": "汽车零部件行业汇总",
+      "initTime": 1757506210838,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "6554f9f497eb4bfab7858930cf8f8170",
+      "name": "LTC过程汇总",
+      "initTime": 1760944660051,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "cca751c24b3d474daf1750d25a3359eb",
+      "name": "作战-测试30天后不更新机会",
+      "initTime": 1764899827967,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "18dc195d2d3b4740ab992f0ec236416d",
+      "name": "C客户覆盖情况",
+      "initTime": 1744963349181,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "939f2eed378045e795f373f352d1b480",
+      "name": "同期对比汇总页",
+      "initTime": 1764837682968,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "f8775560c52547f2b25b08a90bf1a6a0",
+      "name": "汇总看板",
+      "initTime": 1749622154667,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "91de5a3f3a32459d8461e4f895819754",
+      "name": "作战看板汇总",
+      "initTime": 1742442491432,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "bb5e246e59f448d49d60e42aabb9378d",
+      "name": "汇总页",
+      "initTime": 1729672668010,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "9ca9be7fe4444893825de7e9bce846de",
+      "name": "同期对比汇总页",
+      "initTime": 1752732270575,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "1305f2bbdbfe4274ba4e1c819e78e523",
+      "name": "排名-年同比1",
+      "initTime": 1736410275100,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "0ed9900ec1d042a3b21fc6190019224e",
+      "name": "作战-战区自定义Name名单",
+      "initTime": 1762326641161,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "24ac4a90af85424685c96da7da21d977",
+      "name": "仪表板",
+      "initTime": 1757772172986,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "49facd984ea94a078ef32bf1c04fbbd3",
+      "name": "作战-售前未跟进重点机会",
+      "initTime": 1762326641160,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "3d67f2a0b8e04e0688f9719d30307ca5",
+      "name": "7月",
+      "initTime": 1744110123310,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "5ee847d3f21a4cb7b0ac5aeecd0e22e3",
+      "name": "行业-信息汇总",
+      "initTime": 1764846429246,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "ce2a1ab1fd2e452a9693e4ce76d82ee8",
+      "name": "B行程分析",
+      "initTime": 1741867521099,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "5589bf36452b4143b08768b3c1732f92",
+      "name": "目标测算",
+      "initTime": 1757988303373,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "6c936b9ba0354f76a824cd2fff9ada86",
+      "name": "临时1",
+      "initTime": 1757649677538,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "6d0d840b9eee423686082a58bb9748e4",
+      "name": "JDY投产情况",
+      "initTime": 1753094247434,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "4ada18757ee24c08a5b8bcf578791612",
+      "name": "作战-目标预估完成概况",
+      "initTime": 1741314718161,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "f7035d0700ad47ce835712ee9a76c2e0",
+      "name": "2504月",
+      "initTime": 1744254574461,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "95bc6dca479949ecbd0bf3a802a21faa",
+      "name": "作战-当年触达JDY后建机会情况",
+      "initTime": 1764899827967,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "9b5561aa03cc4ba69d10d5e5ad5269c0",
+      "name": "作战地图-市场线索消化",
+      "initTime": 1734600938305,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "9bb381370163462a8471a5c7503c8877",
+      "name": "整车制造",
+      "initTime": 1761277559807,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "34892a3a1897403a854a31e9339bc999",
+      "name": "简道云战区业务分析看板",
+      "initTime": 1746600166991,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "6c4c830a97ff48dca3c3c5ac6c9a237c",
+      "name": "仪表板",
+      "initTime": 1730197077994,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "42fffacf721f4f19b47bed911d30c56f",
+      "name": "机会预计金额和产品分布不一致情况",
+      "initTime": 1735631551209,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "721cff5c0c4c44c9b0543939430e4eaa",
+      "name": "简道云战区经营结构图",
+      "initTime": 1740105033345,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "841315d03a984fa29550b5215e7f7e77",
+      "name": "帆软企业档案库",
+      "initTime": 1747906228226,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "aa85ef8b4220412aaea60c65771a0ec3",
+      "name": "机会",
+      "initTime": 1731641445112,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "5734bddacea848a58cb297170883d632",
+      "name": "老客推新",
+      "initTime": 1742442491432,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "898a8be79a8449818a0a9eab458ec19b",
+      "name": "作战-复购-JDY老客跟进",
+      "initTime": 1733902050706,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "5a7d671550174947b99d62ebef34ad4a",
+      "name": "仪表板",
+      "initTime": 1755585923852,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "1d82fa2062e240ada02608838bbb4af6",
+      "name": "实用小工具",
+      "initTime": 1747274948020,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "9da2c4d871ab499280fe1fd8ad30e75b",
+      "name": "B战区月度预测",
+      "initTime": 1743565011991,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "36614b7c4bec43f1991b445db0be416a",
+      "name": "作战-引导测试情况",
+      "initTime": 1764899827968,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "98a355e12293435c95f080f791b716d0",
+      "name": "客户细分",
+      "initTime": 1755688835560,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "cc6d0a8c636a46cc8edd1ca6a2fe1062",
+      "name": "作战看板汇总",
+      "initTime": 1764834910034,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "104ca503761e4d5d91eb1564bfa33005",
+      "name": "作战-JDY复购重大机会跟进情况",
+      "initTime": 1740821969128,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "1d4db7c79bf2412ba71123ff6e3f51b3",
+      "name": "仪表板",
+      "initTime": 1753095366068,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "a320a102e6f044f189bc38921e5ea01f",
+      "name": "仪表板",
+      "initTime": 1755224196765,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "b506cb3eac22469f9b01a7ad83f39227",
+      "name": "E签单情况",
+      "initTime": 1743565011990,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "7750b39e11984008a7e0e33055d48719",
+      "name": "BI作战地图V1",
+      "initTime": 1744335515320,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "600d4353b3a24f03b223510d8dc76b8d",
+      "name": "JDY",
+      "initTime": 1725456752310,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "bdf85dcd8c3e414cb7ced7cd934b2f30",
+      "name": "客户分析",
+      "initTime": 1779448095739,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "5d6e4f15acea4449aa3a2b0d064de9ef",
+      "name": "临时1",
+      "initTime": 1758693166759,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "c6b1c317e8764b6ea8bb32c66a916309",
+      "name": "作战-老客推新new",
+      "initTime": 1734588855817,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "36150bb662ef401c800e9d585ced793c",
+      "name": "仪表板",
+      "initTime": 1742794930548,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "bfef53ba2f484dd4aae300540714255b",
+      "name": "简道云战区经营结构图",
+      "initTime": 1740104623897,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "4ed724f6d4bc48ff85eb7d312a7d13f0",
+      "name": "简道云分析",
+      "initTime": 1726804818137,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "c43b2b19982c43f2a9b00ffc7a340874",
+      "name": "作战-战区自定义Name名单",
+      "initTime": 1764899827967,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "396d43bc012b41c8907b0716e18217dd",
+      "name": "CD行业最佳实践",
+      "initTime": 1757988303373,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "97b260f68b8e4c6abc582bca7a6be1df",
+      "name": "财务&供应链破圈-机会项目分析",
+      "initTime": 1772244145848,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "594fe1486d7c4b158c66a8b1fcd2f3aa",
+      "name": "销售",
+      "initTime": 1744099179195,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    },
+    {
+      "reportId": "2f7746ce751847e8ba523f777c082282",
+      "name": "新产品TOP订单看板",
+      "initTime": 1741604323826,
+      "lastUpdateTime": 0,
+      "createBy": "cad6f443-d033-474b-8252-387e44201cd7",
+      "watermark": true
+    }
+  ]
+}
